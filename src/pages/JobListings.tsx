@@ -4,7 +4,7 @@ import { Grid3x3, Menu, X, ChevronLeft, ChevronRight } from "lucide-react";
 import { useState } from "react";
 import { useVacancies } from "@/hooks/useVacancies";
 import { Link } from "react-router-dom";
-import { AzifaFooter } from "@/components/AzifaFooter";
+import { Footer } from "@/components/Footer";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -57,9 +57,9 @@ const JobListings = () => {
           <div className="flex items-center justify-between h-20">
             <Link to="/" className="flex items-center gap-2">
               <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground text-xl font-bold">A</span>
+                <span className="text-primary-foreground text-xl font-bold">AM</span>
               </div>
-              <h2 className="text-2xl font-bold tracking-tight">AZIFA</h2>
+              <h2 className="text-2xl font-bold tracking-tight">Angel Mariya</h2>
             </Link>
 
             <div className="hidden lg:flex items-center gap-8 text-muted-foreground">
@@ -236,7 +236,7 @@ const JobListings = () => {
         </div>
       </main>
 
-      <AzifaFooter />
+      <Footer />
     </div>
   );
 };

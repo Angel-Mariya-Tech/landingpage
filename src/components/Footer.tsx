@@ -1,78 +1,137 @@
-import { Facebook, Twitter, Linkedin, Instagram } from "lucide-react";
-import { Link } from "react-router-dom";
+import { Logo } from "./Logo";
+import { Facebook, Twitter, Instagram, Linkedin, Youtube } from "lucide-react";
+import { useNavigate } from "react-router-dom";
+
+const footerLinks = {
+  company: [
+    { label: "About", href: "/about" },
+    { label: "Contact Us", href: "/#contact" }
+  ],
+  jobs: [
+    { label: "Browse Jobs", href: "/jobs" },
+    { label: "Apply Now", href: "/#cv-upload" }
+  ],
+  legal: [
+    { label: "Terms & Conditions", href: "/terms" },
+    { label: "Privacy Policy", href: "/privacy" }
+  ],
+};
 
 export const Footer = () => {
-  const currentYear = new Date().getFullYear();
+  const navigate = useNavigate();
+
+  const handleLinkClick = (href: string) => {
+    if (href.startsWith("/#")) {
+      // Handle anchor links
+      const id = href.replace("/#", "");
+      if (window.location.pathname !== "/") {
+        navigate("/");
+        setTimeout(() => {
+          document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+        }, 100);
+      } else {
+        document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+      }
+    } else {
+      // Handle regular navigation
+      navigate(href);
+    }
+  };
 
   return (
-    <footer className="bg-section-dark border-t border-border py-12">
-      <div className="container mx-auto px-4">
-        <div className="grid md:grid-cols-4 gap-8 mb-8">
-          <div>
-            <h3 className="text-xl font-bold mb-4">
-              Job<span className="text-primary">Connect</span>
-            </h3>
+    <footer className="pt-16 pb-8 px-4 sm:px-6 lg:px-16 bg-background border-t border-border">
+      <div className="container mx-auto">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
+          <div className="col-span-2 md:col-span-1">
+            <div className="flex items-center gap-2 mb-4">
+              <Logo />
+              <span className="font-bold text-2xl tracking-tight">Angel Mariya</span>
+            </div>
             <p className="text-muted-foreground text-sm">
-              Your trusted partner in finding the perfect career opportunity.
+              Connecting Talent with Opportunity
             </p>
           </div>
-          
-          <div>
-            <h4 className="font-semibold mb-4">Quick Links</h4>
-            <ul className="space-y-2 text-sm">
-              <li>
-                <Link to="/" className="text-muted-foreground hover:text-primary transition-colors">
-                  Home
-                </Link>
-              </li>
-              <li>
-                <Link to="/jobs" className="text-muted-foreground hover:text-primary transition-colors">
-                  Browse Jobs
-                </Link>
-              </li>
-              <li>
-                <Link to="/about" className="text-muted-foreground hover:text-primary transition-colors">
-                  About
-                </Link>
-              </li>
-            </ul>
+          <div className="text-muted-foreground space-y-3">
+            <h3 className="font-semibold text-foreground mb-3">Company</h3>
+            {footerLinks.company.map((link) => (
+              <button
+                key={link.label}
+                onClick={() => handleLinkClick(link.href)}
+                className="block hover:text-accent transition-colors text-left"
+              >
+                {link.label}
+              </button>
+            ))}
           </div>
-          
-          <div>
-            <h4 className="font-semibold mb-4">Services</h4>
-            <ul className="space-y-2 text-sm">
-              <li className="text-muted-foreground">Job Placement</li>
-              <li className="text-muted-foreground">Career Counseling</li>
-              <li className="text-muted-foreground">Interview Preparation</li>
-              <li className="text-muted-foreground">Resume Building</li>
-            </ul>
+          <div className="text-muted-foreground space-y-3">
+            <h3 className="font-semibold text-foreground mb-3">Jobs</h3>
+            {footerLinks.jobs.map((link) => (
+              <button
+                key={link.label}
+                onClick={() => handleLinkClick(link.href)}
+                className="block hover:text-accent transition-colors text-left"
+              >
+                {link.label}
+              </button>
+            ))}
           </div>
-          
-          <div>
-            <h4 className="font-semibold mb-4">Follow Us</h4>
-            <div className="flex gap-3">
-              <a href="#" className="w-10 h-10 bg-card rounded-full flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all border border-border">
-                <Facebook className="w-5 h-5" />
-              </a>
-              <a href="#" className="w-10 h-10 bg-card rounded-full flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all border border-border">
-                <Twitter className="w-5 h-5" />
-              </a>
-              <a href="#" className="w-10 h-10 bg-card rounded-full flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all border border-border">
-                <Linkedin className="w-5 h-5" />
-              </a>
-              <a href="#" className="w-10 h-10 bg-card rounded-full flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all border border-border">
-                <Instagram className="w-5 h-5" />
-              </a>
-            </div>
+          <div className="text-muted-foreground space-y-3">
+            <h3 className="font-semibold text-foreground mb-3">Legal</h3>
+            {footerLinks.legal.map((link) => (
+              <button
+                key={link.label}
+                onClick={() => handleLinkClick(link.href)}
+                className="block hover:text-accent transition-colors text-left"
+              >
+                {link.label}
+              </button>
+            ))}
           </div>
         </div>
-        
-        <div className="border-t border-border pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-muted-foreground">
-          <p>© {currentYear} JobConnect. All rights reserved.</p>
-          <div className="flex gap-6">
-            <Link to="/privacy" className="hover:text-primary transition-colors">Privacy Policy</Link>
-            <Link to="/terms" className="hover:text-primary transition-colors">Terms of Service</Link>
+        <div className="border-t border-border pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
+          <div className="flex items-center gap-4">
+            <a
+              href="#"
+              className="w-8 h-8 flex items-center justify-center rounded-full border border-border hover:bg-secondary transition-colors"
+            >
+              <Facebook className="w-4 h-4" />
+            </a>
+            <a
+              href="#"
+              className="w-8 h-8 flex items-center justify-center rounded-full border border-border hover:bg-secondary transition-colors"
+            >
+              <Twitter className="w-4 h-4" />
+            </a>
+            <a
+              href="#"
+              className="w-8 h-8 flex items-center justify-center rounded-full border border-border hover:bg-secondary transition-colors"
+            >
+              <Instagram className="w-4 h-4" />
+            </a>
+            <a
+              href="#"
+              className="w-8 h-8 flex items-center justify-center rounded-full border border-border hover:bg-secondary transition-colors"
+            >
+              <Linkedin className="w-4 h-4" />
+            </a>
+            <a
+              href="#"
+              className="w-8 h-8 flex items-center justify-center rounded-full border border-border hover:bg-secondary transition-colors"
+            >
+              <Youtube className="w-4 h-4" />
+            </a>
           </div>
+          <div className="flex items-center gap-6 text-sm text-muted-foreground">
+            <button onClick={() => navigate("/terms")} className="hover:text-accent transition-colors">
+              Terms & Conditions
+            </button>
+            <button onClick={() => navigate("/privacy")} className="hover:text-accent transition-colors">
+              Privacy Policy
+            </button>
+          </div>
+          <p className="text-sm text-muted-foreground">
+            ©Copyright Angel Mariya Job Consultancy. All Rights Reserved
+          </p>
         </div>
       </div>
     </footer>

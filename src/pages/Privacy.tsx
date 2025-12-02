@@ -1,6 +1,6 @@
 import { Logo } from "@/components/Logo";
 import { Button } from "@/components/ui/button";
-import { AzifaFooter } from "@/components/AzifaFooter";
+import { Footer } from "@/components/Footer";
 import { ArrowLeft } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
@@ -15,7 +15,7 @@ const Privacy = () => {
           <div className="flex items-center justify-between h-20">
             <div className="flex items-center gap-2">
               <Logo />
-              <h2 className="text-2xl font-bold tracking-tight">AZIFA</h2>
+              <h2 className="text-2xl font-bold tracking-tight">Angel Mariya</h2>
             </div>
             <Button
               variant="ghost"
@@ -38,7 +38,7 @@ const Privacy = () => {
           <section>
             <h2 className="text-2xl font-semibold mb-4">1. Introduction</h2>
             <p className="text-muted-foreground leading-relaxed">
-              At AZIFA, we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our job placement services.
+              At Angel Mariya Job Consultancy, we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our job placement services.
             </p>
           </section>
 
@@ -152,7 +152,7 @@ const Privacy = () => {
         </div>
       </div>
 
-      <AzifaFooter />
+      <Footer />
     </div>
   );
 };

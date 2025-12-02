@@ -26,9 +26,14 @@ export const ContactSection = () => {
                   </div>
                   <div>
                     <div className="font-semibold mb-1">Phone / WhatsApp</div>
-                    <a href="tel:+1234567890" className="text-muted-foreground hover:text-primary transition-colors">
-                      +1 (234) 567-890
-                    </a>
+                    <div className="flex flex-col gap-1">
+                      <a href="tel:9745608245" className="text-muted-foreground hover:text-primary transition-colors">
+                        +91 9745608245 (Soniya R S - MD)
+                      </a>
+                      <a href="tel:9745408244" className="text-muted-foreground hover:text-primary transition-colors">
+                        +91 9745408244 (Sujeesh S - Supervisor)
+                      </a>
+                    </div>
                   </div>
                 </div>
 
@@ -38,8 +43,8 @@ export const ContactSection = () => {
                   </div>
                   <div>
                     <div className="font-semibold mb-1">Email</div>
-                    <a href="mailto:info@jobagency.com" className="text-muted-foreground hover:text-primary transition-colors">
-                      info@jobagency.com
+                    <a href="mailto:info@angelmariya.com" className="text-muted-foreground hover:text-primary transition-colors">
+                      info@angelmariya.com
                     </a>
                   </div>
                 </div>
@@ -51,8 +56,8 @@ export const ContactSection = () => {
                   <div>
                     <div className="font-semibold mb-1">Office Location</div>
                     <p className="text-muted-foreground">
-                      123 Business St, Suite 100<br />
-                      New York, NY 10001
+                      Mamkoottam, Thirupuram po.<br />
+                      Neyyattinkara, 695133
                     </p>
                   </div>
                 </div>

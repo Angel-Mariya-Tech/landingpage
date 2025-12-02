@@ -1,6 +1,6 @@
 import { Logo } from "@/components/Logo";
 import { Button } from "@/components/ui/button";
-import { AzifaFooter } from "@/components/AzifaFooter";
+import { Footer } from "@/components/Footer";
 import { ArrowLeft } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
@@ -15,7 +15,7 @@ const Terms = () => {
           <div className="flex items-center justify-between h-20">
             <div className="flex items-center gap-2">
               <Logo />
-              <h2 className="text-2xl font-bold tracking-tight">AZIFA</h2>
+              <h2 className="text-2xl font-bold tracking-tight">Angel Mariya</h2>
             </div>
             <Button
               variant="ghost"
@@ -38,14 +38,14 @@ const Terms = () => {
           <section>
             <h2 className="text-2xl font-semibold mb-4">1. Acceptance of Terms</h2>
             <p className="text-muted-foreground leading-relaxed">
-              By accessing and using AZIFA's services, you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to these terms, please do not use our services.
+              By accessing and using Angel Mariya Job Consultancy's services, you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to these terms, please do not use our services.
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-semibold mb-4">2. Use of Services</h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              AZIFA provides job placement and recruitment services. By using our platform, you agree to:
+              Angel Mariya Job Consultancy provides job placement and recruitment services. By using our platform, you agree to:
             </p>
             <ul className="list-disc list-inside text-muted-foreground space-y-2 ml-4">
               <li>Provide accurate and truthful information</li>
@@ -68,10 +68,10 @@ const Terms = () => {
               Job seekers acknowledge that:
             </p>
             <ul className="list-disc list-inside text-muted-foreground space-y-2 ml-4">
-              <li>AZIFA acts as an intermediary between job seekers and employers</li>
+              <li>Angel Mariya Job Consultancy acts as an intermediary between job seekers and employers</li>
               <li>We do not guarantee job placement or employment</li>
               <li>Information provided in applications may be shared with potential employers</li>
-              <li>Final hiring decisions are made by the employer, not AZIFA</li>
+              <li>Final hiring decisions are made by the employer, not Angel Mariya Job Consultancy</li>
             </ul>
           </section>
 
@@ -91,21 +91,21 @@ const Terms = () => {
           <section>
             <h2 className="text-2xl font-semibold mb-4">6. Intellectual Property</h2>
             <p className="text-muted-foreground leading-relaxed">
-              All content on the AZIFA platform, including text, graphics, logos, and software, is the property of AZIFA and is protected by intellectual property laws. You may not use, reproduce, or distribute any content without our written permission.
+              All content on the Angel Mariya Job Consultancy platform, including text, graphics, logos, and software, is the property of Angel Mariya Job Consultancy and is protected by intellectual property laws. You may not use, reproduce, or distribute any content without our written permission.
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-semibold mb-4">7. Limitation of Liability</h2>
             <p className="text-muted-foreground leading-relaxed">
-              AZIFA shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of or inability to use our services. We do not guarantee the accuracy, completeness, or timeliness of information on our platform.
+              Angel Mariya Job Consultancy shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of or inability to use our services. We do not guarantee the accuracy, completeness, or timeliness of information on our platform.
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-semibold mb-4">8. Privacy</h2>
             <p className="text-muted-foreground leading-relaxed">
-              Your use of AZIFA's services is also governed by our Privacy Policy. Please review our Privacy Policy to understand our practices regarding your personal information.
+              Your use of Angel Mariya Job Consultancy's services is also governed by our Privacy Policy. Please review our Privacy Policy to understand our practices regarding your personal information.
             </p>
           </section>
 
@@ -132,7 +132,7 @@ const Terms = () => {
         </div>
       </div>
 
-      <AzifaFooter />
+      <Footer />
     </div>
   );
 };

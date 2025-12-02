@@ -1,6 +1,6 @@
 import { Logo } from "@/components/Logo";
 import { Button } from "@/components/ui/button";
-import { AzifaFooter } from "@/components/AzifaFooter";
+import { Footer } from "@/components/Footer";
 import { ArrowLeft, Target, Users, Award, TrendingUp } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
@@ -15,7 +15,7 @@ const About = () => {
           <div className="flex items-center justify-between h-20">
             <div className="flex items-center gap-2">
               <Logo />
-              <h2 className="text-2xl font-bold tracking-tight">AZIFA</h2>
+              <h2 className="text-2xl font-bold tracking-tight">Angel Mariya</h2>
             </div>
             <Button
               variant="ghost"
@@ -33,10 +33,10 @@ const About = () => {
       <section className="py-20 px-4 sm:px-6 lg:px-16">
         <div className="container mx-auto max-w-4xl text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            About <span className="text-primary">AZIFA</span>
+            About <span className="text-primary">Angel Mariya</span>
           </h1>
           <p className="text-lg text-muted-foreground mb-8">
-            Your trusted partner in connecting talented individuals with exceptional career opportunities
+            Your trusted partner in connecting talented individuals with exceptional career opportunities. We are Angel Mariya Job Consultancy.
           </p>
         </div>
       </section>
@@ -115,7 +115,7 @@ const About = () => {
       {/* Why Choose Us */}
       <section className="py-16 px-4 sm:px-6 lg:px-16 bg-secondary/30">
         <div className="container mx-auto max-w-4xl">
-          <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">Why Choose AZIFA?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">Why Choose Angel Mariya?</h2>
           <div className="space-y-6">
             <div className="flex gap-4">
               <div className="w-8 h-8 rounded-full bg-primary flex items-center justify-center flex-shrink-0 mt-1">
@@ -170,7 +170,7 @@ const About = () => {
         <div className="container mx-auto max-w-4xl text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Get Started?</h2>
           <p className="text-lg text-muted-foreground mb-8">
-            Join thousands of job seekers who have found their dream careers with AZIFA
+            Join thousands of job seekers who have found their dream careers with Angel Mariya Job Consultancy
           </p>
           <Button
             size="lg"
@@ -182,7 +182,7 @@ const About = () => {
         </div>
       </section>
 
-      <AzifaFooter />
+      <Footer />
     </div>
   );
 };

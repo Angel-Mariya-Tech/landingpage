@@ -3,7 +3,7 @@ import { PlatformsSection } from "@/components/PlatformsSection";
 import { JobsSection } from "@/components/JobsSection";
 import { TestimonialsSection } from "@/components/TestimonialsSection";
 import { CVUploadSection } from "@/components/CVUploadSection";
-import { AzifaFooter } from "@/components/AzifaFooter";
+import { Footer } from "@/components/Footer";
 
 const Index = () => {
   return (
@@ -23,7 +23,7 @@ const Index = () => {
       <div id="cv-upload">
         <CVUploadSection />
       </div>
-      <AzifaFooter />
+      <Footer />
     </div>
   );
 };

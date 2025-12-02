@@ -8,7 +8,7 @@ export const CVUploadSection = () => {
         <div className="flex flex-col lg:flex-row items-center gap-12">
           <div className="lg:w-2/5 px-2 sm:px-0">
             <h2 className="text-3xl md:text-4xl font-bold text-accent mb-4">
-              Ready to Start Your Career Journey with Azifa?
+              Ready to Start Your Career Journey with Angel Mariya?
             </h2>
             <p className="text-muted-foreground mb-8">
               Have questions or want to learn more about our services? Get in touch with us and our team will help you find the perfect job opportunity that matches your skills and aspirations.
@@ -26,7 +26,7 @@ export const CVUploadSection = () => {
               <div className="bg-card p-4 sm:p-6 md:p-8 rounded-lg shadow-lg text-center space-y-6">
                 <div className="bg-accent p-3 sm:p-4 rounded-lg mb-6 sm:mb-8 flex items-center justify-center gap-2">
                   <Logo />
-                  <span className="font-bold text-xl sm:text-2xl tracking-tight text-accent-foreground">AZIFA</span>
+                  <span className="font-bold text-xl sm:text-2xl tracking-tight text-accent-foreground">Angel Mariya</span>
                 </div>
 
                 <h3 className="text-2xl font-semibold">Submit Your CV</h3>

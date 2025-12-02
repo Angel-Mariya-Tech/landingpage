@@ -58,7 +58,7 @@ export const Hero = () => {
             <div className="flex items-center gap-2 cursor-pointer" onClick={() => scrollToSection("hero")}>
               <Logo />
               <h2 className="text-2xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-foreground to-foreground/70">
-                AZIFA
+                Angel Mariya
               </h2>
             </div>
 
