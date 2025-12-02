@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 210 25% 6%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 210 25% 6%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 25% 6%;
+
+    --primary: 73 97% 52%;
+    --primary-foreground: 180 100% 10%;
+
+    --secondary: 210 14% 97%;
+    --secondary-foreground: 210 25% 6%;
+
+    --muted: 210 14% 97%;
+    --muted-foreground: 215 14% 44%;
+
+    --accent: 180 100% 10%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 73 97% 52%;
+
+    --radius: 0.75rem;
+
+    --hero-gradient-from: 180 100% 10%;
+    --hero-gradient-to: 73 97% 52%;
+    
+    --section-dark: 210 14% 97%;
+    --section-light: 0 0% 100%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  @keyframes slide-right {
+    0%, 100% { transform: translateX(-100%); opacity: 0; }
+    50% { opacity: 1; }
+  }
+  
+  @keyframes slide-left {
+    0%, 100% { transform: translateX(100%); opacity: 0; }
+    50% { opacity: 1; }
+  }
+}
