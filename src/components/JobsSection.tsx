@@ -1,9 +1,9 @@
 import { Button } from "@/components/ui/button";
-import { jobs } from "@/data/jobs";
+import { useVacancies } from "@/hooks/useVacancies";
 import { JobCard } from "./JobCard";
 import { Link } from "react-router-dom";
 export const JobsSection = () => {
-  const vacancies = jobs;
+  const { data: vacancies } = useVacancies();
   return <>
     <section id="jobs" className="py-16 px-4 sm:px-6 lg:px-16 bg-section-dark">
       <div className="max-w-7xl mx-auto">

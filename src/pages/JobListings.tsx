@@ -1,9 +1,9 @@
 import { JobCard } from "@/components/JobCard";
 import { Button } from "@/components/ui/button";
-import { Grid3x3, Menu, X } from "lucide-react";
-import { useState, useEffect } from "react";
-import { jobs } from "@/data/jobs";
-import { Link, useSearchParams } from "react-router-dom";
+import { Grid3x3, Menu, X, ChevronLeft, ChevronRight } from "lucide-react";
+import { useState } from "react";
+import { useVacancies } from "@/hooks/useVacancies";
+import { Link } from "react-router-dom";
 import { AzifaFooter } from "@/components/AzifaFooter";
 import {
   DropdownMenu,
@@ -13,11 +13,14 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 
+const ITEMS_PER_PAGE = 20;
+
 const JobListings = () => {
   const [viewMode, setViewMode] = useState<"grid" | "list">("grid");
   const [sortBy, setSortBy] = useState<"time" | "salary">("time");
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const vacancies = jobs;
+  const [currentPage, setCurrentPage] = useState(1);
+  const { data: vacancies } = useVacancies();
 
   const sortedVacancies = vacancies
     ?.sort((a, b) => {
@@ -34,6 +37,17 @@ const JobListings = () => {
         return salaryB - salaryA;
       }
     });
+
+  const totalPages = Math.ceil((sortedVacancies?.length || 0) / ITEMS_PER_PAGE);
+  const currentVacancies = sortedVacancies?.slice(
+    (currentPage - 1) * ITEMS_PER_PAGE,
+    currentPage * ITEMS_PER_PAGE
+  );
+
+  const handlePageChange = (page: number) => {
+    setCurrentPage(page);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
 
   return (
     <div className="min-h-screen bg-background">
@@ -131,12 +145,85 @@ const JobListings = () => {
                 </button>
               </div>
 
-              {sortedVacancies && sortedVacancies.length > 0 ? (
-                <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
-                  {sortedVacancies.map((vacancy) => (
-                    <JobCard key={vacancy.id} vacancy={vacancy} />
-                  ))}
-                </div>
+              {currentVacancies && currentVacancies.length > 0 ? (
+                <>
+                  <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+                    {currentVacancies.map((vacancy) => (
+                      <JobCard key={vacancy.id} vacancy={vacancy} />
+                    ))}
+                  </div>
+
+                  {/* Pagination Controls */}
+                  {totalPages > 1 && (
+                    <div className="flex justify-center items-center gap-2 mt-12 flex-wrap">
+                      <Button
+                        variant="outline"
+                        size="icon"
+                        onClick={() => handlePageChange(currentPage - 1)}
+                        disabled={currentPage === 1}
+                        className="h-10 w-10 rounded-lg"
+                      >
+                        <ChevronLeft className="h-4 w-4" />
+                      </Button>
+
+                      {(() => {
+                        const getVisiblePages = (current: number, total: number) => {
+                          if (total <= 7) {
+                            return Array.from({ length: total }, (_, i) => i + 1);
+                          }
+
+                          const pages: (number | null)[] = [1];
+
+                          if (current > 3) {
+                            pages.push(null);
+                          }
+
+                          const start = Math.max(2, current - 1);
+                          const end = Math.min(total - 1, current + 1);
+
+                          for (let i = start; i <= end; i++) {
+                            pages.push(i);
+                          }
+
+                          if (current < total - 2) {
+                            pages.push(null);
+                          }
+
+                          if (total > 1) {
+                            pages.push(total);
+                          }
+
+                          return pages;
+                        };
+
+                        return getVisiblePages(currentPage, totalPages).map((page, index) => (
+                          page === null ? (
+                            <span key={`ellipsis-${index}`} className="px-2 text-muted-foreground">...</span>
+                          ) : (
+                            <Button
+                              key={page}
+                              variant={currentPage === page ? "default" : "outline"}
+                              onClick={() => handlePageChange(page)}
+                              className={`h-10 w-10 rounded-lg ${currentPage === page ? "bg-primary text-primary-foreground" : ""}`}
+                            >
+                              {page}
+                            </Button>
+                          )
+                        ));
+                      })()}
+
+                      <Button
+                        variant="outline"
+                        size="icon"
+                        onClick={() => handlePageChange(currentPage + 1)}
+                        disabled={currentPage === totalPages}
+                        className="h-10 w-10 rounded-lg"
+                      >
+                        <ChevronRight className="h-4 w-4" />
+                      </Button>
+                    </div>
+                  )}
+                </>
               ) : (
                 <div className="text-center py-12">
                   <p className="text-muted-foreground text-lg">
