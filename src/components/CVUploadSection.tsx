@@ -1,69 +1,7 @@
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
 import { Logo } from "./Logo";
-import { JobApplicationDialog } from "./JobApplicationDialog";
-import { useState } from "react";
-import { toast } from "@/hooks/use-toast";
-import { customerSchema } from "@/lib/validations";
 
 export const CVUploadSection = () => {
-  const [contactDialogOpen, setContactDialogOpen] = useState(false);
-  const [loading, setLoading] = useState(false);
-  const [formData, setFormData] = useState({
-    name: "",
-    phone: "",
-    location: "",
-    qualification: "",
-    jobField: "",
-    remark: "",
-  });
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setLoading(true);
-
-    try {
-      // Validate input
-      const validation = customerSchema.safeParse(formData);
-      if (!validation.success) {
-        toast({
-          title: "Validation Error",
-          description: validation.error.errors[0].message,
-          variant: "destructive",
-        });
-        setLoading(false);
-        return;
-      }
-
-      // Simulate API call
-      await new Promise(resolve => setTimeout(resolve, 1500));
-
-      toast({
-        title: "Message Sent!",
-        description: "Thank you for contacting us. We'll get back to you soon.",
-      });
-
-      // Reset form
-      setFormData({
-        name: "",
-        phone: "",
-        location: "",
-        qualification: "",
-        jobField: "",
-        remark: "",
-      });
-    } catch (error) {
-      toast({
-        title: "Error",
-        description: "Failed to submit form. Please try again.",
-        variant: "destructive",
-      });
-    } finally {
-      setLoading(false);
-    }
-  };
-
   return (
     <section className="py-16 px-2 sm:px-6 lg:px-16 bg-section-dark">
       <div className="max-w-7xl mx-auto">
@@ -78,94 +16,36 @@ export const CVUploadSection = () => {
             <Button
               size="lg"
               className="bg-primary text-primary-foreground hover:bg-primary/90 font-semibold"
-              onClick={() => setContactDialogOpen(true)}
+              onClick={() => window.open("https://forms.gle/YpdWtMgbuj4E7cpH9", "_blank")}
             >
               Contact Us
             </Button>
           </div>
           <div className="lg:w-3/5 w-full max-w-2xl mx-auto lg:mx-0">
             <div className="bg-muted/30 p-2 sm:p-4 rounded-xl">
-              <div className="bg-card p-4 sm:p-6 md:p-8 rounded-lg shadow-lg">
+              <div className="bg-card p-4 sm:p-6 md:p-8 rounded-lg shadow-lg text-center space-y-6">
                 <div className="bg-accent p-3 sm:p-4 rounded-lg mb-6 sm:mb-8 flex items-center justify-center gap-2">
                   <Logo />
                   <span className="font-bold text-xl sm:text-2xl tracking-tight text-accent-foreground">AZIFA</span>
                 </div>
-                <form onSubmit={handleSubmit} className="space-y-4 sm:space-y-6">
-                  <Input
-                    type="text"
-                    placeholder="Enter your name"
-                    className="bg-section-dark border-border"
-                    value={formData.name}
-                    onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                    maxLength={100}
-                    required
-                  />
-                  <Input
-                    type="tel"
-                    placeholder="Enter your phone number (e.g., +1234567890)"
-                    className="bg-section-dark border-border"
-                    value={formData.phone}
-                    onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                    maxLength={20}
-                    required
-                  />
-                  <Input
-                    type="text"
-                    placeholder="Enter your location"
-                    className="bg-section-dark border-border"
-                    value={formData.location}
-                    onChange={(e) => setFormData({ ...formData, location: e.target.value })}
-                    maxLength={200}
-                    required
-                  />
-                  <Input
-                    type="text"
-                    placeholder="Enter your qualification (e.g., Bachelor's, Diploma)"
-                    className="bg-section-dark border-border"
-                    value={formData.qualification}
-                    onChange={(e) => setFormData({ ...formData, qualification: e.target.value })}
-                    maxLength={500}
-                    required
-                  />
-                  <Input
-                    type="text"
-                    placeholder="Which job are you interested in?"
-                    className="bg-section-dark border-border"
-                    value={formData.jobField}
-                    onChange={(e) => setFormData({ ...formData, jobField: e.target.value })}
-                    maxLength={200}
-                    required
-                  />
-                  <Textarea
-                    placeholder="Anything else you'd like to share with us?"
-                    rows={4}
-                    className="bg-section-dark border-border"
-                    value={formData.remark}
-                    onChange={(e) => setFormData({ ...formData, remark: e.target.value })}
-                    maxLength={2000}
-                  />
-                  <Button
-                    type="submit"
-                    size="lg"
-                    className="w-full bg-primary text-primary-foreground hover:bg-primary/90 font-semibold"
-                    disabled={loading}
-                  >
-                    {loading ? "Submitting..." : "Submit"}
-                  </Button>
-                </form>
+
+                <h3 className="text-2xl font-semibold">Submit Your CV</h3>
+                <p className="text-muted-foreground">
+                  Please fill out our application form to submit your CV and details.
+                </p>
+
+                <Button
+                  size="lg"
+                  className="w-full bg-primary text-primary-foreground hover:bg-primary/90 font-semibold py-6 text-lg"
+                  onClick={() => window.open("https://forms.gle/YpdWtMgbuj4E7cpH9", "_blank")}
+                >
+                  Open Application Form
+                </Button>
               </div>
             </div>
           </div>
         </div>
       </div>
-
-      <JobApplicationDialog
-        open={contactDialogOpen}
-        onOpenChange={setContactDialogOpen}
-        jobTitle="General Inquiry"
-        company="Azifa"
-        location="N/A"
-      />
     </section>
   );
 };

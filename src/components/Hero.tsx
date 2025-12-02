@@ -52,27 +52,28 @@ export const Hero = () => {
         <div className="absolute top-[65%] right-0 w-40 h-px bg-gradient-to-l from-transparent via-accent/30 to-transparent animate-[slide-left_10s_ease-in-out_infinite]" style={{ animationDelay: '2s' }} />
       </div>
 
-      <nav className="relative z-20 border-b border-border backdrop-blur-sm bg-background/80">
+      <nav className="sticky top-0 z-50 border-b border-border/40 backdrop-blur-md bg-background/75 supports-[backdrop-filter]:bg-background/60 transition-all duration-300">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-20">
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2 cursor-pointer" onClick={() => scrollToSection("hero")}>
               <Logo />
-              <h2 className="text-2xl font-bold tracking-tight">
+              <h2 className="text-2xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-foreground to-foreground/70">
                 AZIFA
               </h2>
             </div>
 
-            <div className="hidden lg:flex items-center gap-8 text-muted-foreground">
-              <button onClick={() => scrollToSection("hero")} className="text-accent hover:text-accent/80 transition-colors font-medium">Home</button>
-              <button onClick={() => scrollToSection("platforms")} className="hover:text-accent transition-colors">Solutions</button>
-              <button onClick={() => scrollToSection("jobs")} className="hover:text-accent transition-colors">Find Jobs</button>
-              <button onClick={() => scrollToSection("testimonials")} className="hover:text-accent transition-colors">Testimonials</button>
+            <div className="hidden lg:flex items-center gap-2 text-sm font-medium text-muted-foreground">
+              <button onClick={() => scrollToSection("hero")} className="px-4 py-2 rounded-full hover:bg-primary/10 hover:text-primary transition-all duration-300 text-foreground">Home</button>
+              <button onClick={() => scrollToSection("platforms")} className="px-4 py-2 rounded-full hover:bg-primary/10 hover:text-primary transition-all duration-300">Solutions</button>
+              <button onClick={() => scrollToSection("jobs")} className="px-4 py-2 rounded-full hover:bg-primary/10 hover:text-primary transition-all duration-300">Find Jobs</button>
+              <button onClick={() => scrollToSection("testimonials")} className="px-4 py-2 rounded-full hover:bg-primary/10 hover:text-primary transition-all duration-300">Testimonials</button>
             </div>
 
             <div className="flex items-center gap-3">
               <button
-                className="lg:hidden p-2 hover:bg-accent/10 rounded-lg transition-colors"
+                className="lg:hidden p-2 hover:bg-accent/10 rounded-full transition-colors"
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+                aria-label="Toggle menu"
               >
                 {mobileMenuOpen ? (
                   <X className="w-6 h-6 text-foreground" />
@@ -86,12 +87,12 @@ export const Hero = () => {
 
         {/* Mobile Menu */}
         {mobileMenuOpen && (
-          <div className="lg:hidden absolute top-full left-0 right-0 bg-background/95 backdrop-blur-sm border-b border-border">
-            <div className="container mx-auto px-4 py-4 flex flex-col gap-4">
-              <button onClick={() => scrollToSection("hero")} className="text-left py-2 text-accent hover:text-accent/80 transition-colors font-medium">Home</button>
-              <button onClick={() => scrollToSection("platforms")} className="text-left py-2 hover:text-accent transition-colors">Solutions</button>
-              <button onClick={() => scrollToSection("jobs")} className="text-left py-2 hover:text-accent transition-colors">Find Jobs</button>
-              <button onClick={() => scrollToSection("testimonials")} className="text-left py-2 hover:text-accent transition-colors">Testimonials</button>
+          <div className="lg:hidden absolute top-full left-0 right-0 bg-background/95 backdrop-blur-xl border-b border-border shadow-2xl animate-in slide-in-from-top-5 duration-200">
+            <div className="container mx-auto px-4 py-6 flex flex-col gap-2">
+              <button onClick={() => scrollToSection("hero")} className="text-left px-4 py-3 rounded-xl bg-primary/5 text-primary font-medium transition-colors">Home</button>
+              <button onClick={() => scrollToSection("platforms")} className="text-left px-4 py-3 rounded-xl hover:bg-accent/5 hover:text-accent transition-colors font-medium text-muted-foreground">Solutions</button>
+              <button onClick={() => scrollToSection("jobs")} className="text-left px-4 py-3 rounded-xl hover:bg-accent/5 hover:text-accent transition-colors font-medium text-muted-foreground">Find Jobs</button>
+              <button onClick={() => scrollToSection("testimonials")} className="text-left px-4 py-3 rounded-xl hover:bg-accent/5 hover:text-accent transition-colors font-medium text-muted-foreground">Testimonials</button>
             </div>
           </div>
         )}
@@ -113,10 +114,10 @@ export const Hero = () => {
           <Button
             size="lg"
             onClick={openWhatsApp}
-            className="bg-green-500 text-white hover:bg-green-600 font-semibold w-full md:w-auto text-lg py-3 px-8 rounded-full shadow-lg transform hover:scale-105 transition-transform duration-300 ease-in-out"
+            className="bg-gradient-to-r from-[#25D366] to-[#128C7E] text-white border-none hover:opacity-90 font-bold w-full md:w-auto text-lg py-6 px-8 rounded-full shadow-[0_4px_14px_0_rgba(37,211,102,0.39)] hover:shadow-[0_6px_20px_rgba(37,211,102,0.23)] hover:-translate-y-1 transition-all duration-300 ease-in-out inline-flex items-center justify-center gap-2 group"
           >
-            <FaWhatsapp className="w-6 h-6 mr-3" />
-            Connect on WhatsApp
+            <FaWhatsapp className="w-6 h-6 group-hover:scale-110 transition-transform duration-300" />
+            <span>Connect on WhatsApp</span>
           </Button>
         </div>
 

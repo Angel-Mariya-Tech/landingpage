@@ -1,0 +1,6 @@
+id,job_title,openings,status,created_at,updated_at,provider_id,salary,salary_type,provider_name,provider_location,provider_industry,provider_contact_number
+1,Senior React Developer,2,Open,2024-03-20,2024-03-20,101,150000,Yearly,TechCorp,San Francisco,Technology,1234567890
+2,Product Designer,1,Open,2024-03-19,2024-03-19,102,90000,Yearly,DesignStudio,New York,Design,0987654321
+3,Marketing Manager,1,Open,2024-03-18,2024-03-18,103,80000,Yearly,GrowthInc,Remote,Marketing,1122334455
+4,Data Analyst,3,Open,2024-03-17,2024-03-17,104,75000,Yearly,DataWorks,Chicago,Analytics,5544332211
+5,Customer Support Specialist,5,Open,2024-03-16,2024-03-16,105,40000,Yearly,HelpDesk,Austin,Support,6677889900

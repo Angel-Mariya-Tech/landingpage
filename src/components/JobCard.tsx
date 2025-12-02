@@ -1,9 +1,7 @@
-import { useState } from "react";
+
 import { Button } from "@/components/ui/button";
 import { MapPin, CheckCircle2 } from "lucide-react";
-import { JobApplicationDialog } from "./JobApplicationDialog";
 import { Vacancy } from "@/hooks/useVacancies";
-import { formatDistanceToNow } from "date-fns";
 
 interface JobCardProps {
   vacancy: Vacancy;
@@ -18,75 +16,64 @@ const cardColors = [
 ];
 
 export const JobCard = ({ vacancy }: JobCardProps) => {
-  const [dialogOpen, setDialogOpen] = useState(false);
   const colorScheme = cardColors[Math.floor(Math.random() * cardColors.length)];
-  
-  const formattedDate = formatDistanceToNow(new Date(vacancy.updated_at), { addSuffix: true });
+
+  const handleApply = () => {
+    window.open("https://forms.gle/YpdWtMgbuj4E7cpH9", "_blank");
+  };
 
   return (
-    <>
-      <div className={`${colorScheme.bg} p-6 rounded-3xl flex flex-col h-full transition-all duration-300 hover:shadow-lg hover:scale-[1.02] border border-border/10`}>
-        <div className="flex justify-between items-start mb-4">
-          <div className="flex-1">
-            <p className={`text-xs ${colorScheme.text} font-medium`}>
-              Updated {formattedDate}
-            </p>
-            <p className="text-sm font-semibold text-foreground/80 mt-2">
-              {vacancy.job_providers?.name || 'Unknown Company'}
-            </p>
-            <h4 className="text-xl font-bold mt-1 text-foreground">
-              {vacancy.job_title}
-            </h4>
-          </div>
-          <div className="text-foreground/60">
-            <CheckCircle2 className="w-5 h-5" />
-          </div>
+    <div className={`${colorScheme.bg} p-6 rounded-3xl flex flex-col h-full transition-all duration-300 hover:shadow-lg hover:scale-[1.02] border border-border/10`}>
+      <div className="flex justify-between items-start mb-4">
+        <div className="flex-1">
+          <p className={`text-xs ${colorScheme.text} font-medium`}>
+            Actively Hiring
+          </p>
+          <p className="text-sm font-semibold text-foreground/80 mt-2">
+            {vacancy.job_providers?.name || 'Unknown Company'}
+          </p>
+          <h4 className="text-xl font-bold mt-1 text-foreground">
+            {vacancy.job_title}
+          </h4>
         </div>
-        
-        <div className="flex flex-wrap gap-2 mb-6">
-          {vacancy.job_providers?.industry && (
-            <span className={`${colorScheme.badge} px-3 py-1 rounded-full text-xs font-medium`}>
-              {vacancy.job_providers.industry}
-            </span>
-          )}
-          <span className={`${colorScheme.badge} px-3 py-1 rounded-full text-xs font-medium`}>
-            {vacancy.openings} {vacancy.openings === 1 ? 'opening' : 'openings'}
-          </span>
-        </div>
-        
-        <div className="mt-auto">
-          <div className="flex justify-between items-end mb-4">
-            <div>
-              <p className="font-bold text-xl text-foreground">
-                {vacancy.salary || 'Negotiable'}
-                {vacancy.salary && vacancy.salary_type && !vacancy.salary.toLowerCase().includes('negotiable') && (
-                  <span className="text-sm font-normal text-muted-foreground">/{vacancy.salary_type}</span>
-                )}
-              </p>
-              <p className="text-sm text-muted-foreground flex items-center gap-1 mt-1">
-                <MapPin className="w-4 h-4" />
-                {vacancy.job_providers?.location || 'Location not available'}
-              </p>
-            </div>
-            <Button 
-              className="bg-foreground hover:bg-foreground/90 text-background font-semibold rounded-xl px-6"
-              onClick={() => setDialogOpen(true)}
-            >
-              Apply
-            </Button>
-          </div>
+        <div className="text-foreground/60">
+          <CheckCircle2 className="w-5 h-5" />
         </div>
       </div>
 
-      <JobApplicationDialog
-        open={dialogOpen}
-        onOpenChange={setDialogOpen}
-        jobTitle={vacancy.job_title}
-        company={vacancy.job_providers?.name || 'Unknown Company'}
-        location={vacancy.job_providers?.location || 'Location not available'}
-        type={`${vacancy.openings} ${vacancy.openings === 1 ? 'opening' : 'openings'}`}
-        vacancyId={vacancy.id}
-      />
-    </>
+      <div className="flex flex-wrap gap-2 mb-6">
+        {vacancy.job_providers?.industry && (
+          <span className={`${colorScheme.badge} px-3 py-1 rounded-full text-xs font-medium`}>
+            {vacancy.job_providers.industry}
+          </span>
+        )}
+        <span className={`${colorScheme.badge} px-3 py-1 rounded-full text-xs font-medium`}>
+          {vacancy.openings} {vacancy.openings === 1 ? 'opening' : 'openings'}
+        </span>
+      </div>
+
+      <div className="mt-auto">
+        <div className="flex justify-between items-end mb-4">
+          <div>
+            <p className="font-bold text-xl text-foreground">
+              {vacancy.salary || 'Negotiable'}
+              {vacancy.salary && vacancy.salary_type && !vacancy.salary.toLowerCase().includes('negotiable') && (
+                <span className="text-sm font-normal text-muted-foreground">/{vacancy.salary_type}</span>
+              )}
+            </p>
+            <p className="text-sm text-muted-foreground flex items-center gap-1 mt-1">
+              <MapPin className="w-4 h-4" />
+              {vacancy.job_providers?.location || 'Location not available'}
+            </p>
+          </div>
+          <Button
+            className="bg-foreground hover:bg-foreground/90 text-background font-semibold rounded-xl px-6"
+            onClick={handleApply}
+          >
+            Apply
+          </Button>
+        </div>
+      </div>
+    </div>
   );
 };
