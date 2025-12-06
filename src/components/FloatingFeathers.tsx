@@ -9,6 +9,8 @@ interface Feather {
   rotation: number;
   opacity: number;
   variant: number;
+  blur: number;
+  animationClass: string;
 }
 
 const featherSvgs = [
@@ -28,15 +30,22 @@ export const FloatingFeathers = () => {
   const [feathers, setFeathers] = useState<Feather[]>([]);
 
   useEffect(() => {
-    const generatedFeathers: Feather[] = Array.from({ length: 10 }, (_, i) => ({
+    const animationClasses = [
+      "animate-float-feather-1",
+      "animate-float-feather-2",
+      "animate-float-feather-3",
+    ];
+    const generatedFeathers: Feather[] = Array.from({ length: 12 }, (_, i) => ({
       id: i,
       left: `${5 + Math.random() * 90}%`,
-      delay: `${Math.random() * 12}s`,
-      duration: `${22 + Math.random() * 10}s`,
-      scale: 0.07 + Math.random() * 0.06,
-      rotation: -20 + Math.random() * 40,
-      opacity: 0.6 + Math.random() * 0.3,
+      delay: `${Math.random() * 15}s`,
+      duration: `${20 + Math.random() * 15}s`,
+      scale: 0.12 + Math.random() * 0.1,
+      rotation: -25 + Math.random() * 50,
+      opacity: 0.5 + Math.random() * 0.4,
       variant: Math.floor(Math.random() * featherSvgs.length),
+      blur: Math.random() * 2,
+      animationClass: animationClasses[Math.floor(Math.random() * animationClasses.length)],
     }));
     setFeathers(generatedFeathers);
   }, []);
@@ -48,17 +57,17 @@ export const FloatingFeathers = () => {
           key={feather.id}
           src={featherSvgs[feather.variant]}
           alt=""
-          className="absolute animate-float-feather"
+          className={`absolute ${feather.animationClass}`}
           style={{
             left: feather.left,
-            top: "-100px",
-            width: "90px",
-            height: "90px",
+            top: "-120px",
+            width: "120px",
+            height: "120px",
             animationDelay: feather.delay,
             animationDuration: feather.duration,
             transform: `scale(${feather.scale}) rotate(${feather.rotation}deg)`,
             opacity: feather.opacity,
-            filter: "brightness(0) saturate(100%) invert(75%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(95%) contrast(90%)",
+            filter: `brightness(0) saturate(100%) invert(75%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(95%) contrast(90%) blur(${feather.blur}px)`,
           }}
         />
       ))}
