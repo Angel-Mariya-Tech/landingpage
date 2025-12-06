@@ -3,7 +3,7 @@ import { ArrowRight, Menu, X } from "lucide-react";
 import { Logo } from "./Logo";
 import { useState } from "react";
 import { FaWhatsapp } from "react-icons/fa";
-import { FloatingFeathers } from "./FloatingFeathers";
+import { AngelWings } from "./AngelWings";
 
 export const Hero = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -52,8 +52,8 @@ export const Hero = () => {
         <div className="absolute top-[35%] left-0 w-32 h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent animate-[slide-right_8s_ease-in-out_infinite]" />
         <div className="absolute top-[65%] right-0 w-40 h-px bg-gradient-to-l from-transparent via-accent/30 to-transparent animate-[slide-left_10s_ease-in-out_infinite]" style={{ animationDelay: '2s' }} />
         
-        {/* Floating feathers - angelic touch */}
-        <FloatingFeathers />
+        {/* Angel wings background */}
+        <AngelWings />
       </div>
 
       <nav className="sticky top-0 z-50 border-b border-border/40 backdrop-blur-md bg-background/75 supports-[backdrop-filter]:bg-background/60 transition-all duration-300">
