@@ -3,15 +3,16 @@ export const AngelWings = () => {
     <div className="absolute inset-0 overflow-hidden pointer-events-none">
       {/* Divine light rays from top center */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full">
-        {/* Central divine glow */}
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[400px] bg-gradient-to-b from-amber-200/40 via-amber-100/20 to-transparent blur-3xl" />
+        {/* Central divine glow - responsive sizing */}
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[300px] md:w-[500px] lg:w-[600px] h-[200px] md:h-[300px] lg:h-[400px] bg-gradient-to-b from-amber-200/30 md:from-amber-200/40 via-amber-100/15 md:via-amber-100/20 to-transparent blur-2xl md:blur-3xl" />
         
-        {/* Light rays */}
+        {/* Light rays - responsive */}
         <svg
-          className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[600px] opacity-30"
+          className="absolute top-0 left-1/2 -translate-x-1/2 w-[400px] md:w-[600px] lg:w-[800px] h-[300px] md:h-[450px] lg:h-[600px] opacity-20 md:opacity-30"
           viewBox="0 0 800 600"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
+          preserveAspectRatio="xMidYMin slice"
         >
           <defs>
             <linearGradient id="rayGradient" x1="0%" y1="0%" x2="0%" y2="100%">
@@ -25,19 +26,19 @@ export const AngelWings = () => {
           <path d="M400 0 L460 600 L500 600 Z" fill="url(#rayGradient)" opacity="0.8" />
           <path d="M400 0 L200 600 L250 600 Z" fill="url(#rayGradient)" opacity="0.6" />
           <path d="M400 0 L550 600 L600 600 Z" fill="url(#rayGradient)" opacity="0.6" />
-          <path d="M400 0 L100 600 L160 600 Z" fill="url(#rayGradient)" opacity="0.4" />
-          <path d="M400 0 L640 600 L700 600 Z" fill="url(#rayGradient)" opacity="0.4" />
+          <path d="M400 0 L100 600 L160 600 Z" fill="url(#rayGradient)" opacity="0.4" className="hidden md:block" />
+          <path d="M400 0 L640 600 L700 600 Z" fill="url(#rayGradient)" opacity="0.4" className="hidden md:block" />
         </svg>
       </div>
 
-      {/* Halo/Aureole at top */}
-      <div className="absolute top-8 left-1/2 -translate-x-1/2">
+      {/* Halo/Aureole at top - responsive */}
+      <div className="absolute top-4 md:top-8 left-1/2 -translate-x-1/2">
         <div className="relative">
           {/* Outer glow */}
-          <div className="absolute -inset-8 bg-amber-300/20 rounded-full blur-2xl animate-pulse" style={{ animationDuration: '3s' }} />
-          {/* Halo ring */}
+          <div className="absolute -inset-4 md:-inset-8 bg-amber-300/15 md:bg-amber-300/20 rounded-full blur-xl md:blur-2xl animate-pulse" style={{ animationDuration: '3s' }} />
+          {/* Halo ring - responsive size */}
           <svg
-            className="w-32 h-16 opacity-40"
+            className="w-20 h-10 md:w-28 md:h-14 lg:w-32 lg:h-16 opacity-30 md:opacity-40"
             viewBox="0 0 120 60"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -65,9 +66,9 @@ export const AngelWings = () => {
         </div>
       </div>
 
-      {/* Left Wing */}
+      {/* Left Wing - responsive positioning and sizing */}
       <svg
-        className="absolute left-0 top-1/2 -translate-y-1/3 w-[35%] max-w-[400px] h-auto opacity-[0.18]"
+        className="absolute -left-8 md:left-0 top-1/2 -translate-y-1/2 md:-translate-y-1/3 w-[30%] md:w-[32%] lg:w-[35%] max-w-[300px] md:max-w-[350px] lg:max-w-[400px] h-auto opacity-[0.12] md:opacity-[0.15] lg:opacity-[0.18]"
         viewBox="0 0 300 400"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
@@ -114,9 +115,9 @@ export const AngelWings = () => {
         </g>
       </svg>
 
-      {/* Right Wing (mirrored) */}
+      {/* Right Wing (mirrored) - responsive */}
       <svg
-        className="absolute right-0 top-1/2 -translate-y-1/3 w-[35%] max-w-[400px] h-auto opacity-[0.18] scale-x-[-1]"
+        className="absolute -right-8 md:right-0 top-1/2 -translate-y-1/2 md:-translate-y-1/3 w-[30%] md:w-[32%] lg:w-[35%] max-w-[300px] md:max-w-[350px] lg:max-w-[400px] h-auto opacity-[0.12] md:opacity-[0.15] lg:opacity-[0.18] scale-x-[-1]"
         viewBox="0 0 300 400"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
@@ -163,10 +164,11 @@ export const AngelWings = () => {
         </g>
       </svg>
 
-      {/* Subtle sparkles */}
-      <div className="absolute top-20 left-1/4 w-2 h-2 bg-amber-300/50 rounded-full blur-sm animate-pulse" style={{ animationDuration: '2s' }} />
-      <div className="absolute top-32 right-1/3 w-1.5 h-1.5 bg-amber-200/60 rounded-full blur-sm animate-pulse" style={{ animationDuration: '3s', animationDelay: '1s' }} />
-      <div className="absolute top-16 right-1/4 w-2 h-2 bg-amber-300/50 rounded-full blur-sm animate-pulse" style={{ animationDuration: '2.5s', animationDelay: '0.5s' }} />
+      {/* Subtle sparkles - responsive positioning */}
+      <div className="absolute top-16 md:top-20 left-1/4 w-1.5 md:w-2 h-1.5 md:h-2 bg-amber-300/40 md:bg-amber-300/50 rounded-full blur-sm animate-pulse" style={{ animationDuration: '2s' }} />
+      <div className="absolute top-24 md:top-32 right-1/3 w-1 md:w-1.5 h-1 md:h-1.5 bg-amber-200/50 md:bg-amber-200/60 rounded-full blur-sm animate-pulse" style={{ animationDuration: '3s', animationDelay: '1s' }} />
+      <div className="absolute top-12 md:top-16 right-1/4 w-1.5 md:w-2 h-1.5 md:h-2 bg-amber-300/40 md:bg-amber-300/50 rounded-full blur-sm animate-pulse" style={{ animationDuration: '2.5s', animationDelay: '0.5s' }} />
+      <div className="hidden md:block absolute top-40 left-1/3 w-1 h-1 bg-amber-200/40 rounded-full blur-sm animate-pulse" style={{ animationDuration: '2.8s', animationDelay: '1.5s' }} />
     </div>
   );
 };
