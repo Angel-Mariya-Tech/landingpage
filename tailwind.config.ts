@@ -71,10 +71,27 @@ export default {
             height: "0",
           },
         },
+        "float-feather": {
+          "0%": {
+            transform: "translateY(-10%) translateX(0) rotate(0deg)",
+            opacity: "0",
+          },
+          "10%": {
+            opacity: "1",
+          },
+          "90%": {
+            opacity: "1",
+          },
+          "100%": {
+            transform: "translateY(calc(100vh + 100px)) translateX(50px) rotate(45deg)",
+            opacity: "0",
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "float-feather": "float-feather linear infinite",
       },
     },
   },
