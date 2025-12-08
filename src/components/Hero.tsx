@@ -59,21 +59,24 @@ export const Hero = () => {
       <nav className="sticky top-0 z-50 border-b border-border/40 backdrop-blur-md bg-background/75 supports-[backdrop-filter]:bg-background/60 transition-all duration-300">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-20">
-            <div className="flex items-center gap-2 cursor-pointer" onClick={() => scrollToSection("hero")}>
+            {/* Left section - Logo */}
+            <div className="flex items-center gap-2 cursor-pointer lg:flex-1" onClick={() => scrollToSection("hero")}>
               <Logo />
               <h2 className="text-2xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-foreground to-foreground/70">
                 Angel Mariya
               </h2>
             </div>
 
-            <div className="hidden lg:flex items-center gap-2 text-sm font-medium text-muted-foreground">
+            {/* Center section - Nav links */}
+            <div className="hidden lg:flex items-center justify-center gap-2 text-sm font-medium text-muted-foreground">
               <button onClick={() => scrollToSection("hero")} className="px-4 py-2 rounded-full hover:bg-primary/10 hover:text-primary transition-all duration-300 text-foreground">Home</button>
               <button onClick={() => scrollToSection("platforms")} className="px-4 py-2 rounded-full hover:bg-primary/10 hover:text-primary transition-all duration-300">Solutions</button>
               <button onClick={() => scrollToSection("jobs")} className="px-4 py-2 rounded-full hover:bg-primary/10 hover:text-primary transition-all duration-300">Find Jobs</button>
               <button onClick={() => scrollToSection("testimonials")} className="px-4 py-2 rounded-full hover:bg-primary/10 hover:text-primary transition-all duration-300">Testimonials</button>
             </div>
 
-            <div className="flex items-center gap-3">
+            {/* Right section - Mobile menu / empty space for balance */}
+            <div className="flex items-center justify-end gap-3 lg:flex-1">
               <button
                 className="lg:hidden p-2 hover:bg-accent/10 rounded-full transition-colors"
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
