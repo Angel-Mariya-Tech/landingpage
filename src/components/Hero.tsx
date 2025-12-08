@@ -75,8 +75,16 @@ export const Hero = () => {
               <button onClick={() => scrollToSection("testimonials")} className="px-4 py-2 rounded-full hover:bg-primary/10 hover:text-primary transition-all duration-300">Testimonials</button>
             </div>
 
-            {/* Right section - Mobile menu / empty space for balance */}
+            {/* Right section - Contact button + Mobile menu */}
             <div className="flex items-center justify-end gap-3 lg:flex-1">
+              <Button
+                variant="default"
+                size="sm"
+                className="hidden lg:inline-flex"
+                onClick={() => window.open("https://forms.gle/YpdWtMgbuj4E7cpH9", "_blank")}
+              >
+                Contact Us
+              </Button>
               <button
                 className="lg:hidden p-2 hover:bg-accent/10 rounded-full transition-colors"
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -100,6 +108,15 @@ export const Hero = () => {
               <button onClick={() => scrollToSection("platforms")} className="text-left px-4 py-3 rounded-xl hover:bg-accent/5 hover:text-accent transition-colors font-medium text-muted-foreground">Solutions</button>
               <button onClick={() => scrollToSection("jobs")} className="text-left px-4 py-3 rounded-xl hover:bg-accent/5 hover:text-accent transition-colors font-medium text-muted-foreground">Find Jobs</button>
               <button onClick={() => scrollToSection("testimonials")} className="text-left px-4 py-3 rounded-xl hover:bg-accent/5 hover:text-accent transition-colors font-medium text-muted-foreground">Testimonials</button>
+              <button 
+                onClick={() => {
+                  window.open("https://forms.gle/YpdWtMgbuj4E7cpH9", "_blank");
+                  setMobileMenuOpen(false);
+                }} 
+                className="text-left px-4 py-3 rounded-xl bg-primary text-primary-foreground font-medium transition-colors mt-2"
+              >
+                Contact Us
+              </button>
             </div>
           </div>
         )}
