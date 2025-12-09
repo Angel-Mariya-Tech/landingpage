@@ -140,7 +140,7 @@ export const Hero = () => {
             onClick={openWhatsApp}
             className="bg-gradient-to-r from-[#25D366] to-[#128C7E] text-white border-none hover:opacity-90 font-bold w-full md:w-auto text-lg py-6 px-8 rounded-full shadow-[0_4px_14px_0_rgba(37,211,102,0.39)] hover:shadow-[0_6px_20px_rgba(37,211,102,0.23)] hover:-translate-y-1 transition-all duration-300 ease-in-out inline-flex items-center justify-center gap-2 group"
           >
-            <FaWhatsapp className="w-6 h-6 group-hover:scale-110 transition-transform duration-300" />
+            <FaWhatsapp className="w-7 h-7 group-hover:scale-110 transition-transform duration-300" />
             <span>Connect on WhatsApp</span>
           </Button>
         </div>
