@@ -1,19 +1,16 @@
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Search, Briefcase } from "lucide-react";
 import { Link } from "react-router-dom";
+import { Logo } from "./Logo";
 
 export const JobListingsHeader = () => {
   return (
-    <header className="sticky top-0 z-50 bg-section-dark border-b border-border">
+    <header className="sticky top-0 z-50 border-b border-border/40 backdrop-blur-md bg-background/75 supports-[backdrop-filter]:bg-background/60 transition-all duration-300">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
-          <Link to="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
-            <div className="w-10 h-10 bg-primary rounded-xl flex items-center justify-center">
-              <Briefcase className="w-6 h-6 text-primary-foreground" />
-            </div>
-            <h2 className="text-2xl font-bold">
-              Job<span className="text-primary">Connect</span>
+          <Link to="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
+            <Logo />
+            <h2 className="text-2xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-foreground to-foreground/70">
+              Angel Mariya
             </h2>
           </Link>
 
@@ -21,8 +18,15 @@ export const JobListingsHeader = () => {
           </div>
 
           <div className="flex items-center gap-3">
+            <Button
+              variant="default"
+              size="sm"
+              onClick={() => window.open("https://forms.gle/YpdWtMgbuj4E7cpH9", "_blank")}
+            >
+              Contact Us
+            </Button>
             <Link to="/staff/login">
-              <Button variant="hero">Staff Login</Button>
+              <Button variant="outline" size="sm">Staff Login</Button>
             </Link>
           </div>
         </div>
