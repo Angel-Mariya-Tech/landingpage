@@ -137,7 +137,7 @@ const JobListings = () => {
           <div className="mb-6">
             <div className="max-w-4xl mx-auto flex flex-col sm:flex-row gap-3 justify-between items-center">
               {/* Search Input */}
-              <div className="relative w-full sm:w-80">
+              <div className="relative w-full flex-1">
                 <Search className="absolute left-4 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
                 <Input
                   type="text"
