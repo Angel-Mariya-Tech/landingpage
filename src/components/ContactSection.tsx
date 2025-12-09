@@ -15,7 +15,7 @@ export const ContactSection = () => {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto items-center">
-          <div className="space-y-8">
+          <div className="space-y-6">
             <div>
               <h3 className="text-2xl font-semibold mb-6">Contact Information</h3>
 
@@ -28,10 +28,13 @@ export const ContactSection = () => {
                     <div className="font-semibold mb-1">Phone / WhatsApp</div>
                     <div className="flex flex-col gap-1">
                       <a href="tel:9745608245" className="text-muted-foreground hover:text-primary transition-colors">
-                        +91 9745608245 (Soniya R S - MD)
+                        +91 9745608245
                       </a>
                       <a href="tel:9745408244" className="text-muted-foreground hover:text-primary transition-colors">
-                        +91 9745408244 (Sujeesh S - Supervisor)
+                        +91 9745408244
+                      </a>
+                      <a href="tel:9745608246" className="text-muted-foreground hover:text-primary transition-colors">
+                        +91 9745608246
                       </a>
                     </div>
                   </div>
@@ -43,8 +46,8 @@ export const ContactSection = () => {
                   </div>
                   <div>
                     <div className="font-semibold mb-1">Email</div>
-                    <a href="mailto:info@angelmariya.com" className="text-muted-foreground hover:text-primary transition-colors">
-                      info@angelmariya.com
+                    <a href="mailto:angelmariyajobconsultancy@gmail.com" className="text-muted-foreground hover:text-primary transition-colors break-all">
+                      angelmariyajobconsultancy@gmail.com
                     </a>
                   </div>
                 </div>
@@ -60,24 +63,6 @@ export const ContactSection = () => {
                       Neyyattinkara, 695133
                     </p>
                   </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-card rounded-xl p-6 border border-border">
-              <h4 className="font-semibold mb-3">Office Hours</h4>
-              <div className="space-y-2 text-muted-foreground">
-                <div className="flex justify-between">
-                  <span>Monday - Friday:</span>
-                  <span className="font-semibold">9:00 AM - 6:00 PM</span>
-                </div>
-                <div className="flex justify-between">
-                  <span>Saturday:</span>
-                  <span className="font-semibold">10:00 AM - 4:00 PM</span>
-                </div>
-                <div className="flex justify-between">
-                  <span>Sunday:</span>
-                  <span className="font-semibold">Closed</span>
                 </div>
               </div>
             </div>
