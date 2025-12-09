@@ -1,6 +1,7 @@
 import { JobCard } from "@/components/JobCard";
 import { Button } from "@/components/ui/button";
-import { Grid3x3, Menu, X, ChevronLeft, ChevronRight } from "lucide-react";
+import { Input } from "@/components/ui/input";
+import { Grid3x3, Menu, X, ChevronLeft, ChevronRight, Search } from "lucide-react";
 import { useState } from "react";
 import { useVacancies } from "@/hooks/useVacancies";
 import { Link } from "react-router-dom";
@@ -20,14 +21,25 @@ const JobListings = () => {
   const [sortBy, setSortBy] = useState<"time" | "salary">("time");
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
+  const [searchQuery, setSearchQuery] = useState("");
   const { data: vacancies } = useVacancies();
 
-  const sortedVacancies = vacancies
+  const filteredVacancies = vacancies?.filter((vacancy) => {
+    if (!searchQuery.trim()) return true;
+    const query = searchQuery.toLowerCase();
+    return (
+      vacancy.job_title?.toLowerCase().includes(query) ||
+      vacancy.job_providers?.name?.toLowerCase().includes(query) ||
+      vacancy.job_providers?.location?.toLowerCase().includes(query) ||
+      vacancy.job_providers?.industry?.toLowerCase().includes(query)
+    );
+  });
+
+  const sortedVacancies = filteredVacancies
     ?.sort((a, b) => {
       if (sortBy === "time") {
         return new Date(b.updated_at).getTime() - new Date(a.updated_at).getTime();
       } else {
-        // Sort by salary - handle null/negotiable cases
         const salaryA = a.salary && !a.salary.toLowerCase().includes('negotiable')
           ? parseFloat(a.salary.replace(/[^0-9.]/g, ''))
           : 0;
@@ -121,9 +133,25 @@ const JobListings = () => {
 
       <main className="py-8 bg-section-light">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          {/* Sort Dropdown */}
+          {/* Search and Sort */}
           <div className="mb-6">
-            <div className="max-w-4xl mx-auto flex flex-col sm:flex-row gap-3 justify-end">
+            <div className="max-w-4xl mx-auto flex flex-col sm:flex-row gap-3 justify-between items-center">
+              {/* Search Input */}
+              <div className="relative w-full sm:w-80">
+                <Search className="absolute left-4 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
+                <Input
+                  type="text"
+                  placeholder="Search jobs, companies, locations..."
+                  value={searchQuery}
+                  onChange={(e) => {
+                    setSearchQuery(e.target.value);
+                    setCurrentPage(1);
+                  }}
+                  className="h-12 pl-11 pr-4 rounded-2xl border-border bg-card"
+                />
+              </div>
+
+              {/* Sort Dropdown */}
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>
                   <Button variant="outline" className="h-12 px-6 rounded-2xl border-border bg-card hover:bg-muted min-w-[140px]">
