@@ -1,23 +1,55 @@
-import { ChevronLeft, ChevronRight } from "lucide-react";
+import { ChevronLeft, ChevronRight, User } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
 
 const testimonials = [
   {
     id: 1,
-    company: "Mailchimp",
-    text: "I can't thank JobSearchPro enough for connecting me with the perfect software engineering job. The job matching algorithm is spot on, and the job alerts kept me updated on new opportunities. It's a game-changer for anyone in the tech industry.",
-    author: "Ibrahim Hamza",
-    role: "Product Designer",
-    avatar: "https://i.pravatar.cc/150?img=12",
+    location: "Dubai, UAE",
+    text: "Angel Mariya helped me find my dream job in Dubai. The process was smooth and they guided me through every step. Very thankful for their support!",
+    author: "Arun Kumar",
+    role: "Construction Supervisor",
+    initials: "AK",
   },
   {
     id: 2,
-    company: "Tech Solutions",
-    text: "I can't thank JobSearchPro enough for connecting me with the perfect software engineering job. The job matching algorithm is spot on, and the job alerts kept me updated on new opportunities. It's a game-changer for anyone in the tech industry.",
-    author: "Ibrahim Hamza",
-    role: "Product Designer",
-    avatar: "https://i.pravatar.cc/150?img=13",
+    location: "Saudi Arabia",
+    text: "I was worried about finding a good job abroad, but Angel Mariya made it so easy. They found me a perfect position within weeks. Highly recommended!",
+    author: "Sreeja Nair",
+    role: "Staff Nurse",
+    initials: "SN",
+  },
+  {
+    id: 3,
+    location: "Qatar",
+    text: "Best agency in Kerala! They helped me get a well-paying job in Qatar. The team is very professional and caring. God bless Angel Mariya!",
+    author: "Vijayan Pillai",
+    role: "Electrician",
+    initials: "VP",
+  },
+  {
+    id: 4,
+    location: "Kuwait",
+    text: "After trying many agencies, I found Angel Mariya. They were honest and transparent throughout. Now I am happily working in Kuwait. Thank you!",
+    author: "Lakshmi Menon",
+    role: "Housekeeping Staff",
+    initials: "LM",
+  },
+  {
+    id: 5,
+    location: "Oman",
+    text: "Angel Mariya is truly a blessing. They helped my whole family find jobs in the Gulf. Their service is genuine and trustworthy.",
+    author: "Suresh Babu",
+    role: "Driver",
+    initials: "SB",
+  },
+  {
+    id: 6,
+    location: "Bahrain",
+    text: "I got my visa and job within one month. Angel Mariya team is very helpful and they follow up regularly. Best agency for Gulf jobs!",
+    author: "Priya Thomas",
+    role: "Sales Executive",
+    initials: "PT",
   },
 ];
 
@@ -69,16 +101,14 @@ export const TestimonialsSection = () => {
               <div key={testimonial.id} className="w-full flex-shrink-0 px-1">
                 <div className="bg-section-dark p-6 rounded-xl border border-border">
                   <div className="flex items-center gap-3 mb-4">
-                    <p className="font-bold text-lg text-foreground">{testimonial.company}</p>
+                    <p className="font-bold text-lg text-foreground">{testimonial.location}</p>
                   </div>
                   <p className="text-muted-foreground mb-4">"{testimonial.text}"</p>
                   <div className="flex justify-between items-center">
                     <div className="flex items-center gap-3">
-                      <img
-                        src={testimonial.avatar}
-                        alt={testimonial.author}
-                        className="w-12 h-12 rounded-full"
-                      />
+                      <div className="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center text-primary font-semibold">
+                        {testimonial.initials}
+                      </div>
                       <div>
                         <p className="font-semibold text-foreground">{testimonial.author}</p>
                         <p className="text-sm text-muted-foreground">{testimonial.role}</p>
@@ -105,23 +135,21 @@ export const TestimonialsSection = () => {
         </div>
         
         {/* Desktop: Grid view */}
-        <div className="hidden md:grid md:grid-cols-2 gap-8">
+        <div className="hidden md:grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {testimonials.map((testimonial) => (
             <div key={testimonial.id} className="bg-section-dark p-6 rounded-xl border border-border">
               <div className="flex items-center gap-3 mb-4">
-                <p className="font-bold text-lg text-foreground">{testimonial.company}</p>
+                <p className="font-bold text-lg text-foreground">{testimonial.location}</p>
               </div>
-              <p className="text-muted-foreground mb-4">"{testimonial.text}"</p>
+              <p className="text-muted-foreground mb-4 text-sm">"{testimonial.text}"</p>
               <div className="flex justify-between items-center">
                 <div className="flex items-center gap-3">
-                  <img
-                    src={testimonial.avatar}
-                    alt={testimonial.author}
-                    className="w-12 h-12 rounded-full"
-                  />
+                  <div className="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center text-primary font-semibold text-sm">
+                    {testimonial.initials}
+                  </div>
                   <div>
-                    <p className="font-semibold text-foreground">{testimonial.author}</p>
-                    <p className="text-sm text-muted-foreground">{testimonial.role}</p>
+                    <p className="font-semibold text-foreground text-sm">{testimonial.author}</p>
+                    <p className="text-xs text-muted-foreground">{testimonial.role}</p>
                   </div>
                 </div>
               </div>
