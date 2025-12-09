@@ -5,6 +5,7 @@ import { useState } from "react";
 import { useVacancies } from "@/hooks/useVacancies";
 import { Link } from "react-router-dom";
 import { Footer } from "@/components/Footer";
+import { Logo } from "@/components/Logo";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -12,7 +13,6 @@ import {
   DropdownMenuRadioItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-
 const ITEMS_PER_PAGE = 20;
 
 const JobListings = () => {
@@ -52,32 +52,40 @@ const JobListings = () => {
   return (
     <div className="min-h-screen bg-background">
       {/* Header - Match Home Page */}
-      <nav className="relative z-20 border-b border-border backdrop-blur-sm bg-background/80 sticky top-0">
+      <nav className="sticky top-0 z-50 border-b border-border/40 backdrop-blur-md bg-background/75 supports-[backdrop-filter]:bg-background/60 transition-all duration-300">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-20">
-            <Link to="/" className="flex items-center gap-2">
-              <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground text-xl font-bold">AM</span>
-              </div>
-              <h2 className="text-2xl font-bold tracking-tight">Angel Mariya</h2>
+            <Link to="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
+              <Logo />
+              <h2 className="text-2xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-foreground to-foreground/70">
+                Angel Mariya
+              </h2>
             </Link>
 
-            <div className="hidden lg:flex items-center gap-8 text-muted-foreground">
-              <Link to="/" className="hover:text-accent transition-colors">Home</Link>
-              <Link to="/about" className="hover:text-accent transition-colors">About Us</Link>
-              <a href="/#cv-upload" className="hover:text-accent transition-colors">Contact Us</a>
-              <Link to="/jobs" className="text-accent hover:text-accent/80 transition-colors font-medium">Find Jobs</Link>
+            <div className="hidden lg:flex items-center justify-center gap-2 text-sm font-medium text-muted-foreground">
+              <Link to="/" className="px-4 py-2 rounded-full hover:bg-primary/10 hover:text-primary transition-all duration-300">Home</Link>
+              <Link to="/about" className="px-4 py-2 rounded-full hover:bg-primary/10 hover:text-primary transition-all duration-300">About Us</Link>
+              <Link to="/jobs" className="px-4 py-2 rounded-full bg-primary/10 text-primary transition-all duration-300">Find Jobs</Link>
             </div>
 
             <div className="flex items-center gap-3">
+              <Button
+                variant="default"
+                size="sm"
+                className="hidden lg:inline-flex"
+                onClick={() => window.open("https://forms.gle/YpdWtMgbuj4E7cpH9", "_blank")}
+              >
+                Contact Us
+              </Button>
               <button
-                className="lg:hidden p-2 hover:bg-accent/10 rounded-lg transition-colors"
+                className="lg:hidden p-2 hover:bg-accent/10 rounded-full transition-colors"
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+                aria-label="Toggle menu"
               >
                 {mobileMenuOpen ? (
-                  <X className="w-6 h-6" />
+                  <X className="w-6 h-6 text-foreground" />
                 ) : (
-                  <Menu className="w-6 h-6" />
+                  <Menu className="w-6 h-6 text-foreground" />
                 )}
               </button>
             </div>
@@ -85,20 +93,26 @@ const JobListings = () => {
 
           {/* Mobile Menu */}
           {mobileMenuOpen && (
-            <div className="lg:hidden py-4 border-t border-border animate-fade-in">
-              <div className="flex flex-col gap-4">
-                <Link to="/" className="text-muted-foreground hover:text-accent transition-colors py-2" onClick={() => setMobileMenuOpen(false)}>
+            <div className="lg:hidden absolute top-full left-0 right-0 bg-background/95 backdrop-blur-xl border-b border-border shadow-2xl animate-in slide-in-from-top-5 duration-200">
+              <div className="container mx-auto px-4 py-6 flex flex-col gap-2">
+                <Link to="/" className="text-left px-4 py-3 rounded-xl hover:bg-accent/5 hover:text-accent transition-colors font-medium text-muted-foreground" onClick={() => setMobileMenuOpen(false)}>
                   Home
                 </Link>
-                <Link to="/about" className="text-muted-foreground hover:text-accent transition-colors py-2" onClick={() => setMobileMenuOpen(false)}>
+                <Link to="/about" className="text-left px-4 py-3 rounded-xl hover:bg-accent/5 hover:text-accent transition-colors font-medium text-muted-foreground" onClick={() => setMobileMenuOpen(false)}>
                   About Us
                 </Link>
-                <a href="/#cv-upload" className="text-muted-foreground hover:text-accent transition-colors py-2" onClick={() => setMobileMenuOpen(false)}>
-                  Contact Us
-                </a>
-                <Link to="/jobs" className="text-accent font-medium py-2" onClick={() => setMobileMenuOpen(false)}>
+                <Link to="/jobs" className="text-left px-4 py-3 rounded-xl bg-primary/5 text-primary font-medium transition-colors" onClick={() => setMobileMenuOpen(false)}>
                   Find Jobs
                 </Link>
+                <button 
+                  onClick={() => {
+                    window.open("https://forms.gle/YpdWtMgbuj4E7cpH9", "_blank");
+                    setMobileMenuOpen(false);
+                  }} 
+                  className="text-left px-4 py-3 rounded-xl bg-primary text-primary-foreground font-medium transition-colors mt-2"
+                >
+                  Contact Us
+                </button>
               </div>
             </div>
           )}
