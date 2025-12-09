@@ -1,5 +1,5 @@
 import { Logo } from "./Logo";
-import { Facebook, Twitter, Instagram, Linkedin, Youtube } from "lucide-react";
+import { Facebook, Twitter, Instagram, Linkedin, Youtube, Phone, Mail, MapPin } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
 const footerLinks = {
@@ -41,7 +41,7 @@ export const Footer = () => {
   return (
     <footer className="pt-16 pb-8 px-4 sm:px-6 lg:px-16 bg-background border-t border-border">
       <div className="container mx-auto">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
+        <div className="grid grid-cols-2 md:grid-cols-5 gap-8 mb-12">
           <div className="col-span-2 md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
               <Logo />
@@ -86,6 +86,21 @@ export const Footer = () => {
                 {link.label}
               </button>
             ))}
+          </div>
+          <div className="text-muted-foreground space-y-3 col-span-2 md:col-span-1">
+            <h3 className="font-semibold text-foreground mb-3">Contact</h3>
+            <a href="tel:9745608245" className="flex items-center gap-2 hover:text-accent transition-colors">
+              <Phone className="w-4 h-4" />
+              +91 9745608245
+            </a>
+            <a href="mailto:angelmariyajobconsultancy@gmail.com" className="flex items-center gap-2 hover:text-accent transition-colors text-sm">
+              <Mail className="w-4 h-4 flex-shrink-0" />
+              <span className="truncate">angelmariyajobconsultancy@gmail.com</span>
+            </a>
+            <div className="flex items-start gap-2">
+              <MapPin className="w-4 h-4 flex-shrink-0 mt-0.5" />
+              <span className="text-sm">Mamkoottam, Neyyattinkara</span>
+            </div>
           </div>
         </div>
         <div className="border-t border-border pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
