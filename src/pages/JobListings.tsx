@@ -7,6 +7,7 @@ import { useVacancies } from "@/hooks/useVacancies";
 import { Link } from "react-router-dom";
 import { Footer } from "@/components/Footer";
 import { Logo } from "@/components/Logo";
+import { WingsBackground } from "@/components/WingsBackground";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -62,7 +63,8 @@ const JobListings = () => {
   };
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background relative">
+      <WingsBackground />
       {/* Header - Match Home Page */}
       <nav className="sticky top-0 z-50 border-b border-border/40 backdrop-blur-md bg-background/75 supports-[backdrop-filter]:bg-background/60 transition-all duration-300">
         <div className="container mx-auto px-4">
