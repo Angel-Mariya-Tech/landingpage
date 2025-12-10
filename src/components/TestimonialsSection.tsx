@@ -1,6 +1,6 @@
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { useState } from "react";
+import { useState, useRef, TouchEvent } from "react";
 
 const testimonials = [
   {
@@ -55,6 +55,31 @@ const testimonials = [
 
 export const TestimonialsSection = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const touchStartX = useRef<number>(0);
+  const touchEndX = useRef<number>(0);
+
+  const handleTouchStart = (e: TouchEvent) => {
+    touchStartX.current = e.targetTouches[0].clientX;
+  };
+
+  const handleTouchMove = (e: TouchEvent) => {
+    touchEndX.current = e.targetTouches[0].clientX;
+  };
+
+  const handleTouchEnd = (isDesktop: boolean) => {
+    const swipeThreshold = 50;
+    const diff = touchStartX.current - touchEndX.current;
+
+    if (Math.abs(diff) > swipeThreshold) {
+      if (diff > 0) {
+        // Swiped left - go next
+        isDesktop ? nextDesktop() : nextTestimonial();
+      } else {
+        // Swiped right - go prev
+        isDesktop ? prevDesktop() : prevTestimonial();
+      }
+    }
+  };
 
   // For desktop, show 2 cards at a time
   const desktopMaxIndex = Math.ceil(testimonials.length / 2) - 1;
@@ -131,7 +156,12 @@ export const TestimonialsSection = () => {
         </div>
         
         {/* Mobile: Single card carousel */}
-        <div className="md:hidden overflow-hidden">
+        <div 
+          className="md:hidden overflow-hidden touch-pan-y"
+          onTouchStart={handleTouchStart}
+          onTouchMove={handleTouchMove}
+          onTouchEnd={() => handleTouchEnd(false)}
+        >
           <div 
             className="flex transition-transform duration-300 ease-out"
             style={{ transform: `translateX(-${currentIndex * 100}%)` }}
@@ -174,7 +204,12 @@ export const TestimonialsSection = () => {
         </div>
         
         {/* Desktop: 2 cards carousel */}
-        <div className="hidden md:block">
+        <div 
+          className="hidden md:block"
+          onTouchStart={handleTouchStart}
+          onTouchMove={handleTouchMove}
+          onTouchEnd={() => handleTouchEnd(true)}
+        >
           <div className="grid md:grid-cols-2 gap-6">
             {getDesktopTestimonials().map((testimonial) => (
               <div 
