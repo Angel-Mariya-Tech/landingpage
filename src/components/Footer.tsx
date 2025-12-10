@@ -106,7 +106,7 @@ export const Footer = () => {
         <div className="border-t border-border pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
           <div className="flex items-center gap-4">
             <a
-              href="#"
+              href="https://www.facebook.com/people/Angel-Mariya/61583440802741/"
               className="w-8 h-8 flex items-center justify-center rounded-full border border-border hover:bg-secondary transition-colors"
             >
               <Facebook className="w-4 h-4" />
@@ -118,7 +118,7 @@ export const Footer = () => {
               <Twitter className="w-4 h-4" />
             </a>
             <a
-              href="#"
+              href="https://www.instagram.com/angel_mariya_jobs"
               className="w-8 h-8 flex items-center justify-center rounded-full border border-border hover:bg-secondary transition-colors"
             >
               <Instagram className="w-4 h-4" />
@@ -130,7 +130,7 @@ export const Footer = () => {
               <Linkedin className="w-4 h-4" />
             </a>
             <a
-              href="#"
+              href="https://www.youtube.com/@AngelmariyaJobconsultancy"
               className="w-8 h-8 flex items-center justify-center rounded-full border border-border hover:bg-secondary transition-colors"
             >
               <Youtube className="w-4 h-4" />
