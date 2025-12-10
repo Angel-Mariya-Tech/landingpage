@@ -99,7 +99,7 @@ export const Footer = () => {
             </a>
             <div className="flex items-start gap-2">
               <MapPin className="w-4 h-4 flex-shrink-0 mt-0.5" />
-              <span className="text-sm">Mamkoottam, Neyyattinkara</span>
+              <span className="text-sm">Neyyattinkara</span>
             </div>
           </div>
         </div>

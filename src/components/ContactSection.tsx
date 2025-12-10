@@ -6,7 +6,7 @@ export const ContactSection = () => {
     <section id="contact" className="py-24 relative overflow-hidden">
       {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-background to-accent/5" />
-      
+
       {/* Decorative elements */}
       <div className="absolute top-0 left-1/4 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
       <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-accent/5 rounded-full blur-3xl" />
@@ -44,6 +44,10 @@ export const ContactSection = () => {
                     <span className="w-1.5 h-1.5 bg-primary/50 rounded-full" />
                     +91 9745408244 (Sujeesh S - Supervisor)
                   </a>
+                  <a href="tel:9745408244" className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-2">
+                    <span className="w-1.5 h-1.5 bg-primary/50 rounded-full" />
+                    +91 9745608246 
+                  </a>
                 </div>
               </div>
             </div>
@@ -55,7 +59,7 @@ export const ContactSection = () => {
               <div>
                 <div className="font-semibold text-lg mb-2">Email</div>
                 <a href="mailto:info@angelmariya.com" className="text-muted-foreground hover:text-primary transition-colors">
-                  info@angelmariya.com
+                  angelmariyajobconsultancy@gmail.com
                 </a>
               </div>
             </div>
@@ -67,8 +71,8 @@ export const ContactSection = () => {
               <div>
                 <div className="font-semibold text-lg mb-2">Office Location</div>
                 <p className="text-muted-foreground">
-                  Mamkoottam, Thirupuram po.<br />
-                  Neyyattinkara, 695133
+                  Neyyattinkara<br />
+                  Thiruvananthapuram, Kerala, 695133
                 </p>
               </div>
             </div>
@@ -102,7 +106,7 @@ export const ContactSection = () => {
               <div className="w-24 h-24 bg-gradient-to-br from-primary to-primary/70 rounded-2xl flex items-center justify-center mx-auto shadow-lg shadow-primary/20">
                 <Mail className="w-12 h-12 text-primary-foreground" />
               </div>
-              
+
               <div className="space-y-3">
                 <h3 className="text-3xl font-bold">Send Us a Message</h3>
                 <p className="text-muted-foreground text-lg max-w-sm mx-auto">

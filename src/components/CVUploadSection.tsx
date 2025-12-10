@@ -29,9 +29,9 @@ export const CVUploadSection = () => {
                   <span className="font-bold text-xl sm:text-2xl tracking-tight text-accent-foreground">Angel Mariya</span>
                 </div>
 
-                <h3 className="text-2xl font-semibold">Submit Your CV</h3>
+                <h3 className="text-2xl font-semibold">Submit Your Details Here</h3>
                 <p className="text-muted-foreground">
-                  Please fill out our application form to submit your CV and details.
+                  Please fill out our application form to submit your details.
                 </p>
 
                 <Button
