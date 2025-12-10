@@ -1,506 +1,76 @@
 id,job_title,openings,status,created_at,updated_at,provider_id,salary,salary_type,provider_name,provider_location,provider_industry,provider_contact_number
-1,Senior React Developer,2,Open,2024-03-20,2024-03-20,101,150000,Yearly,TechCorp,San Francisco,Technology,1234567890
-2,Product Designer,1,Open,2024-03-19,2024-03-19,102,90000,Yearly,DesignStudio,New York,Design,987654321
-3,Marketing Manager,1,Open,2024-03-18,2024-03-18,103,80000,Yearly,GrowthInc,Remote,Marketing,1122334455
-4,Data Analyst,3,Open,2024-03-17,2024-03-17,104,75000,Yearly,DataWorks,Chicago,Analytics,5544332211
-5,Customer Support Specialist,5,Open,2024-03-16,2024-03-16,105,40000,Yearly,HelpDesk,Austin,Support,6677889900
-6,Graphic Designer,6,Open,2024-04-30,2024-04-30,289,46820,Yearly,NextGen,Boston,Support,4051054743
-7,UX Designer,8,Open,2024-04-17,2024-04-17,466,46416,Yearly,NextGen,Austin,Support,4043099920
-8,Frontend Developer,3,Open,2024-03-19,2024-03-19,264,52544,Yearly,PrimeWorks,Seattle,Finance,1339686628
-9,Finance Analyst,1,Open,2024-01-04,2024-01-04,457,35528,Yearly,CloudSphere,Seattle,Security,1813093895
-10,HR Manager,9,Open,2024-03-09,2024-03-09,239,32017,Yearly,CreativeLabs,Chicago,Cloud,2881256923
-11,Content Writer,7,Open,2024-03-19,2024-03-19,344,177352,Yearly,VisionCorp,San Francisco,AI,5553025290
-12,Content Writer,2,Open,2024-02-07,2024-02-07,448,165333,Yearly,CloudSphere,San Francisco,Finance,5174259066
-13,UX Designer,9,Open,2024-04-28,2024-04-28,329,47137,Yearly,Skyline,Boston,Security,8999808249
-14,QA Tester,3,Open,2024-04-14,2024-04-14,476,156901,Yearly,Skyline,Austin,Cloud,8479181895
-15,Backend Developer,6,Open,2024-04-20,2024-04-20,356,132176,Yearly,SecureNet,Austin,Finance,2232736216
-16,Finance Analyst,2,Open,2024-04-19,2024-04-19,382,138028,Yearly,SecureNet,New York,Marketing,5747506535
-17,HR Manager,10,Open,2024-04-01,2024-04-01,309,88398,Yearly,CreativeLabs,Boston,Support,8930833297
-18,DevOps Engineer,2,Open,2024-04-07,2024-04-07,276,175879,Yearly,NextGen,Boston,Technology,8284803283
-19,Graphic Designer,2,Open,2024-01-07,2024-01-07,408,58740,Yearly,NextGen,Austin,Support,8659386890
-20,Sales Executive,4,Open,2024-03-25,2024-03-25,204,80850,Yearly,BlueWave,Remote,Support,4590555951
-21,Content Writer,10,Open,2024-04-09,2024-04-09,348,156537,Yearly,CloudSphere,Chicago,Marketing,6018866852
-22,Cybersecurity Specialist,6,Open,2024-03-23,2024-03-23,215,94578,Yearly,NextGen,Seattle,Design,9875123199
-23,Finance Analyst,3,Open,2024-01-25,2024-01-25,213,112245,Yearly,CreativeLabs,Seattle,Finance,7377667511
-24,HR Manager,8,Open,2024-01-03,2024-01-03,348,47792,Yearly,BlueWave,San Francisco,Security,8186321482
-25,ML Engineer,5,Open,2024-02-24,2024-02-24,349,37159,Yearly,SecureNet,Remote,Design,4128000545
-26,UX Designer,5,Open,2024-01-11,2024-01-11,368,41928,Yearly,NextGen,Seattle,Marketing,8883849531
-27,Backend Developer,10,Open,2024-04-09,2024-04-09,321,176598,Yearly,BetaSoft,Chicago,Technology,3346705882
-28,System Administrator,5,Open,2024-02-18,2024-02-18,357,47989,Yearly,SecureNet,Chicago,AI,0570278231
-29,ML Engineer,8,Open,2024-01-21,2024-01-21,478,159706,Yearly,Skyline,New York,AI,5836508970
-30,QA Tester,9,Open,2024-03-21,2024-03-21,458,30200,Yearly,NextGen,Denver,Cloud,8626001164
-31,UX Designer,4,Open,2024-01-08,2024-01-08,357,64954,Yearly,CreativeLabs,San Francisco,Security,4181004206
-32,Cloud Architect,2,Open,2024-01-04,2024-01-04,213,121839,Yearly,BlueWave,Seattle,Support,6766702088
-33,UX Designer,7,Open,2024-01-30,2024-01-30,465,91136,Yearly,AlphaTech,San Francisco,AI,0163446222
-34,QA Tester,2,Open,2024-03-05,2024-03-05,452,164847,Yearly,CloudSphere,New York,Design,0366718294
-35,Graphic Designer,10,Open,2024-02-24,2024-02-24,468,51940,Yearly,PrimeWorks,Seattle,Marketing,7821159907
-36,Cloud Architect,6,Open,2024-02-27,2024-02-27,334,119029,Yearly,PrimeWorks,Denver,Security,9178917972
-37,Cybersecurity Specialist,5,Open,2024-01-02,2024-01-02,377,174188,Yearly,BlueWave,Boston,Design,1404089471
-38,QA Tester,3,Open,2024-01-10,2024-01-10,345,50763,Yearly,PrimeWorks,Austin,Security,2931890154
-39,Frontend Developer,5,Open,2024-03-21,2024-03-21,493,47169,Yearly,VisionCorp,Chicago,Security,8953273024
-40,Sales Executive,10,Open,2024-03-25,2024-03-25,493,88158,Yearly,AlphaTech,New York,AI,5677781454
-41,UX Designer,9,Open,2024-03-25,2024-03-25,493,51189,Yearly,AlphaTech,Seattle,Security,2099952163
-42,AI Engineer,8,Open,2024-02-29,2024-02-29,479,159872,Yearly,VisionCorp,Chicago,AI,9202613903
-43,ML Engineer,7,Open,2024-02-16,2024-02-16,311,74131,Yearly,AlphaTech,Denver,Design,1948600126
-44,Graphic Designer,4,Open,2024-03-12,2024-03-12,300,37930,Yearly,AlphaTech,Chicago,AI,3481131149
-45,ML Engineer,6,Open,2024-02-04,2024-02-04,290,156223,Yearly,BlueWave,Remote,AI,4841825800
-46,ML Engineer,5,Open,2024-04-09,2024-04-09,216,163134,Yearly,SecureNet,Denver,Design,3163276933
-47,Content Writer,6,Open,2024-01-03,2024-01-03,228,57734,Yearly,BetaSoft,Seattle,Design,6716627491
-48,Finance Analyst,2,Open,2024-02-24,2024-02-24,225,151019,Yearly,BetaSoft,Seattle,Support,4466940471
-49,Cybersecurity Specialist,7,Open,2024-04-18,2024-04-18,374,51560,Yearly,SecureNet,Seattle,Security,6232093894
-50,AI Engineer,3,Open,2024-02-19,2024-02-19,218,121481,Yearly,BlueWave,Austin,Support,5947049946
-51,Frontend Developer,6,Open,2024-02-19,2024-02-19,475,115488,Yearly,BlueWave,Chicago,Finance,5914672801
-52,HR Manager,3,Open,2024-02-15,2024-02-15,475,151798,Yearly,NextGen,Austin,AI,3620374107
-53,Backend Developer,9,Open,2024-03-21,2024-03-21,363,173433,Yearly,Skyline,Seattle,AI,5620718952
-54,HR Manager,2,Open,2024-03-11,2024-03-11,458,77389,Yearly,BetaSoft,Seattle,Finance,2246461437
-55,AI Engineer,5,Open,2024-04-20,2024-04-20,289,84233,Yearly,PrimeWorks,Austin,Design,9546650701
-56,Sales Executive,4,Open,2024-02-20,2024-02-20,404,147093,Yearly,VisionCorp,Chicago,Technology,9492446358
-57,AI Engineer,3,Open,2024-01-18,2024-01-18,459,32828,Yearly,CloudSphere,Remote,Support,0696719931
-58,Content Writer,6,Open,2024-04-03,2024-04-03,487,40536,Yearly,NextGen,Remote,AI,0636064885
-59,AI Engineer,8,Open,2024-04-09,2024-04-09,293,109706,Yearly,BlueWave,Remote,Security,8307109393
-60,ML Engineer,9,Open,2024-03-25,2024-03-25,236,79730,Yearly,CloudSphere,Denver,Cloud,9264945097
-61,HR Manager,2,Open,2024-03-27,2024-03-27,414,157110,Yearly,Skyline,Denver,Cloud,0443237717
-62,Graphic Designer,8,Open,2024-04-30,2024-04-30,345,120902,Yearly,CloudSphere,Austin,Finance,5327008986
-63,Sales Executive,7,Open,2024-01-04,2024-01-04,361,97407,Yearly,BlueWave,Denver,Security,5195682512
-64,UX Designer,3,Open,2024-01-29,2024-01-29,464,60011,Yearly,SecureNet,Boston,Support,2789881237
-65,Backend Developer,1,Open,2024-01-05,2024-01-05,497,94315,Yearly,PrimeWorks,Denver,Support,7766036054
-66,Graphic Designer,2,Open,2024-01-27,2024-01-27,223,50441,Yearly,SecureNet,Seattle,Finance,4333166990
-67,Backend Developer,3,Open,2024-04-01,2024-04-01,313,166996,Yearly,PrimeWorks,Boston,Finance,0808838014
-68,Content Writer,4,Open,2024-03-22,2024-03-22,375,83888,Yearly,PrimeWorks,Austin,Marketing,2381528714
-69,AI Engineer,3,Open,2024-02-12,2024-02-12,489,72995,Yearly,BlueWave,Boston,Support,7284172166
-70,Content Writer,10,Open,2024-03-04,2024-03-04,307,67869,Yearly,Skyline,New York,Support,2986648750
-71,UX Designer,2,Open,2024-01-26,2024-01-26,456,56450,Yearly,BlueWave,Boston,Security,7258131262
-72,Sales Executive,5,Open,2024-03-11,2024-03-11,258,96866,Yearly,CreativeLabs,Boston,Support,8147118233
-73,Cybersecurity Specialist,8,Open,2024-01-02,2024-01-02,458,56074,Yearly,PrimeWorks,Boston,Support,4700937869
-74,Sales Executive,10,Open,2024-04-07,2024-04-07,433,69859,Yearly,NextGen,Remote,Support,0139750086
-75,Backend Developer,5,Open,2024-01-12,2024-01-12,393,78193,Yearly,VisionCorp,Austin,Marketing,7191499249
-76,HR Manager,10,Open,2024-04-27,2024-04-27,427,116265,Yearly,CreativeLabs,Seattle,Technology,3304336422
-77,Finance Analyst,8,Open,2024-02-27,2024-02-27,250,135947,Yearly,BetaSoft,Remote,Marketing,8430267224
-78,Cloud Architect,8,Open,2024-02-24,2024-02-24,401,39776,Yearly,CreativeLabs,Austin,Design,0928166011
-79,Backend Developer,6,Open,2024-02-20,2024-02-20,343,65639,Yearly,CreativeLabs,Austin,Marketing,1274752223
-80,Sales Executive,10,Open,2024-02-28,2024-02-28,367,45735,Yearly,CloudSphere,Chicago,Support,9770221638
-81,Backend Developer,10,Open,2024-04-12,2024-04-12,402,125777,Yearly,CreativeLabs,Denver,Finance,7078213941
-82,Finance Analyst,3,Open,2024-03-05,2024-03-05,397,51810,Yearly,AlphaTech,Boston,Technology,3652047930
-83,AI Engineer,2,Open,2024-03-31,2024-03-31,444,106390,Yearly,VisionCorp,New York,Technology,9542151136
-84,Graphic Designer,1,Open,2024-03-19,2024-03-19,261,64772,Yearly,BlueWave,Chicago,Design,4571534307
-85,QA Tester,9,Open,2024-01-04,2024-01-04,479,98414,Yearly,BlueWave,Austin,Technology,4979516727
-86,Cloud Architect,1,Open,2024-04-25,2024-04-25,433,77692,Yearly,NextGen,Austin,AI,9825516145
-87,ML Engineer,8,Open,2024-01-18,2024-01-18,268,154980,Yearly,PrimeWorks,Remote,AI,5436554182
-88,AI Engineer,10,Open,2024-01-30,2024-01-30,346,170734,Yearly,AlphaTech,Austin,Security,0546934381
-89,Cybersecurity Specialist,7,Open,2024-02-12,2024-02-12,423,145775,Yearly,VisionCorp,Denver,Security,8759308896
-90,System Administrator,8,Open,2024-04-08,2024-04-08,437,31999,Yearly,AlphaTech,Boston,Design,1053434810
-91,Sales Executive,8,Open,2024-04-09,2024-04-09,276,48625,Yearly,Skyline,Remote,Marketing,2495517171
-92,QA Tester,5,Open,2024-01-04,2024-01-04,278,101101,Yearly,VisionCorp,New York,Finance,5388922554
-93,QA Tester,2,Open,2024-02-01,2024-02-01,366,85533,Yearly,BetaSoft,Seattle,Cloud,9552866926
-94,Backend Developer,8,Open,2024-01-09,2024-01-09,398,122508,Yearly,PrimeWorks,Boston,Security,5406764676
-95,UX Designer,8,Open,2024-03-09,2024-03-09,255,167929,Yearly,AlphaTech,Seattle,Support,7509792225
-96,Finance Analyst,5,Open,2024-03-05,2024-03-05,351,125634,Yearly,CloudSphere,Denver,Marketing,0368783476
-97,HR Manager,9,Open,2024-04-02,2024-04-02,473,122531,Yearly,PrimeWorks,New York,Technology,1628826836
-98,Frontend Developer,4,Open,2024-02-07,2024-02-07,272,121249,Yearly,BetaSoft,Denver,Design,9086284354
-99,Frontend Developer,6,Open,2024-04-02,2024-04-02,315,165267,Yearly,Skyline,Seattle,Technology,3569649603
-100,Content Writer,5,Open,2024-03-15,2024-03-15,382,112898,Yearly,AlphaTech,San Francisco,Design,2818256015
-101,DevOps Engineer,6,Open,2024-03-02,2024-03-02,388,177822,Yearly,BetaSoft,Denver,Technology,1381207903
-102,System Administrator,9,Open,2024-01-14,2024-01-14,255,57420,Yearly,SecureNet,Boston,Design,6954846116
-103,Graphic Designer,10,Open,2024-03-02,2024-03-02,225,41250,Yearly,AlphaTech,Denver,Support,3413822271
-104,Graphic Designer,2,Open,2024-01-30,2024-01-30,205,95945,Yearly,BetaSoft,Seattle,AI,4311620405
-105,Cloud Architect,2,Open,2024-02-18,2024-02-18,288,170828,Yearly,BlueWave,San Francisco,Marketing,7974384783
-106,AI Engineer,8,Open,2024-04-28,2024-04-28,380,53209,Yearly,CreativeLabs,Seattle,Finance,2859841743
-107,DevOps Engineer,10,Open,2024-01-12,2024-01-12,330,32277,Yearly,SecureNet,Remote,Finance,5847498727
-108,Backend Developer,4,Open,2024-02-17,2024-02-17,264,117573,Yearly,CreativeLabs,Seattle,Support,7917585888
-109,HR Manager,9,Open,2024-02-17,2024-02-17,309,61497,Yearly,NextGen,Denver,Cloud,5071682475
-110,System Administrator,8,Open,2024-03-20,2024-03-20,438,160891,Yearly,BlueWave,Remote,Finance,9914521237
-111,DevOps Engineer,2,Open,2024-03-11,2024-03-11,485,101567,Yearly,CloudSphere,Austin,Cloud,8677926053
-112,Graphic Designer,8,Open,2024-03-29,2024-03-29,263,140447,Yearly,CreativeLabs,Chicago,AI,0941524221
-113,AI Engineer,7,Open,2024-02-13,2024-02-13,250,89493,Yearly,CloudSphere,Boston,Technology,5026720768
-114,QA Tester,3,Open,2024-03-14,2024-03-14,315,149508,Yearly,Skyline,Remote,Cloud,9748130504
-115,Cloud Architect,6,Open,2024-04-12,2024-04-12,268,50914,Yearly,BetaSoft,New York,Security,1510421482
-116,UX Designer,10,Open,2024-01-09,2024-01-09,205,65980,Yearly,SecureNet,Remote,AI,2688294810
-117,Graphic Designer,6,Open,2024-03-15,2024-03-15,263,161415,Yearly,BlueWave,Denver,Technology,5065370610
-118,Cloud Architect,7,Open,2024-03-23,2024-03-23,404,91490,Yearly,BetaSoft,Remote,Technology,8662707619
-119,HR Manager,2,Open,2024-02-13,2024-02-13,376,51946,Yearly,CloudSphere,Boston,Security,9572462071
-120,QA Tester,10,Open,2024-02-22,2024-02-22,372,71994,Yearly,PrimeWorks,Austin,Cloud,7395016916
-121,AI Engineer,10,Open,2024-02-02,2024-02-02,366,81505,Yearly,BetaSoft,New York,Security,2898850460
-122,Finance Analyst,1,Open,2024-01-19,2024-01-19,248,37494,Yearly,PrimeWorks,San Francisco,Support,3166239535
-123,AI Engineer,1,Open,2024-04-17,2024-04-17,213,132003,Yearly,SecureNet,Chicago,Marketing,8144882091
-124,System Administrator,1,Open,2024-03-10,2024-03-10,432,152766,Yearly,SecureNet,Chicago,Finance,5256906788
-125,QA Tester,5,Open,2024-03-20,2024-03-20,386,96228,Yearly,NextGen,Seattle,Cloud,1349846939
-126,Cybersecurity Specialist,7,Open,2024-03-20,2024-03-20,450,134739,Yearly,SecureNet,New York,Support,8593966133
-127,HR Manager,1,Open,2024-01-24,2024-01-24,359,99611,Yearly,VisionCorp,Remote,AI,7081831670
-128,Cybersecurity Specialist,5,Open,2024-01-19,2024-01-19,209,105209,Yearly,CreativeLabs,Remote,AI,9328761931
-129,Backend Developer,8,Open,2024-02-28,2024-02-28,405,50256,Yearly,AlphaTech,Seattle,AI,0846572811
-130,DevOps Engineer,1,Open,2024-04-11,2024-04-11,328,113271,Yearly,BlueWave,Denver,Support,8192824560
-131,Finance Analyst,1,Open,2024-01-09,2024-01-09,379,110757,Yearly,PrimeWorks,New York,Cloud,2624211358
-132,System Administrator,6,Open,2024-04-17,2024-04-17,226,112837,Yearly,BlueWave,Seattle,Support,6371122922
-133,System Administrator,2,Open,2024-02-15,2024-02-15,365,175217,Yearly,BetaSoft,Austin,Cloud,5365258673
-134,Cloud Architect,7,Open,2024-02-02,2024-02-02,252,145419,Yearly,BlueWave,Chicago,Cloud,2654605252
-135,HR Manager,3,Open,2024-04-07,2024-04-07,226,174496,Yearly,VisionCorp,Denver,Design,5265927267
-136,System Administrator,2,Open,2024-03-13,2024-03-13,413,171984,Yearly,PrimeWorks,New York,Support,2035318172
-137,Content Writer,1,Open,2024-03-11,2024-03-11,456,177174,Yearly,BlueWave,Seattle,AI,9133705994
-138,Content Writer,8,Open,2024-04-04,2024-04-04,455,122873,Yearly,PrimeWorks,Seattle,Cloud,5294767971
-139,Cloud Architect,3,Open,2024-03-19,2024-03-19,291,50061,Yearly,PrimeWorks,Seattle,Technology,7900865055
-140,Backend Developer,2,Open,2024-03-19,2024-03-19,229,75222,Yearly,Skyline,San Francisco,Cloud,1605716737
-141,ML Engineer,3,Open,2024-04-17,2024-04-17,253,115226,Yearly,SecureNet,San Francisco,AI,7303344659
-142,System Administrator,2,Open,2024-01-07,2024-01-07,203,63036,Yearly,AlphaTech,Remote,AI,2560863514
-143,ML Engineer,1,Open,2024-02-22,2024-02-22,202,133084,Yearly,NextGen,Chicago,Support,4556199985
-144,ML Engineer,7,Open,2024-03-16,2024-03-16,271,160130,Yearly,Skyline,Boston,AI,2846075547
-145,QA Tester,9,Open,2024-02-06,2024-02-06,426,179275,Yearly,BetaSoft,New York,Cloud,5429747345
-146,ML Engineer,9,Open,2024-03-24,2024-03-24,459,176425,Yearly,Skyline,Seattle,Marketing,8870711209
-147,ML Engineer,7,Open,2024-02-24,2024-02-24,257,112099,Yearly,BetaSoft,Boston,Finance,4411569988
-148,UX Designer,10,Open,2024-04-02,2024-04-02,294,86898,Yearly,AlphaTech,Chicago,Finance,1670078798
-149,Graphic Designer,9,Open,2024-01-11,2024-01-11,345,77654,Yearly,CloudSphere,Austin,Cloud,3721286696
-150,QA Tester,5,Open,2024-03-10,2024-03-10,250,125483,Yearly,BlueWave,New York,Design,8906259706
-151,Content Writer,9,Open,2024-02-11,2024-02-11,394,34106,Yearly,NextGen,Austin,Cloud,7315785802
-152,AI Engineer,1,Open,2024-01-14,2024-01-14,262,52081,Yearly,Skyline,Denver,Marketing,2275609154
-153,Finance Analyst,5,Open,2024-03-12,2024-03-12,375,161223,Yearly,AlphaTech,Boston,Support,5996528967
-154,System Administrator,1,Open,2024-04-12,2024-04-12,361,174455,Yearly,SecureNet,Chicago,AI,3312950405
-155,System Administrator,9,Open,2024-01-05,2024-01-05,214,64024,Yearly,VisionCorp,Seattle,Cloud,4382692016
-156,AI Engineer,2,Open,2024-01-24,2024-01-24,414,50548,Yearly,NextGen,Chicago,Design,7223392454
-157,Frontend Developer,1,Open,2024-02-24,2024-02-24,436,117510,Yearly,Skyline,New York,Design,2580076361
-158,HR Manager,7,Open,2024-03-30,2024-03-30,431,112072,Yearly,BlueWave,Remote,Support,5719997229
-159,ML Engineer,6,Open,2024-03-28,2024-03-28,452,176533,Yearly,NextGen,Remote,Marketing,1870981457
-160,Frontend Developer,10,Open,2024-01-18,2024-01-18,243,119044,Yearly,NextGen,Austin,Support,4897158361
-161,QA Tester,5,Open,2024-04-15,2024-04-15,421,126346,Yearly,VisionCorp,New York,Technology,4932240603
-162,Graphic Designer,2,Open,2024-03-14,2024-03-14,206,120423,Yearly,AlphaTech,San Francisco,Cloud,8498468852
-163,System Administrator,6,Open,2024-04-26,2024-04-26,481,47128,Yearly,BetaSoft,Remote,Technology,1162816176
-164,System Administrator,6,Open,2024-04-11,2024-04-11,363,61759,Yearly,SecureNet,New York,Finance,5507422617
-165,AI Engineer,3,Open,2024-02-22,2024-02-22,335,40494,Yearly,AlphaTech,Chicago,Cloud,1611423728
-166,QA Tester,3,Open,2024-02-22,2024-02-22,475,114625,Yearly,BetaSoft,New York,Security,4638762955
-167,Backend Developer,7,Open,2024-03-02,2024-03-02,333,53258,Yearly,Skyline,Remote,Cloud,8767694594
-168,Graphic Designer,2,Open,2024-04-21,2024-04-21,247,34006,Yearly,NextGen,Boston,Finance,9580580684
-169,System Administrator,8,Open,2024-04-14,2024-04-14,350,98440,Yearly,Skyline,Denver,Support,4470494774
-170,Graphic Designer,2,Open,2024-04-06,2024-04-06,258,124027,Yearly,BlueWave,Chicago,Finance,4983453148
-171,ML Engineer,1,Open,2024-04-19,2024-04-19,276,147851,Yearly,Skyline,Denver,Marketing,0123625724
-172,Finance Analyst,6,Open,2024-03-03,2024-03-03,337,54808,Yearly,SecureNet,Denver,Technology,6535775854
-173,ML Engineer,4,Open,2024-03-16,2024-03-16,478,88372,Yearly,AlphaTech,Seattle,Security,4121473772
-174,ML Engineer,6,Open,2024-03-03,2024-03-03,272,65171,Yearly,PrimeWorks,Chicago,Support,6902152262
-175,Cybersecurity Specialist,7,Open,2024-01-26,2024-01-26,281,112489,Yearly,Skyline,Denver,Support,4931344756
-176,UX Designer,4,Open,2024-04-03,2024-04-03,436,173811,Yearly,BlueWave,Boston,Cloud,2580474592
-177,Graphic Designer,10,Open,2024-02-01,2024-02-01,481,47700,Yearly,SecureNet,Boston,Support,4318239494
-178,UX Designer,5,Open,2024-03-08,2024-03-08,478,60460,Yearly,AlphaTech,Remote,Support,7119215864
-179,Graphic Designer,5,Open,2024-02-04,2024-02-04,317,173207,Yearly,CreativeLabs,Seattle,Cloud,5817913692
-180,Finance Analyst,5,Open,2024-01-31,2024-01-31,204,163471,Yearly,VisionCorp,Boston,Marketing,4225954879
-181,System Administrator,4,Open,2024-01-08,2024-01-08,380,118822,Yearly,BlueWave,Seattle,Marketing,5151526791
-182,Cloud Architect,5,Open,2024-01-23,2024-01-23,421,33322,Yearly,Skyline,Boston,AI,0225497771
-183,Content Writer,4,Open,2024-01-27,2024-01-27,488,157802,Yearly,AlphaTech,Denver,Finance,3854950033
-184,DevOps Engineer,4,Open,2024-01-27,2024-01-27,233,137374,Yearly,PrimeWorks,Chicago,AI,6393766819
-185,Frontend Developer,4,Open,2024-03-09,2024-03-09,468,167558,Yearly,NextGen,Remote,Technology,6205329285
-186,ML Engineer,4,Open,2024-01-02,2024-01-02,428,153366,Yearly,BetaSoft,New York,Cloud,8312729697
-187,DevOps Engineer,5,Open,2024-01-28,2024-01-28,357,99078,Yearly,NextGen,Boston,Finance,0292701846
-188,Content Writer,1,Open,2024-01-27,2024-01-27,463,53017,Yearly,CreativeLabs,Denver,Technology,7681436666
-189,DevOps Engineer,2,Open,2024-04-28,2024-04-28,423,115420,Yearly,BetaSoft,Denver,Finance,3916953988
-190,ML Engineer,8,Open,2024-01-17,2024-01-17,360,111158,Yearly,SecureNet,San Francisco,Finance,7694329978
-191,Frontend Developer,4,Open,2024-03-22,2024-03-22,202,161466,Yearly,SecureNet,Denver,Design,5178064674
-192,Cloud Architect,4,Open,2024-02-18,2024-02-18,237,121155,Yearly,SecureNet,Boston,Support,1672654288
-193,Graphic Designer,6,Open,2024-03-04,2024-03-04,286,148383,Yearly,BlueWave,Austin,Technology,9188728184
-194,Cloud Architect,7,Open,2024-02-29,2024-02-29,261,48182,Yearly,Skyline,San Francisco,Finance,4147677970
-195,UX Designer,7,Open,2024-04-10,2024-04-10,206,122357,Yearly,BlueWave,Remote,Cloud,1988381003
-196,AI Engineer,3,Open,2024-04-24,2024-04-24,343,34895,Yearly,BlueWave,Austin,Marketing,6147457886
-197,Sales Executive,3,Open,2024-01-12,2024-01-12,240,170327,Yearly,SecureNet,Chicago,Support,0550644670
-198,Cloud Architect,5,Open,2024-01-17,2024-01-17,403,44051,Yearly,Skyline,Austin,Security,9176860921
-199,Finance Analyst,7,Open,2024-04-27,2024-04-27,283,41896,Yearly,SecureNet,Chicago,Technology,5656935679
-200,Content Writer,9,Open,2024-03-29,2024-03-29,364,177744,Yearly,BlueWave,Austin,Marketing,8851700580
-201,Frontend Developer,10,Open,2024-01-21,2024-01-21,381,87236,Yearly,NextGen,Seattle,Technology,2879896347
-202,Content Writer,8,Open,2024-01-06,2024-01-06,361,176920,Yearly,SecureNet,Austin,AI,1921231605
-203,HR Manager,5,Open,2024-04-27,2024-04-27,449,117164,Yearly,VisionCorp,Chicago,Technology,0612394601
-204,ML Engineer,4,Open,2024-03-06,2024-03-06,356,71529,Yearly,Skyline,Seattle,Design,1363963170
-205,Cloud Architect,10,Open,2024-02-21,2024-02-21,454,68726,Yearly,VisionCorp,San Francisco,Design,1547664534
-206,Cloud Architect,1,Open,2024-03-23,2024-03-23,313,113735,Yearly,PrimeWorks,Boston,Finance,4902041811
-207,Backend Developer,7,Open,2024-03-03,2024-03-03,474,174817,Yearly,BetaSoft,Austin,Technology,0371449517
-208,Cloud Architect,8,Open,2024-03-29,2024-03-29,436,37482,Yearly,BlueWave,Boston,Marketing,5860447220
-209,DevOps Engineer,4,Open,2024-04-09,2024-04-09,403,43738,Yearly,BetaSoft,Denver,Technology,1518906756
-210,Cloud Architect,9,Open,2024-03-03,2024-03-03,422,132322,Yearly,BlueWave,Remote,Design,3546873243
-211,Finance Analyst,4,Open,2024-03-12,2024-03-12,408,179485,Yearly,BlueWave,Denver,Design,6636921944
-212,QA Tester,8,Open,2024-01-13,2024-01-13,241,140799,Yearly,SecureNet,Boston,Cloud,3432753839
-213,Graphic Designer,6,Open,2024-01-14,2024-01-14,380,178233,Yearly,NextGen,Denver,Support,7355297002
-214,UX Designer,6,Open,2024-02-15,2024-02-15,403,79266,Yearly,BetaSoft,Seattle,Technology,4968133426
-215,Backend Developer,2,Open,2024-04-03,2024-04-03,235,48005,Yearly,PrimeWorks,Denver,AI,9887340579
-216,Cybersecurity Specialist,1,Open,2024-03-10,2024-03-10,471,105603,Yearly,VisionCorp,San Francisco,Design,0121290198
-217,Cloud Architect,9,Open,2024-03-06,2024-03-06,234,30008,Yearly,CreativeLabs,Seattle,Marketing,2137914071
-218,AI Engineer,2,Open,2024-04-05,2024-04-05,385,111649,Yearly,BetaSoft,Denver,Design,7713515242
-219,Graphic Designer,4,Open,2024-01-17,2024-01-17,314,149998,Yearly,SecureNet,Austin,Technology,5989814193
-220,Cybersecurity Specialist,10,Open,2024-01-21,2024-01-21,498,36107,Yearly,CreativeLabs,Austin,Security,7388115917
-221,Graphic Designer,9,Open,2024-04-05,2024-04-05,403,35750,Yearly,CreativeLabs,Chicago,Technology,3368213822
-222,ML Engineer,5,Open,2024-04-05,2024-04-05,300,106430,Yearly,BetaSoft,Denver,Support,6831734818
-223,QA Tester,8,Open,2024-04-22,2024-04-22,232,76535,Yearly,BlueWave,Chicago,Marketing,5205351585
-224,HR Manager,3,Open,2024-04-11,2024-04-11,448,57921,Yearly,NextGen,Chicago,Security,3676705906
-225,UX Designer,1,Open,2024-01-30,2024-01-30,264,154327,Yearly,CloudSphere,Seattle,Marketing,0775868033
-226,QA Tester,10,Open,2024-02-13,2024-02-13,416,95646,Yearly,CreativeLabs,Chicago,Support,3031567419
-227,UX Designer,4,Open,2024-01-18,2024-01-18,218,99095,Yearly,NextGen,Remote,Finance,2884552952
-228,Frontend Developer,3,Open,2024-01-30,2024-01-30,327,148429,Yearly,AlphaTech,New York,Support,9169076088
-229,Content Writer,10,Open,2024-02-22,2024-02-22,433,120970,Yearly,AlphaTech,Denver,Cloud,6480198090
-230,Cybersecurity Specialist,3,Open,2024-04-06,2024-04-06,269,38436,Yearly,NextGen,New York,Cloud,6261227119
-231,Content Writer,7,Open,2024-01-19,2024-01-19,426,109406,Yearly,NextGen,San Francisco,Support,4644186611
-232,DevOps Engineer,2,Open,2024-02-13,2024-02-13,209,97726,Yearly,BetaSoft,Boston,Security,9597755292
-233,UX Designer,8,Open,2024-02-28,2024-02-28,328,127182,Yearly,NextGen,Austin,Cloud,1600619516
-234,Content Writer,2,Open,2024-03-05,2024-03-05,280,155906,Yearly,BlueWave,Chicago,Marketing,8696718397
-235,ML Engineer,5,Open,2024-04-17,2024-04-17,444,48837,Yearly,VisionCorp,Chicago,Marketing,6946630460
-236,Sales Executive,3,Open,2024-04-22,2024-04-22,265,160243,Yearly,SecureNet,San Francisco,AI,1268180839
-237,HR Manager,7,Open,2024-04-20,2024-04-20,342,78263,Yearly,Skyline,New York,Marketing,5398819965
-238,ML Engineer,7,Open,2024-02-10,2024-02-10,313,157823,Yearly,SecureNet,Austin,Cloud,0402405878
-239,Backend Developer,6,Open,2024-01-31,2024-01-31,328,53109,Yearly,CloudSphere,San Francisco,Marketing,8463722569
-240,Graphic Designer,7,Open,2024-03-10,2024-03-10,371,169500,Yearly,CreativeLabs,Seattle,Technology,3283220826
-241,System Administrator,9,Open,2024-01-13,2024-01-13,385,63895,Yearly,BlueWave,San Francisco,Cloud,9034560673
-242,ML Engineer,6,Open,2024-04-26,2024-04-26,282,84474,Yearly,BlueWave,Seattle,Technology,8201740457
-243,HR Manager,4,Open,2024-01-26,2024-01-26,394,43169,Yearly,BetaSoft,Remote,Design,4721344336
-244,Graphic Designer,10,Open,2024-04-19,2024-04-19,224,176733,Yearly,CloudSphere,Chicago,Support,4951684148
-245,QA Tester,4,Open,2024-01-30,2024-01-30,449,85896,Yearly,CloudSphere,Remote,Support,8887274230
-246,Cybersecurity Specialist,5,Open,2024-04-17,2024-04-17,249,40679,Yearly,NextGen,San Francisco,Design,2905258106
-247,Sales Executive,7,Open,2024-02-06,2024-02-06,468,89092,Yearly,NextGen,San Francisco,Design,8293644461
-248,QA Tester,6,Open,2024-01-28,2024-01-28,411,80761,Yearly,CreativeLabs,Seattle,Design,8319644069
-249,Cloud Architect,7,Open,2024-04-09,2024-04-09,246,127298,Yearly,PrimeWorks,Boston,Support,6773258989
-250,QA Tester,6,Open,2024-04-15,2024-04-15,488,65891,Yearly,CloudSphere,San Francisco,Support,7323937586
-251,AI Engineer,7,Open,2024-03-08,2024-03-08,223,40849,Yearly,CreativeLabs,Denver,Marketing,6272727434
-252,Frontend Developer,2,Open,2024-04-20,2024-04-20,383,85935,Yearly,PrimeWorks,Seattle,Design,3552857099
-253,Frontend Developer,7,Open,2024-02-29,2024-02-29,294,69751,Yearly,Skyline,Austin,Design,8902319688
-254,HR Manager,6,Open,2024-02-14,2024-02-14,373,113808,Yearly,BetaSoft,Denver,Technology,5972830362
-255,AI Engineer,6,Open,2024-02-22,2024-02-22,456,77070,Yearly,SecureNet,Boston,Support,4500978429
-256,HR Manager,10,Open,2024-02-13,2024-02-13,413,66229,Yearly,CreativeLabs,Austin,Marketing,5683664279
-257,Backend Developer,4,Open,2024-04-19,2024-04-19,390,33944,Yearly,VisionCorp,Denver,Technology,8271411755
-258,Cybersecurity Specialist,7,Open,2024-03-10,2024-03-10,359,172183,Yearly,BlueWave,Denver,Cloud,6657371353
-259,DevOps Engineer,7,Open,2024-02-13,2024-02-13,205,128799,Yearly,Skyline,Boston,Technology,7102953782
-260,Finance Analyst,2,Open,2024-04-01,2024-04-01,452,92269,Yearly,VisionCorp,Boston,Finance,6071779316
-261,Finance Analyst,1,Open,2024-03-11,2024-03-11,378,164001,Yearly,VisionCorp,Austin,Security,1776765867
-262,Finance Analyst,9,Open,2024-01-03,2024-01-03,454,168503,Yearly,CloudSphere,Austin,Security,3981883482
-263,Frontend Developer,2,Open,2024-02-18,2024-02-18,298,154103,Yearly,NextGen,Austin,Cloud,5922785249
-264,QA Tester,9,Open,2024-04-14,2024-04-14,329,149657,Yearly,BetaSoft,Boston,Security,7896885822
-265,DevOps Engineer,2,Open,2024-02-08,2024-02-08,423,64964,Yearly,VisionCorp,Chicago,Design,1178611308
-266,AI Engineer,2,Open,2024-02-16,2024-02-16,447,174518,Yearly,CreativeLabs,San Francisco,Security,3248945867
-267,Graphic Designer,10,Open,2024-01-26,2024-01-26,339,33628,Yearly,BetaSoft,Remote,Marketing,7681540687
-268,System Administrator,10,Open,2024-03-17,2024-03-17,360,88735,Yearly,BlueWave,San Francisco,Support,7505256450
-269,Graphic Designer,2,Open,2024-04-13,2024-04-13,471,44417,Yearly,CreativeLabs,Seattle,Support,9220243737
-270,Frontend Developer,4,Open,2024-01-21,2024-01-21,385,152095,Yearly,VisionCorp,Austin,Finance,3078570659
-271,ML Engineer,7,Open,2024-04-29,2024-04-29,226,92718,Yearly,SecureNet,Remote,Finance,2935562654
-272,DevOps Engineer,3,Open,2024-02-17,2024-02-17,203,161528,Yearly,SecureNet,New York,Finance,9727204944
-273,System Administrator,4,Open,2024-04-19,2024-04-19,448,141396,Yearly,VisionCorp,San Francisco,Design,2512036263
-274,Sales Executive,7,Open,2024-03-13,2024-03-13,400,51830,Yearly,VisionCorp,San Francisco,Security,4932227953
-275,Finance Analyst,4,Open,2024-04-23,2024-04-23,364,136012,Yearly,CloudSphere,New York,Cloud,9344864817
-276,Graphic Designer,2,Open,2024-04-15,2024-04-15,395,34122,Yearly,BlueWave,Remote,Design,4030518772
-277,AI Engineer,8,Open,2024-04-16,2024-04-16,200,97315,Yearly,NextGen,Austin,AI,5922179671
-278,Frontend Developer,7,Open,2024-04-09,2024-04-09,443,72108,Yearly,BlueWave,Remote,Design,5856871548
-279,HR Manager,5,Open,2024-03-15,2024-03-15,299,127833,Yearly,BetaSoft,Boston,Design,9475099272
-280,System Administrator,7,Open,2024-03-28,2024-03-28,483,64766,Yearly,AlphaTech,Seattle,Security,7463450294
-281,Content Writer,10,Open,2024-03-27,2024-03-27,366,147601,Yearly,AlphaTech,New York,Technology,1479061811
-282,Frontend Developer,6,Open,2024-03-15,2024-03-15,262,56442,Yearly,SecureNet,Seattle,Technology,5448615918
-283,Frontend Developer,3,Open,2024-02-02,2024-02-02,357,138461,Yearly,BetaSoft,Denver,Technology,4544549316
-284,HR Manager,8,Open,2024-03-16,2024-03-16,323,79403,Yearly,CloudSphere,Chicago,Marketing,1027674736
-285,AI Engineer,10,Open,2024-01-31,2024-01-31,337,165892,Yearly,CreativeLabs,New York,Cloud,9061380120
-286,Frontend Developer,4,Open,2024-04-24,2024-04-24,207,70422,Yearly,NextGen,Seattle,Cloud,7527091873
-287,Content Writer,10,Open,2024-01-05,2024-01-05,491,120144,Yearly,VisionCorp,San Francisco,Marketing,2944578664
-288,DevOps Engineer,1,Open,2024-01-17,2024-01-17,433,93892,Yearly,NextGen,Chicago,Cloud,0586555127
-289,DevOps Engineer,2,Open,2024-03-06,2024-03-06,455,148620,Yearly,Skyline,Chicago,Cloud,7818785148
-290,Sales Executive,4,Open,2024-01-29,2024-01-29,252,130345,Yearly,NextGen,New York,AI,4329167958
-291,Content Writer,4,Open,2024-01-09,2024-01-09,307,118206,Yearly,CreativeLabs,Boston,Design,9778398835
-292,Cloud Architect,7,Open,2024-03-29,2024-03-29,497,87947,Yearly,AlphaTech,Denver,Marketing,4544596893
-293,Graphic Designer,3,Open,2024-03-25,2024-03-25,323,150990,Yearly,BlueWave,New York,AI,7388044896
-294,UX Designer,4,Open,2024-02-06,2024-02-06,240,95178,Yearly,BetaSoft,Denver,Technology,7776732739
-295,Content Writer,3,Open,2024-03-10,2024-03-10,307,174656,Yearly,CloudSphere,San Francisco,Marketing,6654827121
-296,Content Writer,9,Open,2024-02-03,2024-02-03,421,158610,Yearly,NextGen,New York,Finance,5084838486
-297,Frontend Developer,9,Open,2024-02-15,2024-02-15,301,178183,Yearly,PrimeWorks,Chicago,AI,1692718542
-298,QA Tester,7,Open,2024-04-02,2024-04-02,283,99842,Yearly,NextGen,Chicago,AI,8488385430
-299,System Administrator,8,Open,2024-02-16,2024-02-16,221,139933,Yearly,AlphaTech,Remote,Support,7460831374
-300,Cybersecurity Specialist,9,Open,2024-03-19,2024-03-19,310,62636,Yearly,VisionCorp,Austin,AI,6739768407
-301,QA Tester,10,Open,2024-03-26,2024-03-26,241,135965,Yearly,VisionCorp,Chicago,Design,0892985787
-302,Sales Executive,6,Open,2024-02-14,2024-02-14,402,75213,Yearly,BlueWave,Austin,Marketing,2390561133
-303,Content Writer,8,Open,2024-01-04,2024-01-04,210,61965,Yearly,BetaSoft,New York,Support,1850009214
-304,DevOps Engineer,6,Open,2024-03-25,2024-03-25,472,100889,Yearly,SecureNet,Denver,Technology,3746671591
-305,DevOps Engineer,9,Open,2024-03-28,2024-03-28,444,80590,Yearly,BetaSoft,Boston,Finance,3892726041
-306,Sales Executive,1,Open,2024-03-26,2024-03-26,496,133775,Yearly,BetaSoft,Chicago,Design,5990387819
-307,DevOps Engineer,8,Open,2024-03-16,2024-03-16,352,115936,Yearly,PrimeWorks,Austin,Security,6585754500
-308,HR Manager,6,Open,2024-04-27,2024-04-27,293,177803,Yearly,BetaSoft,Denver,Support,0886987943
-309,Frontend Developer,5,Open,2024-04-02,2024-04-02,295,155354,Yearly,NextGen,Chicago,Cloud,9147940758
-310,Cybersecurity Specialist,2,Open,2024-03-20,2024-03-20,403,70703,Yearly,SecureNet,Seattle,Marketing,4418393491
-311,System Administrator,1,Open,2024-01-12,2024-01-12,329,148428,Yearly,CreativeLabs,Austin,Security,0659171374
-312,Sales Executive,10,Open,2024-04-20,2024-04-20,315,162215,Yearly,BetaSoft,New York,Cloud,2955684667
-313,Frontend Developer,2,Open,2024-02-02,2024-02-02,224,110400,Yearly,SecureNet,Boston,Support,3038412222
-314,Frontend Developer,8,Open,2024-01-07,2024-01-07,210,45981,Yearly,AlphaTech,San Francisco,Marketing,2515403741
-315,Content Writer,1,Open,2024-01-14,2024-01-14,453,136139,Yearly,CloudSphere,Remote,Security,0030669251
-316,AI Engineer,3,Open,2024-02-21,2024-02-21,214,86037,Yearly,BlueWave,Boston,Technology,0600838736
-317,ML Engineer,1,Open,2024-02-16,2024-02-16,250,164908,Yearly,CreativeLabs,New York,Finance,9266780205
-318,Cloud Architect,7,Open,2024-02-12,2024-02-12,460,88930,Yearly,NextGen,New York,Technology,7486247073
-319,Cloud Architect,8,Open,2024-02-25,2024-02-25,264,50302,Yearly,BlueWave,Boston,Technology,0801316555
-320,Content Writer,3,Open,2024-01-23,2024-01-23,399,100558,Yearly,AlphaTech,San Francisco,Technology,6432841900
-321,Finance Analyst,8,Open,2024-01-19,2024-01-19,276,42086,Yearly,AlphaTech,Boston,Cloud,8407107015
-322,System Administrator,9,Open,2024-01-26,2024-01-26,272,35366,Yearly,NextGen,New York,AI,2843594744
-323,AI Engineer,3,Open,2024-02-15,2024-02-15,441,75419,Yearly,CreativeLabs,Seattle,Cloud,9388109628
-324,QA Tester,5,Open,2024-03-21,2024-03-21,371,142773,Yearly,CloudSphere,Boston,Support,8899852539
-325,Cloud Architect,10,Open,2024-03-10,2024-03-10,290,142486,Yearly,VisionCorp,Seattle,Finance,2162480309
-326,Cloud Architect,4,Open,2024-01-17,2024-01-17,304,176776,Yearly,BetaSoft,Remote,AI,2791182168
-327,Graphic Designer,6,Open,2024-04-16,2024-04-16,463,86395,Yearly,VisionCorp,Remote,Marketing,0955638912
-328,AI Engineer,6,Open,2024-01-19,2024-01-19,357,158824,Yearly,CreativeLabs,Denver,Support,0787211656
-329,Finance Analyst,9,Open,2024-02-16,2024-02-16,288,155683,Yearly,AlphaTech,New York,AI,1086179324
-330,System Administrator,10,Open,2024-03-03,2024-03-03,255,82286,Yearly,CloudSphere,Austin,Marketing,4162258515
-331,Cloud Architect,10,Open,2024-02-17,2024-02-17,414,57806,Yearly,SecureNet,Remote,Security,9572722171
-332,Graphic Designer,5,Open,2024-03-12,2024-03-12,235,141813,Yearly,BlueWave,Chicago,Cloud,7957324038
-333,Graphic Designer,6,Open,2024-04-29,2024-04-29,404,38666,Yearly,VisionCorp,San Francisco,Cloud,4658551393
-334,Backend Developer,6,Open,2024-03-16,2024-03-16,493,155323,Yearly,BetaSoft,Chicago,AI,6587234274
-335,System Administrator,7,Open,2024-01-30,2024-01-30,380,156985,Yearly,Skyline,New York,Support,7863581386
-336,Frontend Developer,7,Open,2024-04-20,2024-04-20,399,44068,Yearly,BlueWave,Boston,Security,0740384228
-337,Cybersecurity Specialist,7,Open,2024-01-18,2024-01-18,426,75595,Yearly,PrimeWorks,Denver,Finance,6618991720
-338,UX Designer,9,Open,2024-04-06,2024-04-06,251,163043,Yearly,AlphaTech,Chicago,AI,0214693316
-339,Sales Executive,2,Open,2024-03-07,2024-03-07,340,140020,Yearly,VisionCorp,San Francisco,Support,3538971793
-340,Cybersecurity Specialist,10,Open,2024-02-07,2024-02-07,253,87099,Yearly,BetaSoft,New York,Security,7725375416
-341,Finance Analyst,3,Open,2024-04-15,2024-04-15,266,149150,Yearly,AlphaTech,Denver,Finance,5320608004
-342,Graphic Designer,3,Open,2024-01-08,2024-01-08,297,98653,Yearly,NextGen,Denver,AI,9827654501
-343,Cybersecurity Specialist,2,Open,2024-02-09,2024-02-09,379,76989,Yearly,SecureNet,New York,AI,9496875968
-344,Sales Executive,10,Open,2024-03-22,2024-03-22,451,43122,Yearly,Skyline,Remote,Support,3452603699
-345,UX Designer,9,Open,2024-04-22,2024-04-22,478,174983,Yearly,VisionCorp,Boston,AI,1461267511
-346,HR Manager,6,Open,2024-03-28,2024-03-28,257,175344,Yearly,VisionCorp,Chicago,Security,4594849365
-347,HR Manager,9,Open,2024-02-02,2024-02-02,209,174364,Yearly,CreativeLabs,Austin,Technology,9918522289
-348,Content Writer,3,Open,2024-01-12,2024-01-12,266,51021,Yearly,CreativeLabs,Denver,Security,9475790745
-349,Content Writer,7,Open,2024-04-30,2024-04-30,272,84387,Yearly,CloudSphere,Austin,Technology,3126679670
-350,AI Engineer,10,Open,2024-03-27,2024-03-27,385,66202,Yearly,BetaSoft,Remote,Technology,4196556982
-351,Content Writer,4,Open,2024-03-13,2024-03-13,367,156776,Yearly,PrimeWorks,Seattle,Cloud,0927965539
-352,System Administrator,4,Open,2024-01-27,2024-01-27,346,173983,Yearly,BetaSoft,Austin,Technology,0977684745
-353,Backend Developer,8,Open,2024-02-01,2024-02-01,481,98061,Yearly,SecureNet,Austin,Finance,7873891702
-354,Sales Executive,8,Open,2024-04-10,2024-04-10,415,125211,Yearly,VisionCorp,Remote,Marketing,5140364889
-355,ML Engineer,10,Open,2024-01-19,2024-01-19,260,61013,Yearly,NextGen,Chicago,Security,3567756220
-356,Sales Executive,5,Open,2024-03-06,2024-03-06,406,53792,Yearly,PrimeWorks,Denver,Technology,2686539874
-357,Frontend Developer,10,Open,2024-02-08,2024-02-08,402,124743,Yearly,SecureNet,San Francisco,Technology,9366304821
-358,Graphic Designer,5,Open,2024-04-19,2024-04-19,294,176556,Yearly,CreativeLabs,Boston,Finance,4095939780
-359,Finance Analyst,4,Open,2024-04-22,2024-04-22,475,167877,Yearly,PrimeWorks,Remote,Design,4537281445
-360,Graphic Designer,6,Open,2024-04-20,2024-04-20,354,110690,Yearly,BetaSoft,Austin,Design,5735223428
-361,DevOps Engineer,7,Open,2024-02-02,2024-02-02,337,116444,Yearly,CloudSphere,Chicago,Design,2537218732
-362,Backend Developer,5,Open,2024-02-03,2024-02-03,467,165958,Yearly,AlphaTech,Austin,Cloud,5451239726
-363,UX Designer,8,Open,2024-01-02,2024-01-02,234,163395,Yearly,AlphaTech,Remote,Security,5037071202
-364,HR Manager,2,Open,2024-04-09,2024-04-09,492,48817,Yearly,Skyline,Chicago,Security,1706159862
-365,Backend Developer,8,Open,2024-03-28,2024-03-28,331,153788,Yearly,SecureNet,New York,Technology,2993452378
-366,QA Tester,1,Open,2024-02-27,2024-02-27,370,63782,Yearly,AlphaTech,Remote,Support,6016535495
-367,Frontend Developer,4,Open,2024-03-15,2024-03-15,262,177231,Yearly,CloudSphere,Chicago,Cloud,3954980986
-368,Sales Executive,5,Open,2024-02-25,2024-02-25,344,63187,Yearly,BetaSoft,Remote,Support,1876385648
-369,QA Tester,10,Open,2024-04-17,2024-04-17,432,35903,Yearly,NextGen,Remote,AI,4050541081
-370,AI Engineer,10,Open,2024-01-14,2024-01-14,432,61980,Yearly,CreativeLabs,Austin,Design,1781959206
-371,Cybersecurity Specialist,2,Open,2024-02-24,2024-02-24,312,40026,Yearly,SecureNet,San Francisco,Support,5199131138
-372,Graphic Designer,3,Open,2024-04-10,2024-04-10,333,124275,Yearly,CloudSphere,Austin,Design,2258936681
-373,System Administrator,7,Open,2024-04-13,2024-04-13,484,97410,Yearly,NextGen,San Francisco,Finance,2742135991
-374,System Administrator,3,Open,2024-02-12,2024-02-12,450,104909,Yearly,NextGen,Chicago,Cloud,8863012888
-375,ML Engineer,4,Open,2024-02-22,2024-02-22,283,122503,Yearly,BetaSoft,Austin,Technology,4418755756
-376,Backend Developer,2,Open,2024-02-05,2024-02-05,466,41803,Yearly,NextGen,New York,Support,6290044056
-377,Cloud Architect,8,Open,2024-01-16,2024-01-16,292,66338,Yearly,VisionCorp,Seattle,AI,3874125237
-378,Graphic Designer,4,Open,2024-01-17,2024-01-17,234,162492,Yearly,Skyline,Austin,Technology,6656130027
-379,Backend Developer,3,Open,2024-02-21,2024-02-21,325,136801,Yearly,CreativeLabs,San Francisco,Marketing,8231994066
-380,System Administrator,9,Open,2024-03-31,2024-03-31,296,152577,Yearly,PrimeWorks,New York,AI,0727158816
-381,HR Manager,3,Open,2024-02-27,2024-02-27,327,35976,Yearly,BlueWave,Austin,Technology,4924330409
-382,Graphic Designer,4,Open,2024-03-28,2024-03-28,315,88250,Yearly,BetaSoft,San Francisco,Support,9058001509
-383,System Administrator,5,Open,2024-01-14,2024-01-14,460,134409,Yearly,PrimeWorks,Chicago,Technology,3783843211
-384,Sales Executive,2,Open,2024-02-11,2024-02-11,206,110527,Yearly,BlueWave,Austin,Marketing,5121053113
-385,System Administrator,5,Open,2024-01-23,2024-01-23,466,100279,Yearly,BlueWave,Chicago,Marketing,2733711456
-386,Sales Executive,10,Open,2024-04-10,2024-04-10,401,130684,Yearly,CreativeLabs,Seattle,Security,3528758641
-387,AI Engineer,10,Open,2024-04-20,2024-04-20,473,157391,Yearly,BetaSoft,Seattle,Security,2157917964
-388,Sales Executive,1,Open,2024-04-14,2024-04-14,292,96766,Yearly,VisionCorp,Seattle,Technology,3349536374
-389,DevOps Engineer,10,Open,2024-01-02,2024-01-02,324,34557,Yearly,BlueWave,Remote,Cloud,9819453638
-390,Finance Analyst,10,Open,2024-02-28,2024-02-28,438,92346,Yearly,VisionCorp,Boston,Support,7824092172
-391,Cybersecurity Specialist,5,Open,2024-02-18,2024-02-18,471,152257,Yearly,SecureNet,New York,AI,8193016482
-392,UX Designer,5,Open,2024-02-05,2024-02-05,450,105930,Yearly,Skyline,New York,AI,5893735030
-393,Graphic Designer,2,Open,2024-03-14,2024-03-14,365,152034,Yearly,CloudSphere,New York,Design,9319001034
-394,ML Engineer,3,Open,2024-02-07,2024-02-07,379,148313,Yearly,VisionCorp,Seattle,Finance,8087210569
-395,AI Engineer,9,Open,2024-03-18,2024-03-18,479,161218,Yearly,PrimeWorks,Seattle,Marketing,9803140569
-396,Sales Executive,1,Open,2024-03-14,2024-03-14,405,113461,Yearly,PrimeWorks,Seattle,Technology,2459923776
-397,ML Engineer,10,Open,2024-03-30,2024-03-30,279,33020,Yearly,Skyline,Denver,Technology,8489315745
-398,DevOps Engineer,3,Open,2024-02-28,2024-02-28,260,172478,Yearly,VisionCorp,New York,Support,4249662897
-399,System Administrator,5,Open,2024-01-13,2024-01-13,470,131802,Yearly,VisionCorp,Boston,Technology,1332817976
-400,Content Writer,5,Open,2024-04-21,2024-04-21,461,93479,Yearly,PrimeWorks,Chicago,Support,1222506475
-401,QA Tester,7,Open,2024-01-06,2024-01-06,224,61591,Yearly,SecureNet,New York,Security,2969535060
-402,Cloud Architect,3,Open,2024-01-17,2024-01-17,388,152640,Yearly,BetaSoft,Denver,Finance,8323679603
-403,QA Tester,3,Open,2024-02-01,2024-02-01,284,72104,Yearly,PrimeWorks,Austin,Marketing,9505993299
-404,HR Manager,4,Open,2024-01-31,2024-01-31,467,152570,Yearly,BlueWave,New York,Marketing,5458771077
-405,UX Designer,1,Open,2024-01-18,2024-01-18,460,91472,Yearly,AlphaTech,Remote,Marketing,5856962629
-406,Content Writer,1,Open,2024-01-30,2024-01-30,493,176162,Yearly,VisionCorp,Remote,Marketing,3959381235
-407,QA Tester,5,Open,2024-03-23,2024-03-23,479,71796,Yearly,CreativeLabs,Boston,Finance,6048146706
-408,ML Engineer,1,Open,2024-04-28,2024-04-28,413,100844,Yearly,BetaSoft,San Francisco,Cloud,0346252102
-409,AI Engineer,4,Open,2024-03-27,2024-03-27,317,174206,Yearly,PrimeWorks,New York,AI,3327705314
-410,Content Writer,7,Open,2024-02-12,2024-02-12,345,143845,Yearly,Skyline,Boston,Security,2137753572
-411,AI Engineer,2,Open,2024-03-19,2024-03-19,316,74732,Yearly,Skyline,Chicago,Technology,6165377259
-412,Backend Developer,1,Open,2024-03-12,2024-03-12,406,137604,Yearly,BlueWave,San Francisco,Finance,1069388918
-413,Frontend Developer,2,Open,2024-01-16,2024-01-16,200,154396,Yearly,CreativeLabs,San Francisco,Support,3265415121
-414,Frontend Developer,2,Open,2024-04-27,2024-04-27,367,159453,Yearly,CloudSphere,Seattle,Cloud,9955375987
-415,Finance Analyst,6,Open,2024-02-20,2024-02-20,487,113612,Yearly,CloudSphere,Denver,Finance,7577665310
-416,System Administrator,7,Open,2024-01-24,2024-01-24,204,159622,Yearly,NextGen,Boston,Security,3947468854
-417,Backend Developer,1,Open,2024-04-19,2024-04-19,382,157385,Yearly,PrimeWorks,New York,Finance,6161584586
-418,DevOps Engineer,10,Open,2024-04-26,2024-04-26,366,71362,Yearly,BetaSoft,Boston,Marketing,4774707863
-419,Graphic Designer,2,Open,2024-02-09,2024-02-09,253,125035,Yearly,NextGen,San Francisco,AI,3645394991
-420,System Administrator,10,Open,2024-01-18,2024-01-18,378,128743,Yearly,CloudSphere,Chicago,AI,0381945028
-421,Content Writer,3,Open,2024-03-12,2024-03-12,203,84023,Yearly,Skyline,Remote,Marketing,1620365313
-422,System Administrator,9,Open,2024-01-31,2024-01-31,429,74589,Yearly,AlphaTech,San Francisco,Design,6294312340
-423,Frontend Developer,5,Open,2024-01-24,2024-01-24,313,65881,Yearly,CloudSphere,Boston,Design,0746890633
-424,Cybersecurity Specialist,8,Open,2024-02-14,2024-02-14,490,53013,Yearly,VisionCorp,Chicago,Finance,9086735695
-425,UX Designer,10,Open,2024-04-10,2024-04-10,217,115115,Yearly,BetaSoft,Remote,Finance,0344648198
-426,Cloud Architect,2,Open,2024-04-05,2024-04-05,394,143131,Yearly,NextGen,Chicago,Support,0782595900
-427,System Administrator,7,Open,2024-03-06,2024-03-06,288,90208,Yearly,BlueWave,New York,Support,7170588152
-428,DevOps Engineer,5,Open,2024-02-15,2024-02-15,314,103400,Yearly,CloudSphere,Remote,Cloud,9063818555
-429,ML Engineer,7,Open,2024-01-06,2024-01-06,205,151043,Yearly,CreativeLabs,Boston,Support,8696704157
-430,ML Engineer,3,Open,2024-02-03,2024-02-03,419,172398,Yearly,VisionCorp,Remote,Cloud,6078875408
-431,Graphic Designer,9,Open,2024-04-16,2024-04-16,217,158918,Yearly,Skyline,Boston,Design,6566912435
-432,Content Writer,7,Open,2024-03-16,2024-03-16,351,105343,Yearly,VisionCorp,Boston,Design,2607949368
-433,Cloud Architect,2,Open,2024-02-26,2024-02-26,204,85306,Yearly,BetaSoft,Chicago,Security,5106885754
-434,HR Manager,6,Open,2024-04-11,2024-04-11,442,177513,Yearly,NextGen,Seattle,AI,4055557433
-435,Finance Analyst,5,Open,2024-04-28,2024-04-28,365,62861,Yearly,BlueWave,Remote,Finance,5788634745
-436,Sales Executive,6,Open,2024-03-02,2024-03-02,265,176243,Yearly,SecureNet,Boston,Marketing,9604056970
-437,DevOps Engineer,2,Open,2024-01-04,2024-01-04,409,123977,Yearly,SecureNet,Austin,Finance,2155242353
-438,AI Engineer,10,Open,2024-04-09,2024-04-09,227,96738,Yearly,CloudSphere,New York,Technology,9422351402
-439,Graphic Designer,5,Open,2024-01-10,2024-01-10,242,38292,Yearly,BetaSoft,Denver,Finance,1805111660
-440,Cloud Architect,2,Open,2024-03-02,2024-03-02,326,72334,Yearly,Skyline,Boston,Technology,2717061375
-441,Finance Analyst,5,Open,2024-01-31,2024-01-31,419,77911,Yearly,BlueWave,Remote,Marketing,8260088789
-442,Sales Executive,5,Open,2024-03-27,2024-03-27,443,146962,Yearly,BlueWave,San Francisco,Marketing,2272265918
-443,System Administrator,5,Open,2024-03-22,2024-03-22,201,49387,Yearly,VisionCorp,Boston,Finance,6247095481
-444,Frontend Developer,2,Open,2024-01-21,2024-01-21,467,86301,Yearly,Skyline,Remote,AI,5269565726
-445,Cybersecurity Specialist,1,Open,2024-03-01,2024-03-01,237,91732,Yearly,VisionCorp,Remote,Support,0656183406
-446,Content Writer,8,Open,2024-01-13,2024-01-13,225,93917,Yearly,CloudSphere,Boston,Technology,2023036819
-447,System Administrator,3,Open,2024-04-28,2024-04-28,320,149958,Yearly,AlphaTech,Austin,AI,8226454505
-448,Backend Developer,9,Open,2024-02-26,2024-02-26,443,81367,Yearly,VisionCorp,Austin,Finance,9442741461
-449,Frontend Developer,1,Open,2024-02-08,2024-02-08,307,123724,Yearly,CreativeLabs,New York,AI,9708539936
-450,Backend Developer,7,Open,2024-02-06,2024-02-06,295,105009,Yearly,AlphaTech,Chicago,Security,7216098706
-451,UX Designer,3,Open,2024-02-08,2024-02-08,430,43260,Yearly,Skyline,Chicago,Finance,7176970366
-452,System Administrator,5,Open,2024-04-13,2024-04-13,435,175865,Yearly,CreativeLabs,Denver,Technology,8791887461
-453,System Administrator,9,Open,2024-04-01,2024-04-01,262,43349,Yearly,CloudSphere,Denver,Cloud,4072845625
-454,AI Engineer,4,Open,2024-02-26,2024-02-26,374,134371,Yearly,AlphaTech,New York,Design,2681064387
-455,Frontend Developer,7,Open,2024-03-27,2024-03-27,297,114904,Yearly,CloudSphere,Austin,Marketing,6685115950
-456,Frontend Developer,8,Open,2024-04-27,2024-04-27,218,67209,Yearly,CreativeLabs,Boston,AI,5900304392
-457,Content Writer,5,Open,2024-04-17,2024-04-17,302,89210,Yearly,Skyline,Austin,Marketing,3415804215
-458,QA Tester,7,Open,2024-04-08,2024-04-08,342,43610,Yearly,SecureNet,San Francisco,AI,9105059658
-459,Cloud Architect,2,Open,2024-03-16,2024-03-16,247,71034,Yearly,AlphaTech,New York,Finance,2478934852
-460,Frontend Developer,9,Open,2024-02-08,2024-02-08,429,132894,Yearly,Skyline,Chicago,Marketing,9352224643
-461,Finance Analyst,9,Open,2024-02-25,2024-02-25,387,52674,Yearly,CreativeLabs,New York,Security,2766895938
-462,Sales Executive,1,Open,2024-04-26,2024-04-26,444,165124,Yearly,CreativeLabs,San Francisco,Security,0930377034
-463,Backend Developer,7,Open,2024-01-30,2024-01-30,271,116327,Yearly,CloudSphere,Remote,Finance,7132679855
-464,Graphic Designer,8,Open,2024-01-03,2024-01-03,418,41180,Yearly,CloudSphere,New York,Security,0717860106
-465,DevOps Engineer,2,Open,2024-01-25,2024-01-25,303,37982,Yearly,BlueWave,Remote,Cloud,6503570835
-466,UX Designer,4,Open,2024-01-08,2024-01-08,450,127547,Yearly,VisionCorp,Chicago,Cloud,1332901515
-467,Graphic Designer,8,Open,2024-03-11,2024-03-11,240,160995,Yearly,BlueWave,Boston,Cloud,9259553483
-468,DevOps Engineer,9,Open,2024-03-17,2024-03-17,456,94887,Yearly,CloudSphere,Remote,AI,9821495665
-469,Cloud Architect,4,Open,2024-02-26,2024-02-26,330,30188,Yearly,SecureNet,Boston,Finance,6184680357
-470,Frontend Developer,2,Open,2024-03-19,2024-03-19,358,52304,Yearly,VisionCorp,Austin,Technology,6720005177
-471,Frontend Developer,7,Open,2024-01-05,2024-01-05,215,94848,Yearly,AlphaTech,Seattle,Marketing,5228178699
-472,AI Engineer,4,Open,2024-03-17,2024-03-17,299,178917,Yearly,BetaSoft,Remote,Support,2536166995
-473,Backend Developer,1,Open,2024-01-18,2024-01-18,221,75511,Yearly,VisionCorp,New York,Security,5154571199
-474,Backend Developer,3,Open,2024-01-18,2024-01-18,472,175028,Yearly,PrimeWorks,Boston,Support,2297257605
-475,Backend Developer,10,Open,2024-02-15,2024-02-15,388,88352,Yearly,NextGen,Boston,Support,7584873509
-476,DevOps Engineer,7,Open,2024-01-25,2024-01-25,226,129833,Yearly,PrimeWorks,Chicago,Design,4401687321
-477,System Administrator,4,Open,2024-04-12,2024-04-12,357,95144,Yearly,NextGen,Remote,Marketing,5353441567
-478,Backend Developer,7,Open,2024-03-03,2024-03-03,405,82474,Yearly,SecureNet,Boston,Technology,7271565317
-479,Cybersecurity Specialist,4,Open,2024-04-03,2024-04-03,447,96514,Yearly,VisionCorp,Denver,AI,3381758519
-480,Backend Developer,3,Open,2024-03-09,2024-03-09,275,174348,Yearly,SecureNet,New York,Security,8085966435
-481,System Administrator,3,Open,2024-04-04,2024-04-04,204,33086,Yearly,CloudSphere,Denver,Design,9547872958
-482,UX Designer,4,Open,2024-04-15,2024-04-15,282,111752,Yearly,PrimeWorks,Seattle,Technology,9102058276
-483,Frontend Developer,2,Open,2024-04-05,2024-04-05,284,42446,Yearly,CreativeLabs,Chicago,Cloud,8302751174
-484,ML Engineer,3,Open,2024-03-26,2024-03-26,324,142532,Yearly,CloudSphere,Remote,Support,5277341983
-485,Graphic Designer,7,Open,2024-04-23,2024-04-23,363,72240,Yearly,BlueWave,Austin,Marketing,2962843307
-486,UX Designer,10,Open,2024-01-24,2024-01-24,296,86906,Yearly,CloudSphere,Denver,Security,9614461898
-487,QA Tester,6,Open,2024-03-25,2024-03-25,472,133758,Yearly,AlphaTech,Chicago,Security,0052582667
-488,ML Engineer,1,Open,2024-02-13,2024-02-13,416,74824,Yearly,BlueWave,Chicago,AI,1423076484
-489,AI Engineer,5,Open,2024-01-23,2024-01-23,441,105726,Yearly,PrimeWorks,Boston,Finance,1228276623
-490,UX Designer,2,Open,2024-02-24,2024-02-24,498,30534,Yearly,Skyline,Boston,Support,9636148140
-491,Graphic Designer,2,Open,2024-03-23,2024-03-23,205,53172,Yearly,CreativeLabs,Boston,Support,5517031211
-492,Sales Executive,9,Open,2024-02-12,2024-02-12,328,145276,Yearly,NextGen,Seattle,Marketing,5189214024
-493,System Administrator,5,Open,2024-02-09,2024-02-09,368,78423,Yearly,NextGen,Denver,Support,9747565031
-494,Cloud Architect,2,Open,2024-03-29,2024-03-29,347,34226,Yearly,BlueWave,Chicago,Marketing,0527184842
-495,Graphic Designer,9,Open,2024-03-23,2024-03-23,338,39200,Yearly,PrimeWorks,Boston,Design,9990151580
-496,Content Writer,5,Open,2024-02-25,2024-02-25,291,153345,Yearly,SecureNet,Denver,Security,5429423151
-497,HR Manager,5,Open,2024-03-25,2024-03-25,396,41930,Yearly,BetaSoft,New York,Marketing,5119084608
-498,Cloud Architect,6,Open,2024-01-12,2024-01-12,353,39270,Yearly,SecureNet,New York,Security,5499254244
-499,Cloud Architect,7,Open,2024-01-29,2024-01-29,304,178850,Yearly,Skyline,San Francisco,Design,5329134977
-500,System Administrator,6,Open,2024-01-22,2024-01-22,475,168900,Yearly,AlphaTech,San Francisco,AI,1404819462
-501,Content Writer,8,Open,2024-04-25,2024-04-25,432,118101,Yearly,BetaSoft,Seattle,Finance,5092119301
-502,QA Tester,7,Open,2024-02-29,2024-02-29,437,124995,Yearly,BetaSoft,New York,Support,9133794038
-503,Frontend Developer,3,Open,2024-01-22,2024-01-22,438,95814,Yearly,CloudSphere,Seattle,Marketing,0987044959
-504,AI Engineer,8,Open,2024-01-09,2024-01-09,323,179694,Yearly,BlueWave,Seattle,Finance,5181400525
-505,Frontend Developer,4,Open,2024-04-06,2024-04-06,286,68370,Yearly,NextGen,Remote,Support,8707371521
+1,Photographer,1,Closed,2025-09-30 00:00:00,2025-10-01 00:00:00,PID0001,27012,Monthly,Backwater Industries,Kazhakkoottam,Media & Entertainment,+916599310825
+2,Business Development Executive,2,Open,2025-10-13 00:00:00,2025-10-13 00:00:00,PID0002,44349,Monthly,Urban Garden Cafe,Balaramapuram,Finance,+916402418010
+3,Production Supervisor,4,Open,2025-09-04 00:00:00,2025-09-09 00:00:00,PID0003,28515,Monthly,Vision Eye Care,Kazhakkoottam,Healthcare,+918340505846
+4,Waiter,3,Open,2025-10-05 00:00:00,2025-10-10 00:00:00,PID0004,12106,Monthly,Crown Palace Hotel,Neyyattinkara,Food & Beverage,+917815115025
+5,Pharmacist,1,Open,2025-10-09 00:00:00,2025-10-09 00:00:00,PID0005,31029,Monthly,Emerald City Textiles,Kunnamkulam,Healthcare,+917631775357
+6,Financial Advisor,5,Open,2025-10-13 00:00:00,2025-10-18 00:00:00,PID0006,33667,Monthly,Sterling Care Home,Nedumangad,Finance,+917973214822
+7,Graphic Designer,3,Urgent,2025-09-05 00:00:00,2025-09-09 00:00:00,PID0007,31606,Monthly,Techpolis IT Ltd,Karoor,Media & Entertainment,+919802986287
+8,Car Salesman,2,Hold,2025-09-27 00:00:00,2025-09-27 00:00:00,PID0008,21501,Monthly,Nexus Digital Marketing,Balaramapuram,Automotive,+919673561638
+9,Security Guard,3,Open,2025-09-22 00:00:00,2025-09-23 00:00:00,PID0009,13714,Monthly,Velocity Manufacturing,Neyyattinkara,Healthcare,+917589915144
+10,Receptionist,2,Urgent,2025-10-11 00:00:00,2025-10-15 00:00:00,PID0010,25199,Monthly,Cliff View Hotels,Kollayil,Healthcare,+918727210979
+11,Field Sales Representative,5,Open,2025-09-28 00:00:00,2025-10-03 00:00:00,PID0011,31147,Monthly,Tidal Wave Restaurants,Peroorkada,Finance,+918955633092
+12,Delivery Boy,3,Open,2025-10-01 00:00:00,2025-10-01 00:00:00,PID0012,12916,Monthly,Breeze Electronics,Chirayinkil,Logistics & Transport,+919457645390
+13,Office Assistant,4,Open,2025-08-31 00:00:00,2025-09-02 00:00:00,PID0013,23292,Monthly,Spice Valley Logistics,Vizhinjam,Retail,+916913224047
+14,Medical Representative,5,Urgent,2025-09-29 00:00:00,2025-09-30 00:00:00,PID0014,24681,Monthly,Pyramid Boutique,Pappanamcode,Healthcare,+917059257080
+15,Accountant,2,Open,2025-09-08 00:00:00,2025-09-11 00:00:00,PID0015,39038,Monthly,Harmony Healthcare,Ambalamukku,Finance,+917554762903
+16,Production Supervisor,4,Urgent,2025-10-06 00:00:00,2025-10-11 00:00:00,PID0016,23543,Monthly,Twin Wheel Dealers,Balaramapuram,IT & Technology,+916687117441
+17,Store Manager,5,Hold,2025-09-16 00:00:00,2025-09-20 00:00:00,PID0017,44526,Monthly,Velocity Manufacturing,Thiruvananthapuram,Retail,+917079815404
+18,Software Developer,3,Hold,2025-09-02 00:00:00,2025-09-06 00:00:00,PID0018,47507,Monthly,Zenith Automotive,Pangode,IT & Technology,+919224995600
+19,Video Operator,1,Closed,2025-09-18 00:00:00,2025-09-19 00:00:00,PID0019,20808,Monthly,Horizon Business Solutions,Pattom,Media & Entertainment,+917948728483
+20,Medical Representative,1,Hold,2025-10-04 00:00:00,2025-10-08 00:00:00,PID0020,36403,Monthly,Prime Electrical Works,Neyyattinkara,Healthcare,+919919706735
+21,Photographer,2,Open,2025-09-13 00:00:00,2025-09-17 00:00:00,PID0021,38937,Monthly,Palmyra Garment Exports,Chirayinkil,Media & Entertainment,+916854316681
+22,Teacher,4,Open,2025-10-15 00:00:00,2025-10-19 00:00:00,PID0022,37378,Monthly,Golden Gate Auto Dealers,Karoor,Education,+917392239675
+23,Nurse,5,Open,2025-09-30 00:00:00,2025-09-30 00:00:00,PID0023,32076,Monthly,Rainbow Supermarket,Chelari,Healthcare,+917034535593
+24,Cashier,2,Open,2025-10-11 00:00:00,2025-10-15 00:00:00,PID0024,18684,Monthly,Prime Electrical Works,Kannanmoola,Retail,+919289233844
+25,Receptionist,2,Urgent,2025-09-12 00:00:00,2025-09-16 00:00:00,PID0025,16705,Monthly,Pathways Education Center,Karoor,Retail,+917817363615
+26,Teacher,3,Open,2025-08-31 00:00:00,2025-09-02 00:00:00,PID0026,26591,Monthly,Prime Electrical Works,Kollayil,Education,+917713658874
+27,Electrician,1,Urgent,2025-10-01 00:00:00,2025-10-01 00:00:00,PID0027,20061,Monthly,Smart Home Systems,Pattom,Construction,+917452066459
+28,Carpenter,1,Open,2025-10-15 00:00:00,2025-10-15 00:00:00,PID0028,18608,Monthly,Pearl Fashion Retail,Ambalamukku,Construction,+919040153710
+29,Store Manager,3,Closed,2025-10-11 00:00:00,2025-10-15 00:00:00,PID0029,35827,Monthly,Ananthapuri Motors,Chavadimula,Retail,+917022222125
+30,Garment Quality Checker,2,Hold,2025-09-09 00:00:00,2025-09-13 00:00:00,PID0030,18167,Monthly,Emerald City Textiles,Karoor,Textiles,+918030106617
+31,Tailor,4,Open,2025-10-09 00:00:00,2025-10-09 00:00:00,PID0031,17119,Monthly,Pinnacle Security Systems,Vazhuthacaud,Textiles,+918830309370
+32,Cook,1,Open,2025-10-12 00:00:00,2025-10-17 00:00:00,PID0032,26945,Monthly,Heritage Bakery & Cafe,Pappanamcode,Food & Beverage,+918806569935
+33,Content Writer,5,Open,2025-09-30 00:00:00,2025-10-01 00:00:00,PID0033,21580,Monthly,Prime Electrical Works,Sreekariyam,Media & Entertainment,+916816941039
+34,Hospital Attendant,1,Open,2025-09-16 00:00:00,2025-09-17 00:00:00,PID0034,18563,Monthly,Elegance Salon Group,Peroorkada,Healthcare,+919755888575
+35,Mobile App Developer,5,Hold,2025-10-09 00:00:00,2025-10-09 00:00:00,PID0035,81066,Monthly,Compass Navigation Services,Chavadimula,IT & Technology,+918800940984
+36,Software Developer,4,Open,2025-10-05 00:00:00,2025-10-08 00:00:00,PID0036,55491,Monthly,Techpolis IT Ltd,Chempu,IT & Technology,+918085812759
+37,Insurance Agent,3,Hold,2025-09-21 00:00:00,2025-09-21 00:00:00,PID0037,16921,Monthly,Ocean View IT Park,Chelari,Automotive,+917676848676
+38,Quality Assurance Officer,4,Open,2025-09-10 00:00:00,2025-09-15 00:00:00,PID0038,33861,Monthly,Global Trade Partners,Kesavadasapuram,Healthcare,+919085540042
+39,Car Salesman,5,Open,2025-09-25 00:00:00,2025-09-25 00:00:00,PID0039,21916,Monthly,Seaview Photography Studio,Vizhinjam,Retail,+916215359682
+40,Production Supervisor,2,Open,2025-09-13 00:00:00,2025-09-13 00:00:00,PID0040,27158,Monthly,Quantum Software Ltd,Akkulam,IT & Technology,+919656488400
+41,Hair Stylist,5,Open,2025-09-20 00:00:00,2025-09-20 00:00:00,PID0041,15853,Monthly,Spice Valley Logistics,Piravantoor,Beauty & Wellness,+919823754905
+42,Beauty Therapist,5,Urgent,2025-10-10 00:00:00,2025-10-13 00:00:00,PID0042,23147,Monthly,Vision Eye Care,Thampanoor,Beauty & Wellness,+918823396242
+43,Electrician,3,Open,2025-10-02 00:00:00,2025-10-07 00:00:00,PID0043,20272,Monthly,Breeze Electronics,Chempu,Construction,+919076020365
+44,Accountant,3,Hold,2025-09-04 00:00:00,2025-09-06 00:00:00,PID0044,47009,Monthly,Ocean View IT Park,Kowdiar,Finance,+917963764597
+45,Store Manager,2,Urgent,2025-10-09 00:00:00,2025-10-09 00:00:00,PID0045,43448,Monthly,Travancore IT Solutions,Pappanamcode,Retail,+918309122187
+46,Accountant,3,Open,2025-10-11 00:00:00,2025-10-12 00:00:00,PID0046,36436,Monthly,Prosperity Auto Parts,Chempu,Finance,+917587106770
+47,Waiter,1,Closed,2025-09-06 00:00:00,2025-09-11 00:00:00,PID0047,16956,Monthly,Majestic Restaurants,Karoor,Food & Beverage,+918271782991
+48,Database Administrator,1,Closed,2025-10-07 00:00:00,2025-10-09 00:00:00,PID0048,41788,Monthly,Momentum Consulting,Kesavadasapuram,IT & Technology,+916495762348
+49,Carpenter,3,Open,2025-09-07 00:00:00,2025-09-08 00:00:00,PID0049,19616,Monthly,Sunrise Hospital & Clinic,Neyyattinkara,Construction,+919082120871
+50,Delivery Boy,1,Open,2025-09-13 00:00:00,2025-09-16 00:00:00,PID0050,16325,Monthly,Stellar Industrial Solutions,Chavadimula,Logistics & Transport,+917078557553
+51,Photographer,2,Closed,2025-10-13 00:00:00,2025-10-13 00:00:00,PID0051,27066,Monthly,Elegance Salon Group,Chirayinkil,Media & Entertainment,+917432614422
+52,Accountant,5,Open,2025-09-10 00:00:00,2025-09-15 00:00:00,PID0052,39478,Monthly,Golden Gate Auto Dealers,Pangode,Finance,+917836901321
+53,Nurse,3,Urgent,2025-09-11 00:00:00,2025-09-11 00:00:00,PID0053,26884,Monthly,Spice Valley Logistics,Chelari,Healthcare,+919584558315
+54,Carpenter,1,Open,2025-10-13 00:00:00,2025-10-15 00:00:00,PID0054,17088,Monthly,Sunrise Hospital & Clinic,Vazhuthacaud,Construction,+917566166314
+55,Mechanic,5,Hold,2025-10-09 00:00:00,2025-10-11 00:00:00,PID0055,25927,Monthly,Zenith Automotive,Attingal,Automotive,+919350573756
+56,Chef,2,Open,2025-09-30 00:00:00,2025-10-01 00:00:00,PID0056,25064,Monthly,Dynamite Construction Ltd,Pangode,Food & Beverage,+919435488617
+57,IT Support Executive,2,Open,2025-09-19 00:00:00,2025-09-24 00:00:00,PID0057,25442,Monthly,Swift Delivery Services,Pangode,IT & Technology,+919711126727
+58,Lab Technician,4,Open,2025-09-21 00:00:00,2025-09-21 00:00:00,PID0058,17771,Monthly,Crown Laundry Services,Kollayil,Healthcare,+919687629943
+59,Car Salesman,1,Closed,2025-09-26 00:00:00,2025-09-27 00:00:00,PID0059,35083,Monthly,Radiant Energy Solutions,Chempu,Insurance,+916957449367
+60,Car Salesman,5,Open,2025-09-28 00:00:00,2025-09-30 00:00:00,PID0060,29129,Monthly,Ocean View IT Park,Sreekariyam,Retail,+918755143093
+61,Delivery Boy,3,Open,2025-10-14 00:00:00,2025-10-14 00:00:00,PID0061,17425,Monthly,Majestic Restaurants,Karoor,Logistics & Transport,+919766851291
+62,Beauty Therapist,3,Open,2025-09-07 00:00:00,2025-09-10 00:00:00,PID0062,14776,Monthly,Marina Beauty & Spa,Thampanoor,Beauty & Wellness,+917484714820
+63,Hair Stylist,1,Closed,2025-09-09 00:00:00,2025-09-10 00:00:00,PID0063,18311,Monthly,Precision Engineering Works,Pattom,Beauty & Wellness,+917094024844
+64,Cook,2,Open,2025-09-02 00:00:00,2025-09-07 00:00:00,PID0064,23821,Monthly,Travancore IT Solutions,Akkulam,Food & Beverage,+919186651306
+65,Cook,1,Closed,2025-09-06 00:00:00,2025-09-08 00:00:00,PID0065,20409,Monthly,Spice Valley Logistics,Piravantoor,Food & Beverage,+918849227494
+66,HR Executive,3,Urgent,2025-09-25 00:00:00,2025-09-28 00:00:00,PID0066,46852,Monthly,Precision Engineering Works,Kesavadasapuram,Finance,+918994487334
+67,Hospital Attendant,2,Urgent,2025-09-02 00:00:00,2025-09-07 00:00:00,PID0067,20211,Monthly,Lighthouse Medical Center,Vazhuthacaud,Healthcare,+919877520294
+68,Mason,2,Open,2025-10-15 00:00:00,2025-10-17 00:00:00,PID0068,22977,Monthly,Palmyra Garment Exports,Thiruvananthapuram,Construction,+917232285036
+69,Quality Assurance Officer,2,Urgent,2025-09-17 00:00:00,2025-09-20 00:00:00,PID0069,30559,Monthly,Crown Palace Hotel,Nedumangad,Retail,+918901796894
+70,Tailor,3,Urgent,2025-10-05 00:00:00,2025-10-10 00:00:00,PID0070,27042,Monthly,Crown Laundry Services,Chelari,Textiles,+916364194056
+71,Receptionist,2,Hold,2025-09-30 00:00:00,2025-10-05 00:00:00,PID0071,19491,Monthly,Stellar Industrial Solutions,Nedumangad,IT & Technology,+917333241445
+72,Car Salesman,1,Open,2025-09-15 00:00:00,2025-09-19 00:00:00,PID0072,21514,Monthly,Sunrise Hospital & Clinic,Kazhakkoottam,Automotive,+919649595613
+73,Chef,4,Open,2025-10-03 00:00:00,2025-10-08 00:00:00,PID0073,38863,Monthly,Thrive Wellness Center,Aryanad,Food & Beverage,+918990818727
+74,Content Writer,2,Hold,2025-10-09 00:00:00,2025-10-12 00:00:00,PID0074,18181,Monthly,Tidal Wave Restaurants,Kowdiar,Media & Entertainment,+916939915527
+75,Warehouse Operator,1,Open,2025-09-10 00:00:00,2025-09-11 00:00:00,PID0075,14822,Monthly,Comfort Furniture Store,Pappanamcode,Logistics & Transport,+919940503685
