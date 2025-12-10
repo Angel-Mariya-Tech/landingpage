@@ -137,8 +137,14 @@ export const Hero = () => {
         <div className="max-w-3xl mx-auto relative">
           <button
             onClick={openWhatsApp}
-            className="group relative inline-flex items-center gap-3 bg-card border-2 border-border hover:border-primary/50 px-8 py-4 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5"
+            className="group relative inline-flex items-center gap-3 bg-card border-2 border-border hover:border-primary/50 px-8 py-4 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5 animate-[whatsapp-glow_2s_ease-in-out_infinite]"
+            style={{
+              boxShadow: '0 0 20px rgba(37, 211, 102, 0.3), 0 0 40px rgba(37, 211, 102, 0.1)',
+            }}
           >
+            {/* Pulsing glow ring */}
+            <div className="absolute inset-0 rounded-2xl bg-[#25D366]/10 animate-ping opacity-30" style={{ animationDuration: '2s' }} />
+            
             <div className="flex items-center justify-center w-12 h-12 rounded-xl bg-[#25D366] text-white shadow-md group-hover:scale-105 transition-transform duration-300">
               <FaWhatsapp className="w-6 h-6" />
             </div>
