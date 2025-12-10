@@ -135,14 +135,19 @@ export const Hero = () => {
         </p>
 
         <div className="max-w-3xl mx-auto relative">
-          <Button
-            size="lg"
+          <button
             onClick={openWhatsApp}
-            className="bg-gradient-to-r from-[#25D366] to-[#128C7E] text-white border-none hover:opacity-90 font-bold w-full md:w-auto text-lg py-6 px-8 rounded-full shadow-[0_4px_14px_0_rgba(37,211,102,0.39)] hover:shadow-[0_6px_20px_rgba(37,211,102,0.23)] hover:-translate-y-1 transition-all duration-300 ease-in-out inline-flex items-center justify-center gap-2 group"
+            className="group relative inline-flex items-center gap-3 bg-card border-2 border-border hover:border-primary/50 px-8 py-4 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5"
           >
-            <FaWhatsapp className="w-7 h-7 group-hover:scale-110 transition-transform duration-300" />
-            <span>Connect on WhatsApp</span>
-          </Button>
+            <div className="flex items-center justify-center w-12 h-12 rounded-xl bg-[#25D366] text-white shadow-md group-hover:scale-105 transition-transform duration-300">
+              <FaWhatsapp className="w-6 h-6" />
+            </div>
+            <div className="text-left">
+              <span className="block text-xs text-muted-foreground font-medium">Chat with us on</span>
+              <span className="block text-lg font-bold text-foreground">WhatsApp</span>
+            </div>
+            <ArrowRight className="w-5 h-5 text-muted-foreground group-hover:text-primary group-hover:translate-x-1 transition-all duration-300 ml-2" />
+          </button>
         </div>
 
         {/* Popular searches and stats */}
