@@ -14,8 +14,7 @@ export const Hero = () => {
   };
 
   const openWhatsApp = () => {
-    // Replace with your WhatsApp number
-    window.open("https://wa.me/919562789498", "_blank");
+    window.open("https://wa.me/919745608245", "_blank");
   };
 
   return (
@@ -51,7 +50,7 @@ export const Hero = () => {
         {/* Floating lines */}
         <div className="absolute top-[35%] left-0 w-32 h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent animate-[slide-right_8s_ease-in-out_infinite]" />
         <div className="absolute top-[65%] right-0 w-40 h-px bg-gradient-to-l from-transparent via-accent/30 to-transparent animate-[slide-left_10s_ease-in-out_infinite]" style={{ animationDelay: '2s' }} />
-        
+
         {/* Angel wings background */}
         <AngelWings />
       </div>
@@ -108,11 +107,11 @@ export const Hero = () => {
               <button onClick={() => scrollToSection("platforms")} className="text-left px-4 py-3 rounded-xl hover:bg-accent/5 hover:text-accent transition-colors font-medium text-muted-foreground">Solutions</button>
               <button onClick={() => scrollToSection("jobs")} className="text-left px-4 py-3 rounded-xl hover:bg-accent/5 hover:text-accent transition-colors font-medium text-muted-foreground">Find Jobs</button>
               <button onClick={() => scrollToSection("testimonials")} className="text-left px-4 py-3 rounded-xl hover:bg-accent/5 hover:text-accent transition-colors font-medium text-muted-foreground">Testimonials</button>
-              <button 
+              <button
                 onClick={() => {
                   window.open("https://forms.gle/YpdWtMgbuj4E7cpH9", "_blank");
                   setMobileMenuOpen(false);
-                }} 
+                }}
                 className="text-left px-4 py-3 rounded-xl bg-primary text-primary-foreground font-medium transition-colors mt-2"
               >
                 Contact Us
@@ -144,7 +143,7 @@ export const Hero = () => {
           >
             {/* Pulsing glow ring */}
             <div className="absolute inset-0 rounded-2xl bg-[#25D366]/10 animate-ping opacity-30" style={{ animationDuration: '2s' }} />
-            
+
             <div className="flex items-center justify-center w-12 h-12 rounded-xl bg-[#25D366] text-white shadow-md group-hover:scale-105 transition-transform duration-300">
               <FaWhatsapp className="w-6 h-6" />
             </div>
