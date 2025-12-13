@@ -29,10 +29,7 @@ export const JobCard = ({ vacancy }: JobCardProps) => {
           <p className={`text-xs ${colorScheme.text} font-medium`}>
             Actively Hiring
           </p>
-          <p className="text-sm font-semibold text-foreground/80 mt-2">
-            {vacancy.job_providers?.name || 'Unknown Company'}
-          </p>
-          <h4 className="text-xl font-bold mt-1 text-foreground">
+          <h4 className="text-xl font-bold mt-2 text-foreground">
             {vacancy.job_title}
           </h4>
         </div>
