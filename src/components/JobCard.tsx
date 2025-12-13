@@ -58,9 +58,9 @@ export const JobCard = ({ vacancy }: JobCardProps) => {
                 <span className="text-sm font-normal text-muted-foreground">/{vacancy.salary_type}</span>
               )}
             </p>
-            <p className="text-sm text-muted-foreground flex items-center gap-1 mt-1">
-              <MapPin className="w-4 h-4" />
-              {vacancy.job_providers?.location || 'Location not available'}
+            <p className="text-sm text-muted-foreground flex items-start gap-1 mt-1">
+              <MapPin className="w-4 h-4 flex-shrink-0 mt-0.5" />
+              <span className="break-words">{vacancy.job_providers?.location || 'Location not available'}</span>
             </p>
           </div>
           <Button
