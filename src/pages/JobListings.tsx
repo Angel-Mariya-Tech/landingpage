@@ -87,7 +87,7 @@ const JobListings = () => {
                 variant="default"
                 size="sm"
                 className="hidden lg:inline-flex"
-                onClick={() => window.open("https://forms.gle/YpdWtMgbuj4E7cpH9", "_blank")}
+                onClick={() => window.open("https://forms.gle/cidyXkqgpMXQFSxu9", "_blank")}
               >
                 Contact Us
               </Button>
@@ -118,11 +118,11 @@ const JobListings = () => {
                 <Link to="/jobs" className="text-left px-4 py-3 rounded-xl bg-primary/5 text-primary font-medium transition-colors" onClick={() => setMobileMenuOpen(false)}>
                   Find Jobs
                 </Link>
-                <button 
+                <button
                   onClick={() => {
-                    window.open("https://forms.gle/YpdWtMgbuj4E7cpH9", "_blank");
+                    window.open("https://forms.gle/cidyXkqgpMXQFSxu9", "_blank");
                     setMobileMenuOpen(false);
-                  }} 
+                  }}
                   className="text-left px-4 py-3 rounded-xl bg-primary text-primary-foreground font-medium transition-colors mt-2"
                 >
                   Contact Us

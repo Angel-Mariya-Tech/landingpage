@@ -80,7 +80,7 @@ export const Hero = () => {
                 variant="default"
                 size="sm"
                 className="hidden lg:inline-flex"
-                onClick={() => window.open("https://forms.gle/YpdWtMgbuj4E7cpH9", "_blank")}
+                onClick={() => window.open("https://forms.gle/cidyXkqgpMXQFSxu9", "_blank")}
               >
                 Contact Us
               </Button>
@@ -109,7 +109,7 @@ export const Hero = () => {
               <button onClick={() => scrollToSection("testimonials")} className="text-left px-4 py-3 rounded-xl hover:bg-accent/5 hover:text-accent transition-colors font-medium text-muted-foreground">Testimonials</button>
               <button
                 onClick={() => {
-                  window.open("https://forms.gle/YpdWtMgbuj4E7cpH9", "_blank");
+                  window.open("https://forms.gle/cidyXkqgpMXQFSxu9", "_blank");
                   setMobileMenuOpen(false);
                 }}
                 className="text-left px-4 py-3 rounded-xl bg-primary text-primary-foreground font-medium transition-colors mt-2"

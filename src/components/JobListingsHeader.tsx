@@ -21,7 +21,7 @@ export const JobListingsHeader = () => {
             <Button
               variant="default"
               size="sm"
-              onClick={() => window.open("https://forms.gle/YpdWtMgbuj4E7cpH9", "_blank")}
+              onClick={() => window.open("https://forms.gle/cidyXkqgpMXQFSxu9", "_blank")}
             >
               Contact Us
             </Button>

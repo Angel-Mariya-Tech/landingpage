@@ -19,7 +19,7 @@ export const JobCard = ({ vacancy }: JobCardProps) => {
   const colorScheme = cardColors[Math.floor(Math.random() * cardColors.length)];
 
   const handleApply = () => {
-    window.open("https://forms.gle/YpdWtMgbuj4E7cpH9", "_blank");
+    window.open("https://forms.gle/cidyXkqgpMXQFSxu9", "_blank");
   };
 
   return (

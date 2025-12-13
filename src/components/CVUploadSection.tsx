@@ -16,7 +16,7 @@ export const CVUploadSection = () => {
             <Button
               size="lg"
               className="bg-primary text-primary-foreground hover:bg-primary/90 font-semibold"
-              onClick={() => window.open("https://forms.gle/YpdWtMgbuj4E7cpH9", "_blank")}
+              onClick={() => window.open("https://forms.gle/cidyXkqgpMXQFSxu9", "_blank")}
             >
               Contact Us
             </Button>
@@ -37,7 +37,7 @@ export const CVUploadSection = () => {
                 <Button
                   size="lg"
                   className="w-full bg-primary text-primary-foreground hover:bg-primary/90 font-semibold py-6 text-lg"
-                  onClick={() => window.open("https://forms.gle/YpdWtMgbuj4E7cpH9", "_blank")}
+                  onClick={() => window.open("https://forms.gle/cidyXkqgpMXQFSxu9", "_blank")}
                 >
                   Open Application Form
                 </Button>

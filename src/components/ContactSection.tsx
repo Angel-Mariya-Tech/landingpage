@@ -118,7 +118,7 @@ export const ContactSection = () => {
                 <Button
                   size="lg"
                   className="w-full md:max-w-xs text-base md:text-lg py-6 md:py-7 rounded-xl shadow-lg shadow-primary/20 hover:shadow-xl hover:shadow-primary/30 transition-all duration-300"
-                  onClick={() => window.open("https://forms.gle/YpdWtMgbuj4E7cpH9", "_blank")}
+                  onClick={() => window.open("https://forms.gle/cidyXkqgpMXQFSxu9", "_blank")}
                 >
                   Open Contact Form
                 </Button>
