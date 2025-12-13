@@ -25,15 +25,32 @@ export const useVacancies = () => {
       const response = await fetch("/jobs.csv");
       const text = await response.text();
 
-      // Simple CSV parser
+      // CSV parser that handles quoted values with commas
+      const parseCSVRow = (row: string): string[] => {
+        const result: string[] = [];
+        let current = '';
+        let inQuotes = false;
+        
+        for (let i = 0; i < row.length; i++) {
+          const char = row[i];
+          if (char === '"') {
+            inQuotes = !inQuotes;
+          } else if (char === ',' && !inQuotes) {
+            result.push(current.trim());
+            current = '';
+          } else {
+            current += char;
+          }
+        }
+        result.push(current.trim());
+        return result;
+      };
+
       const rows = text.split("\n").map(row => row.trim()).filter(row => row.length > 0);
-      const headers = rows[0].split(",").map(h => h.trim());
+      const headers = parseCSVRow(rows[0]);
 
       const data = rows.slice(1).map(row => {
-        // Handle potential commas in values by respecting quotes if we were using a library,
-        // but for simple usage we'll assume no commas in values for now or basic split.
-        // A slightly more robust regex split could be used if needed.
-        const values = row.split(",");
+        const values = parseCSVRow(row);
         const item: any = {};
 
         headers.forEach((header, index) => {
