@@ -72,7 +72,7 @@ export const ContactSection = () => {
                 <div className="font-semibold text-base md:text-lg mb-2">Office Location</div>
                 <p className="text-sm md:text-base text-muted-foreground">
                   Neyyattinkara<br />
-                  Thiruvananthapuram, Kerala, 695133
+                  Thiruvananthapuram, Kerala, 695121
                 </p>
               </div>
             </div>
