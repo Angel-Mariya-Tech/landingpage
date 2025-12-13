@@ -22,7 +22,7 @@ export const useVacancies = () => {
   return useQuery({
     queryKey: ["vacancies"],
     queryFn: async () => {
-      const response = await fetch("/jobs.csv");
+      const response = await fetch(`/jobs.csv?v=${Date.now()}`);
       const text = await response.text();
 
       // CSV parser that handles quoted values with commas
