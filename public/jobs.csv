@@ -1,76 +1,76 @@
 id,job_title,openings,status,created_at,updated_at,provider_id,salary,salary_type,provider_name,provider_location,provider_industry,provider_contact_number
-1,Photographer,1,Closed,2025-09-30 00:00:00,2025-10-01 00:00:00,PID0001,27000,Monthly,Backwater Industries,"Kazhakkoottam, Technopark, Sreekaryam",Media & Entertainment,916599310825
-2,Business Development Executive,2,Open,2025-10-13 00:00:00,2025-10-13 00:00:00,PID0002,36500,Monthly,Urban Garden Cafe,"Balaramapuram, Neyyattinkara, Vellanad",Finance,916402418010
-3,Production Supervisor,4,Open,2025-09-04 00:00:00,2025-09-09 00:00:00,PID0003,25000,Monthly,Vision Eye Care,"Kazhakkoottam, Pallipuram, Kulathoor",Healthcare,918340505846
-4,Waiter,3,Open,2025-10-05 00:00:00,2025-10-10 00:00:00,PID0004,20000,Monthly,Crown Palace Hotel,"Neyyattinkara, Parassala, Amaravila",Food & Beverage,917815115025
-5,Pharmacist,1,Open,2025-10-09 00:00:00,2025-10-09 00:00:00,PID0005,33500,Monthly,Emerald City Textiles,"Pattom, Kowdiar, Vellayambalam",Healthcare,917631775357
-6,Financial Advisor,5,Open,2025-10-13 00:00:00,2025-10-18 00:00:00,PID0006,33500,Monthly,Sterling Care Home,"Nedumangad, Aruvikkara, Vithura",Finance,917973214822
-7,Graphic Designer,3,Urgent,2025-09-05 00:00:00,2025-09-09 00:00:00,PID0007,27000,Monthly,Techpolis IT Ltd,"Karoor, Pattom, Vazhuthacaud",Media & Entertainment,919802986287
-8,Car Salesman,2,Hold,2025-09-27 00:00:00,2025-09-27 00:00:00,PID0008,21500,Monthly,Nexus Digital Marketing,"Balaramapuram, Kalliyoor, Venganoor",Automotive,919673561638
-9,Security Guard,3,Open,2025-09-22 00:00:00,2025-09-23 00:00:00,PID0009,22000,Monthly,Velocity Manufacturing,"Neyyattinkara, Kattakada, Pothencode",Healthcare,917589915144
-10,Receptionist,2,Urgent,2025-10-11 00:00:00,2025-10-15 00:00:00,PID0010,18500,Monthly,Cliff View Hotels,"Kollayil, Peroorkada, Kesavadasapuram",Healthcare,918727210979
-11,Field Sales Representative,5,Open,2025-09-28 00:00:00,2025-10-03 00:00:00,PID0011,34000,Monthly,Tidal Wave Restaurants,"Peroorkada, Ulloor, Akkulam",Finance,918955633092
-12,Delivery Boy,3,Open,2025-10-01 00:00:00,2025-10-01 00:00:00,PID0012,21000,Monthly,Breeze Electronics,"Chirayinkil, Kadakkavoor, Anchuthengu",Logistics & Transport,919457645390
-13,Office Assistant,4,Open,2025-08-31 00:00:00,2025-09-02 00:00:00,PID0013,20000,Monthly,Spice Valley Logistics,"Vizhinjam, Kovalam, Poovar",Retail,916913224047
-14,Medical Representative,5,Urgent,2025-09-29 00:00:00,2025-09-30 00:00:00,PID0014,22000,Monthly,Pyramid Boutique,"Pappanamcode, Pettah, Manacaud",Healthcare,917059257080
-15,Accountant,2,Open,2025-09-08 00:00:00,2025-09-11 00:00:00,PID0015,31000,Monthly,Harmony Healthcare,"Ambalamukku, Kowdiar, Pattom",Finance,917554762903
-16,Production Supervisor,4,Urgent,2025-10-06 00:00:00,2025-10-11 00:00:00,PID0016,28000,Monthly,Twin Wheel Dealers,"Balaramapuram, Parasuvaikkal, Vellanad",IT & Technology,916687117441
-17,Store Manager,5,Hold,2025-09-16 00:00:00,2025-09-20 00:00:00,PID0017,38500,Monthly,Velocity Manufacturing,"Thiruvananthapuram, Thampanoor, Palayam",Retail,917079815404
-18,Software Developer,3,Hold,2025-09-02 00:00:00,2025-09-06 00:00:00,PID0018,61000,Monthly,Zenith Automotive,"Pangode, Mannanthala, Peyad",IT & Technology,919224995600
-19,Video Operator,1,Closed,2025-09-18 00:00:00,2025-09-19 00:00:00,PID0019,22000,Monthly,Horizon Business Solutions,"Pattom, Kesavadasapuram, Ulloor",Media & Entertainment,917948728483
-20,Medical Representative,1,Hold,2025-10-04 00:00:00,2025-10-08 00:00:00,PID0020,30500,Monthly,Prime Electrical Works,"Neyyattinkara, Amaravila, Parassala",Healthcare,919919706735
-21,Photographer,2,Open,2025-09-13 00:00:00,2025-09-17 00:00:00,PID0021,23500,Monthly,Palmyra Garment Exports,"Chirayinkil, Attingal, Varkala",Media & Entertainment,916854316681
-22,Teacher,4,Open,2025-10-15 00:00:00,2025-10-19 00:00:00,PID0022,36000,Monthly,Golden Gate Auto Dealers,"Karoor, Pattom, Nanthancode",Education,917392239675
-23,Nurse,5,Open,2025-09-30 00:00:00,2025-09-30 00:00:00,PID0023,35000,Monthly,Rainbow Supermarket,"Chelari, Varkala, Attingal",Healthcare,917034535593
-24,Cashier,2,Open,2025-10-11 00:00:00,2025-10-15 00:00:00,PID0024,23500,Monthly,Prime Electrical Works,"Kannanmoola, Pallimukku, Thycaud",Retail,919289233844
-25,Receptionist,2,Urgent,2025-09-12 00:00:00,2025-09-16 00:00:00,PID0025,22000,Monthly,Pathways Education Center,"Karoor, Vazhuthacaud, Kowdiar",Retail,917817363615
-26,Teacher,3,Open,2025-08-31 00:00:00,2025-09-02 00:00:00,PID0026,31500,Monthly,Prime Electrical Works,"Kollayil, Sreekaryam, Ulloor",Education,917713658874
-27,Electrician,1,Urgent,2025-10-01 00:00:00,2025-10-01 00:00:00,PID0027,23500,Monthly,Smart Home Systems,"Pattom, Edapazhanji, Sasthamangalam",Construction,917452066459
-28,Carpenter,1,Open,2025-10-15 00:00:00,2025-10-15 00:00:00,PID0028,25000,Monthly,Pearl Fashion Retail,"Ambalamukku, Peroorkada, Vattiyoorkavu",Construction,919040153710
-29,Store Manager,3,Closed,2025-10-11 00:00:00,2025-10-15 00:00:00,PID0029,44000,Monthly,Ananthapuri Motors,"Chavadimula, Pothencode, Mannanthala",Retail,917022222125
-30,Garment Quality Checker,2,Hold,2025-09-09 00:00:00,2025-09-13 00:00:00,PID0030,20000,Monthly,Emerald City Textiles,"Karoor, Pattom, Vellayambalam",Textiles,918030106617
-31,Tailor,4,Open,2025-10-09 00:00:00,2025-10-09 00:00:00,PID0031,24000,Monthly,Pinnacle Security Systems,"Vazhuthacaud, Statue, Palayam",Textiles,918830309370
-32,Cook,1,Open,2025-10-12 00:00:00,2025-10-17 00:00:00,PID0032,22000,Monthly,Heritage Bakery & Cafe,"Pappanamcode, Nemom, Peyad",Food & Beverage,918806569935
-33,Content Writer,5,Open,2025-09-30 00:00:00,2025-10-01 00:00:00,PID0033,22500,Monthly,Prime Electrical Works,"Sreekariyam, Technopark, Kazhakkoottam",Media & Entertainment,916816941039
-34,Hospital Attendant,1,Open,2025-09-16 00:00:00,2025-09-17 00:00:00,PID0034,23500,Monthly,Elegance Salon Group,"Peroorkada, Vattiyoorkavu, Nedumcaud",Healthcare,919755888575
-35,Mobile App Developer,5,Hold,2025-10-09 00:00:00,2025-10-09 00:00:00,PID0035,73500,Monthly,Compass Navigation Services,"Chavadimula, Pothencode, Venjaramoodu",IT & Technology,918800940984
-36,Software Developer,4,Open,2025-10-05 00:00:00,2025-10-08 00:00:00,PID0036,55500,Monthly,Techpolis IT Ltd,"Technopark, Kazhakkoottam, Pallipuram",IT & Technology,918085812759
-37,Insurance Agent,3,Hold,2025-09-21 00:00:00,2025-09-21 00:00:00,PID0037,24000,Monthly,Ocean View IT Park,"Chelari, Varkala, Attingal",Automotive,917676848676
-38,Quality Assurance Officer,4,Open,2025-09-10 00:00:00,2025-09-15 00:00:00,PID0038,27000,Monthly,Global Trade Partners,"Kesavadasapuram, Pattom, Nanthancode",Healthcare,919085540042
-39,Car Salesman,5,Open,2025-09-25 00:00:00,2025-09-25 00:00:00,PID0039,23000,Monthly,Seaview Photography Studio,"Vizhinjam, Kovalam, Poovar",Retail,916215359682
-40,Production Supervisor,2,Open,2025-09-13 00:00:00,2025-09-13 00:00:00,PID0040,30000,Monthly,Quantum Software Ltd,"Akkulam, Ulloor, Kesavadasapuram",IT & Technology,919656488400
-41,Hair Stylist,5,Open,2025-09-20 00:00:00,2025-09-20 00:00:00,PID0041,18500,Monthly,Spice Valley Logistics,"Piravantoor, Neyyattinkara, Balaramapuram",Beauty & Wellness,919823754905
-42,Beauty Therapist,5,Urgent,2025-10-10 00:00:00,2025-10-13 00:00:00,PID0042,19000,Monthly,Vision Eye Care,"Thampanoor, East Fort, Palayam",Beauty & Wellness,918823396242
-43,Electrician,3,Open,2025-10-02 00:00:00,2025-10-07 00:00:00,PID0043,26000,Monthly,Breeze Electronics,"Technopark, Sreekaryam, Pallipuram",Construction,919076020365
-44,Accountant,3,Hold,2025-09-04 00:00:00,2025-09-06 00:00:00,PID0044,31500,Monthly,Ocean View IT Park,"Kowdiar, Pattom, Vellayambalam",Finance,917963764597
-45,Store Manager,2,Urgent,2025-10-09 00:00:00,2025-10-09 00:00:00,PID0045,40500,Monthly,Travancore IT Solutions,"Pappanamcode, Nemom, Mannanthala",Retail,918309122187
-46,Accountant,3,Open,2025-10-11 00:00:00,2025-10-12 00:00:00,PID0046,43500,Monthly,Prosperity Auto Parts,"Technopark, Kazhakkoottam, Kulathoor",Finance,917587106770
-47,Waiter,1,Closed,2025-09-06 00:00:00,2025-09-11 00:00:00,PID0047,20500,Monthly,Majestic Restaurants,"Karoor, Pattom, Kesavadasapuram",Food & Beverage,918271782991
-48,Database Administrator,1,Closed,2025-10-07 00:00:00,2025-10-09 00:00:00,PID0048,49500,Monthly,Momentum Consulting,"Kesavadasapuram, Peroorkada, Ulloor",IT & Technology,916495762348
-49,Carpenter,3,Open,2025-09-07 00:00:00,2025-09-08 00:00:00,PID0049,22000,Monthly,Sunrise Hospital & Clinic,"Neyyattinkara, Kattakada, Palode",Construction,919082120871
-50,Delivery Boy,1,Open,2025-09-13 00:00:00,2025-09-16 00:00:00,PID0050,18000,Monthly,Stellar Industrial Solutions,"Chavadimula, Venjaramoodu, Pothencode",Logistics & Transport,917078557553
-51,Photographer,2,Closed,2025-10-13 00:00:00,2025-10-13 00:00:00,PID0051,27500,Monthly,Elegance Salon Group,"Chirayinkil, Anchuthengu, Kadakkavoor",Media & Entertainment,917432614422
-52,Accountant,5,Open,2025-09-10 00:00:00,2025-09-15 00:00:00,PID0052,37000,Monthly,Golden Gate Auto Dealers,"Pangode, Peyad, Mannanthala",Finance,917836901321
-53,Nurse,3,Urgent,2025-09-11 00:00:00,2025-09-11 00:00:00,PID0053,33500,Monthly,Spice Valley Logistics,"Chelari, Varkala, Sivagiri",Healthcare,919584558315
-54,Carpenter,1,Open,2025-10-13 00:00:00,2025-10-15 00:00:00,PID0054,19500,Monthly,Sunrise Hospital & Clinic,"Vazhuthacaud, Thycaud, PMG",Construction,917566166314
-55,Mechanic,5,Hold,2025-10-09 00:00:00,2025-10-11 00:00:00,PID0055,26000,Monthly,Zenith Automotive,"Attingal, Chirayinkil, Kadakkavoor",Automotive,919350573756
-56,Chef,2,Open,2025-09-30 00:00:00,2025-10-01 00:00:00,PID0056,26000,Monthly,Dynamite Construction Ltd,"Pangode, Thirumala, Peyad",Food & Beverage,919435488617
-57,IT Support Executive,2,Open,2025-09-19 00:00:00,2025-09-24 00:00:00,PID0057,30500,Monthly,Swift Delivery Services,"Pangode, Nemom, Pappanamcode",IT & Technology,919711126727
-58,Lab Technician,4,Open,2025-09-21 00:00:00,2025-09-21 00:00:00,PID0058,20000,Monthly,Crown Laundry Services,"Kollayil, Peroorkada, Vattiyoorkavu",Healthcare,919687629943
-59,Car Salesman,1,Closed,2025-09-26 00:00:00,2025-09-27 00:00:00,PID0059,30000,Monthly,Radiant Energy Solutions,"Technopark, Kazhakkoottam, Sreekaryam",Insurance,916957449367
-60,Car Salesman,5,Open,2025-09-28 00:00:00,2025-09-30 00:00:00,PID0060,29500,Monthly,Ocean View IT Park,"Sreekariyam, Ulloor, Akkulam",Retail,918755143093
-61,Delivery Boy,3,Open,2025-10-14 00:00:00,2025-10-14 00:00:00,PID0061,20500,Monthly,Majestic Restaurants,"Karoor, Pattom, Vazhuthacaud",Logistics & Transport,919766851291
-62,Beauty Therapist,3,Open,2025-09-07 00:00:00,2025-09-10 00:00:00,PID0062,21000,Monthly,Marina Beauty & Spa,"Thampanoor, Palayam, Statue",Beauty & Wellness,917484714820
-63,Hair Stylist,1,Closed,2025-09-09 00:00:00,2025-09-10 00:00:00,PID0063,23500,Monthly,Precision Engineering Works,"Pattom, Kowdiar, Nanthancode",Beauty & Wellness,917094024844
-64,Cook,2,Open,2025-09-02 00:00:00,2025-09-07 00:00:00,PID0064,23000,Monthly,Travancore IT Solutions,"Akkulam, Technopark, Kazhakkoottam",Food & Beverage,919186651306
-65,Cook,1,Closed,2025-09-06 00:00:00,2025-09-08 00:00:00,PID0065,22500,Monthly,Spice Valley Logistics,"Piravantoor, Balaramapuram, Neyyattinkara",Food & Beverage,918849227494
-66,HR Executive,3,Urgent,2025-09-25 00:00:00,2025-09-28 00:00:00,PID0066,45500,Monthly,Precision Engineering Works,"Kesavadasapuram, Pattom, Ulloor",Finance,918994487334
-67,Hospital Attendant,2,Urgent,2025-09-02 00:00:00,2025-09-07 00:00:00,PID0067,19500,Monthly,Lighthouse Medical Center,"Vazhuthacaud, PMG, Thycaud",Healthcare,919877520294
-68,Mason,2,Open,2025-10-15 00:00:00,2025-10-17 00:00:00,PID0068,24500,Monthly,Palmyra Garment Exports,"Thampanoor, East Fort, Chalai",Construction,917232285036
-69,Quality Assurance Officer,2,Urgent,2025-09-17 00:00:00,2025-09-20 00:00:00,PID0069,26000,Monthly,Crown Palace Hotel,"Nedumangad, Vithura, Aruvikkara",Retail,918901796894
-70,Tailor,3,Urgent,2025-10-05 00:00:00,2025-10-10 00:00:00,PID0070,19500,Monthly,Crown Laundry Services,"Chelari, Attingal, Varkala",Textiles,916364194056
-71,Receptionist,2,Hold,2025-09-30 00:00:00,2025-10-05 00:00:00,PID0071,18500,Monthly,Stellar Industrial Solutions,"Nedumangad, Kattakada, Palode",IT & Technology,917333241445
-72,Car Salesman,1,Open,2025-09-15 00:00:00,2025-09-19 00:00:00,PID0072,26000,Monthly,Sunrise Hospital & Clinic,"Kazhakkoottam, Sreekaryam, Technopark",Automotive,919649595613
-73,Chef,4,Open,2025-10-03 00:00:00,2025-10-08 00:00:00,PID0073,29000,Monthly,Thrive Wellness Center,"Aryanad, Vellanad, Nedumangad",Food & Beverage,918990818727
-74,Content Writer,2,Hold,2025-10-09 00:00:00,2025-10-12 00:00:00,PID0074,27000,Monthly,Tidal Wave Restaurants,"Kowdiar, Pattom, Vellayambalam",Media & Entertainment,916939915527
-75,Warehouse Operator,1,Open,2025-09-10 00:00:00,2025-09-11 00:00:00,PID0075,23000,Monthly,Comfort Furniture Store,"Pappanamcode, Nemom, Peyad",Logistics & Transport,919940503685
+1,Photographer,1,Closed,2025-09-30 00:00:00,2025-10-01 00:00:00,PID0001,27000,Monthly,,"Kazhakkoottam, Technopark, Sreekaryam",Media & Entertainment,
+2,Business Development Executive,2,Open,2025-10-13 00:00:00,2025-10-13 00:00:00,PID0002,36500,Monthly,,"Balaramapuram, Neyyattinkara, Vellanad",Finance,
+3,Production Supervisor,4,Open,2025-09-04 00:00:00,2025-09-09 00:00:00,PID0003,25000,Monthly,,"Kazhakkoottam, Pallipuram, Kulathoor",Healthcare,
+4,Waiter,3,Open,2025-10-05 00:00:00,2025-10-10 00:00:00,PID0004,20000,Monthly,,"Neyyattinkara, Parassala, Amaravila",Food & Beverage,
+5,Pharmacist,1,Open,2025-10-09 00:00:00,2025-10-09 00:00:00,PID0005,33500,Monthly,,"Pattom, Kowdiar, Vellayambalam",Healthcare,
+6,Financial Advisor,5,Open,2025-10-13 00:00:00,2025-10-18 00:00:00,PID0006,33500,Monthly,,"Nedumangad, Aruvikkara, Vithura",Finance,
+7,Graphic Designer,3,Urgent,2025-09-05 00:00:00,2025-09-09 00:00:00,PID0007,27000,Monthly,,"Karoor, Pattom, Vazhuthacaud",Media & Entertainment,
+8,Car Salesman,2,Hold,2025-09-27 00:00:00,2025-09-27 00:00:00,PID0008,21500,Monthly,,"Balaramapuram, Kalliyoor, Venganoor",Automotive,
+9,Security Guard,3,Open,2025-09-22 00:00:00,2025-09-23 00:00:00,PID0009,22000,Monthly,,"Neyyattinkara, Kattakada, Pothencode",Healthcare,
+10,Receptionist,2,Urgent,2025-10-11 00:00:00,2025-10-15 00:00:00,PID0010,18500,Monthly,,"Kollayil, Peroorkada, Kesavadasapuram",Healthcare,
+11,Field Sales Representative,5,Open,2025-09-28 00:00:00,2025-10-03 00:00:00,PID0011,34000,Monthly,,"Peroorkada, Ulloor, Akkulam",Finance,
+12,Delivery Boy,3,Open,2025-10-01 00:00:00,2025-10-01 00:00:00,PID0012,21000,Monthly,,"Chirayinkil, Kadakkavoor, Anchuthengu",Logistics & Transport,
+13,Office Assistant,4,Open,2025-08-31 00:00:00,2025-09-02 00:00:00,PID0013,20000,Monthly,,"Vizhinjam, Kovalam, Poovar",Retail,
+14,Medical Representative,5,Urgent,2025-09-29 00:00:00,2025-09-30 00:00:00,PID0014,22000,Monthly,,"Pappanamcode, Pettah, Manacaud",Healthcare,
+15,Accountant,2,Open,2025-09-08 00:00:00,2025-09-11 00:00:00,PID0015,31000,Monthly,,"Ambalamukku, Kowdiar, Pattom",Finance,
+16,Production Supervisor,4,Urgent,2025-10-06 00:00:00,2025-10-11 00:00:00,PID0016,28000,Monthly,,"Balaramapuram, Parasuvaikkal, Vellanad",IT & Technology,
+17,Store Manager,5,Hold,2025-09-16 00:00:00,2025-09-20 00:00:00,PID0017,38500,Monthly,,"Thiruvananthapuram, Thampanoor, Palayam",Retail,
+18,Software Developer,3,Hold,2025-09-02 00:00:00,2025-09-06 00:00:00,PID0018,61000,Monthly,,"Pangode, Mannanthala, Peyad",IT & Technology,
+19,Video Operator,1,Closed,2025-09-18 00:00:00,2025-09-19 00:00:00,PID0019,22000,Monthly,,"Pattom, Kesavadasapuram, Ulloor",Media & Entertainment,
+20,Medical Representative,1,Hold,2025-10-04 00:00:00,2025-10-08 00:00:00,PID0020,30500,Monthly,,"Neyyattinkara, Amaravila, Parassala",Healthcare,
+21,Photographer,2,Open,2025-09-13 00:00:00,2025-09-17 00:00:00,PID0021,23500,Monthly,,"Chirayinkil, Attingal, Varkala",Media & Entertainment,
+22,Teacher,4,Open,2025-10-15 00:00:00,2025-10-19 00:00:00,PID0022,36000,Monthly,,"Karoor, Pattom, Nanthancode",Education,
+23,Nurse,5,Open,2025-09-30 00:00:00,2025-09-30 00:00:00,PID0023,35000,Monthly,,"Chelari, Varkala, Attingal",Healthcare,
+24,Cashier,2,Open,2025-10-11 00:00:00,2025-10-15 00:00:00,PID0024,23500,Monthly,,"Kannanmoola, Pallimukku, Thycaud",Retail,
+25,Receptionist,2,Urgent,2025-09-12 00:00:00,2025-09-16 00:00:00,PID0025,22000,Monthly,,"Karoor, Vazhuthacaud, Kowdiar",Retail,
+26,Teacher,3,Open,2025-08-31 00:00:00,2025-09-02 00:00:00,PID0026,31500,Monthly,,"Kollayil, Sreekaryam, Ulloor",Education,
+27,Electrician,1,Urgent,2025-10-01 00:00:00,2025-10-01 00:00:00,PID0027,23500,Monthly,,"Pattom, Edapazhanji, Sasthamangalam",Construction,
+28,Carpenter,1,Open,2025-10-15 00:00:00,2025-10-15 00:00:00,PID0028,25000,Monthly,,"Ambalamukku, Peroorkada, Vattiyoorkavu",Construction,
+29,Store Manager,3,Closed,2025-10-11 00:00:00,2025-10-15 00:00:00,PID0029,44000,Monthly,,"Chavadimula, Pothencode, Mannanthala",Retail,
+30,Garment Quality Checker,2,Hold,2025-09-09 00:00:00,2025-09-13 00:00:00,PID0030,20000,Monthly,,"Karoor, Pattom, Vellayambalam",Textiles,
+31,Tailor,4,Open,2025-10-09 00:00:00,2025-10-09 00:00:00,PID0031,24000,Monthly,,"Vazhuthacaud, Statue, Palayam",Textiles,
+32,Cook,1,Open,2025-10-12 00:00:00,2025-10-17 00:00:00,PID0032,22000,Monthly,,"Pappanamcode, Nemom, Peyad",Food & Beverage,
+33,Content Writer,5,Open,2025-09-30 00:00:00,2025-10-01 00:00:00,PID0033,22500,Monthly,,"Sreekariyam, Technopark, Kazhakkoottam",Media & Entertainment,
+34,Hospital Attendant,1,Open,2025-09-16 00:00:00,2025-09-17 00:00:00,PID0034,23500,Monthly,,"Peroorkada, Vattiyoorkavu, Nedumcaud",Healthcare,
+35,Mobile App Developer,5,Hold,2025-10-09 00:00:00,2025-10-09 00:00:00,PID0035,73500,Monthly,,"Chavadimula, Pothencode, Venjaramoodu",IT & Technology,
+36,Software Developer,4,Open,2025-10-05 00:00:00,2025-10-08 00:00:00,PID0036,55500,Monthly,,"Technopark, Kazhakkoottam, Pallipuram",IT & Technology,
+37,Insurance Agent,3,Hold,2025-09-21 00:00:00,2025-09-21 00:00:00,PID0037,24000,Monthly,,"Chelari, Varkala, Attingal",Automotive,
+38,Quality Assurance Officer,4,Open,2025-09-10 00:00:00,2025-09-15 00:00:00,PID0038,27000,Monthly,,"Kesavadasapuram, Pattom, Nanthancode",Healthcare,
+39,Car Salesman,5,Open,2025-09-25 00:00:00,2025-09-25 00:00:00,PID0039,23000,Monthly,,"Vizhinjam, Kovalam, Poovar",Retail,
+40,Production Supervisor,2,Open,2025-09-13 00:00:00,2025-09-13 00:00:00,PID0040,30000,Monthly,,"Akkulam, Ulloor, Kesavadasapuram",IT & Technology,
+41,Hair Stylist,5,Open,2025-09-20 00:00:00,2025-09-20 00:00:00,PID0041,18500,Monthly,,"Piravantoor, Neyyattinkara, Balaramapuram",Beauty & Wellness,
+42,Beauty Therapist,5,Urgent,2025-10-10 00:00:00,2025-10-13 00:00:00,PID0042,19000,Monthly,,"Thampanoor, East Fort, Palayam",Beauty & Wellness,
+43,Electrician,3,Open,2025-10-02 00:00:00,2025-10-07 00:00:00,PID0043,26000,Monthly,,"Technopark, Sreekaryam, Pallipuram",Construction,
+44,Accountant,3,Hold,2025-09-04 00:00:00,2025-09-06 00:00:00,PID0044,31500,Monthly,,"Kowdiar, Pattom, Vellayambalam",Finance,
+45,Store Manager,2,Urgent,2025-10-09 00:00:00,2025-10-09 00:00:00,PID0045,40500,Monthly,,"Pappanamcode, Nemom, Mannanthala",Retail,
+46,Accountant,3,Open,2025-10-11 00:00:00,2025-10-12 00:00:00,PID0046,43500,Monthly,,"Technopark, Kazhakkoottam, Kulathoor",Finance,
+47,Waiter,1,Closed,2025-09-06 00:00:00,2025-09-11 00:00:00,PID0047,20500,Monthly,,"Karoor, Pattom, Kesavadasapuram",Food & Beverage,
+48,Database Administrator,1,Closed,2025-10-07 00:00:00,2025-10-09 00:00:00,PID0048,49500,Monthly,,"Kesavadasapuram, Peroorkada, Ulloor",IT & Technology,
+49,Carpenter,3,Open,2025-09-07 00:00:00,2025-09-08 00:00:00,PID0049,22000,Monthly,,"Neyyattinkara, Kattakada, Palode",Construction,
+50,Delivery Boy,1,Open,2025-09-13 00:00:00,2025-09-16 00:00:00,PID0050,18000,Monthly,,"Chavadimula, Venjaramoodu, Pothencode",Logistics & Transport,
+51,Photographer,2,Closed,2025-10-13 00:00:00,2025-10-13 00:00:00,PID0051,27500,Monthly,,"Chirayinkil, Anchuthengu, Kadakkavoor",Media & Entertainment,
+52,Accountant,5,Open,2025-09-10 00:00:00,2025-09-15 00:00:00,PID0052,37000,Monthly,,"Pangode, Peyad, Mannanthala",Finance,
+53,Nurse,3,Urgent,2025-09-11 00:00:00,2025-09-11 00:00:00,PID0053,33500,Monthly,,"Chelari, Varkala, Sivagiri",Healthcare,
+54,Carpenter,1,Open,2025-10-13 00:00:00,2025-10-15 00:00:00,PID0054,19500,Monthly,,"Vazhuthacaud, Thycaud, PMG",Construction,
+55,Mechanic,5,Hold,2025-10-09 00:00:00,2025-10-11 00:00:00,PID0055,26000,Monthly,,"Attingal, Chirayinkil, Kadakkavoor",Automotive,
+56,Chef,2,Open,2025-09-30 00:00:00,2025-10-01 00:00:00,PID0056,26000,Monthly,,"Pangode, Thirumala, Peyad",Food & Beverage,
+57,IT Support Executive,2,Open,2025-09-19 00:00:00,2025-09-24 00:00:00,PID0057,30500,Monthly,,"Pangode, Nemom, Pappanamcode",IT & Technology,
+58,Lab Technician,4,Open,2025-09-21 00:00:00,2025-09-21 00:00:00,PID0058,20000,Monthly,,"Kollayil, Peroorkada, Vattiyoorkavu",Healthcare,
+59,Car Salesman,1,Closed,2025-09-26 00:00:00,2025-09-27 00:00:00,PID0059,30000,Monthly,,"Technopark, Kazhakkoottam, Sreekaryam",Insurance,
+60,Car Salesman,5,Open,2025-09-28 00:00:00,2025-09-30 00:00:00,PID0060,29500,Monthly,,"Sreekariyam, Ulloor, Akkulam",Retail,
+61,Delivery Boy,3,Open,2025-10-14 00:00:00,2025-10-14 00:00:00,PID0061,20500,Monthly,,"Karoor, Pattom, Vazhuthacaud",Logistics & Transport,
+62,Beauty Therapist,3,Open,2025-09-07 00:00:00,2025-09-10 00:00:00,PID0062,21000,Monthly,,"Thampanoor, Palayam, Statue",Beauty & Wellness,
+63,Hair Stylist,1,Closed,2025-09-09 00:00:00,2025-09-10 00:00:00,PID0063,23500,Monthly,,"Pattom, Kowdiar, Nanthancode",Beauty & Wellness,
+64,Cook,2,Open,2025-09-02 00:00:00,2025-09-07 00:00:00,PID0064,23000,Monthly,,"Akkulam, Technopark, Kazhakkoottam",Food & Beverage,
+65,Cook,1,Closed,2025-09-06 00:00:00,2025-09-08 00:00:00,PID0065,22500,Monthly,,"Piravantoor, Balaramapuram, Neyyattinkara",Food & Beverage,
+66,HR Executive,3,Urgent,2025-09-25 00:00:00,2025-09-28 00:00:00,PID0066,45500,Monthly,,"Kesavadasapuram, Pattom, Ulloor",Finance,
+67,Hospital Attendant,2,Urgent,2025-09-02 00:00:00,2025-09-07 00:00:00,PID0067,19500,Monthly,,"Vazhuthacaud, PMG, Thycaud",Healthcare,
+68,Mason,2,Open,2025-10-15 00:00:00,2025-10-17 00:00:00,PID0068,24500,Monthly,,"Thampanoor, East Fort, Chalai",Construction,
+69,Quality Assurance Officer,2,Urgent,2025-09-17 00:00:00,2025-09-20 00:00:00,PID0069,26000,Monthly,,"Nedumangad, Vithura, Aruvikkara",Retail,
+70,Tailor,3,Urgent,2025-10-05 00:00:00,2025-10-10 00:00:00,PID0070,19500,Monthly,,"Chelari, Attingal, Varkala",Textiles,
+71,Receptionist,2,Hold,2025-09-30 00:00:00,2025-10-05 00:00:00,PID0071,18500,Monthly,,"Nedumangad, Kattakada, Palode",IT & Technology,
+72,Car Salesman,1,Open,2025-09-15 00:00:00,2025-09-19 00:00:00,PID0072,26000,Monthly,,"Kazhakkoottam, Sreekaryam, Technopark",Automotive,
+73,Chef,4,Open,2025-10-03 00:00:00,2025-10-08 00:00:00,PID0073,29000,Monthly,,"Aryanad, Vellanad, Nedumangad",Food & Beverage,
+74,Content Writer,2,Hold,2025-10-09 00:00:00,2025-10-12 00:00:00,PID0074,27000,Monthly,,"Kowdiar, Pattom, Vellayambalam",Media & Entertainment,
+75,Warehouse Operator,1,Open,2025-09-10 00:00:00,2025-09-11 00:00:00,PID0075,23000,Monthly,,"Pappanamcode, Nemom, Peyad",Logistics & Transport,
