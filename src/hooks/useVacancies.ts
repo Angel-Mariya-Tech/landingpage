@@ -30,7 +30,7 @@ export const useVacancies = () => {
         const result: string[] = [];
         let current = '';
         let inQuotes = false;
-        
+
         for (let i = 0; i < row.length; i++) {
           const char = row[i];
           if (char === '"') {
@@ -74,6 +74,10 @@ export const useVacancies = () => {
             contact_number: item.provider_contact_number,
           }
         } as Vacancy;
+      }).sort((a, b) => {
+        const dateA = new Date(a.updated_at).getTime();
+        const dateB = new Date(b.updated_at).getTime();
+        return dateB - dateA;
       });
 
       return data;
