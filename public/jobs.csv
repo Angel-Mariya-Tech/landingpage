@@ -74,4 +74,4 @@ id,job_title,openings,status,created_at,updated_at,provider_id,salary,salary_typ
 73,Chef,4,Open,2025-10-03 00:00:00,2025-10-08 00:00:00,PID0073,29000,Monthly,,"Aryanad, Vellanad, Nedumangad",Food & Beverage,
 74,Content Writer,2,Hold,2025-10-09 00:00:00,2025-10-12 00:00:00,PID0074,27000,Monthly,,"Kowdiar, Pattom, Vellayambalam",Media & Entertainment,
 75,Warehouse Operator,1,Open,2025-09-10 00:00:00,2025-09-11 00:00:00,PID0075,23000,Monthly,,"Pappanamcode, Nemom, Peyad",Logistics & Transport,
-76,സെക്യൂരിറ്റി,1,Open,2026-01-15 00:00:00,2026-01-15 00:00:00,PID0076,18000 to 20000,Monthly,,"നെയ്യാറ്റിൻകര, കഴകൂട്ടം, പേരൂർക്കട ",Cooperate,
+76,Security,1,Open,2026-01-15 00:00:00,2026-01-15 00:00:00,PID0076,18000 to 20000,Monthly,,"Neyyattinkara, Kazhakkoottam, Peroorkada",Cooperate,
