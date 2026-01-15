@@ -14,6 +14,7 @@ dist-ssr
 
 .env
 .env.local
+github.token
 
 # Editor directories and files
 .vscode/*
