@@ -10,6 +10,7 @@ export interface Vacancy {
   provider_id: string;
   salary: string;
   salary_type: string;
+  description: string;
   job_providers: {
     name: string;
     location: string;
@@ -67,6 +68,7 @@ export const useVacancies = () => {
           provider_id: item.provider_id,
           salary: item.salary,
           salary_type: item.salary_type,
+          description: item.description,
           job_providers: {
             name: item.provider_name,
             location: item.provider_location,

@@ -8,6 +8,7 @@ export interface Vacancy {
   provider_id: string;
   salary: string;
   salary_type: string;
+  description: string;
   job_providers: {
     name: string;
     location: string;
@@ -27,6 +28,7 @@ export const jobs: Vacancy[] = [
     provider_id: "p1",
     salary: "120000",
     salary_type: "Yearly",
+    description: "Build and maintain web applications using React. Work with cross-functional teams to deliver high-quality solutions.",
     job_providers: {
       name: "Tech Solutions Inc.",
       location: "New York, NY",
@@ -44,6 +46,7 @@ export const jobs: Vacancy[] = [
     provider_id: "p2",
     salary: "85000",
     salary_type: "Yearly",
+    description: "Lead marketing campaigns and strategies. Manage brand presence and drive customer engagement.",
     job_providers: {
       name: "Creative Agency",
       location: "Los Angeles, CA",
@@ -61,6 +64,7 @@ export const jobs: Vacancy[] = [
     provider_id: "p3",
     salary: "20",
     salary_type: "Hourly",
+    description: "Provide excellent customer service via phone and email. Resolve inquiries and maintain satisfaction.",
     job_providers: {
       name: "Global Services",
       location: "Remote",
@@ -78,6 +82,7 @@ export const jobs: Vacancy[] = [
     provider_id: "p4",
     salary: "95000",
     salary_type: "Yearly",
+    description: "Oversee project execution from start to finish. Coordinate teams, manage timelines, and ensure deliverables.",
     job_providers: {
       name: "BuildIt Corp",
       location: "Chicago, IL",
@@ -95,6 +100,7 @@ export const jobs: Vacancy[] = [
     provider_id: "p5",
     salary: "60000",
     salary_type: "Yearly",
+    description: "Create visual content for digital and print media. Design graphics, layouts, and marketing materials.",
     job_providers: {
       name: "Design Studio",
       location: "Austin, TX",
@@ -112,6 +118,7 @@ export const jobs: Vacancy[] = [
     provider_id: "p6",
     salary: "75000",
     salary_type: "Yearly",
+    description: "Analyze data to provide insights for business decisions. Create reports and visualizations.",
     job_providers: {
       name: "Data Insights",
       location: "Seattle, WA",
