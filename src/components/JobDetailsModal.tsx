@@ -33,7 +33,7 @@ export const JobDetailsModal = ({ vacancy, open, onOpenChange }: JobDetailsModal
                 {vacancy.job_title}
               </DialogTitle>
               {vacancy.job_providers?.industry && (
-                <span className="inline-block mt-2 px-3 py-1 rounded-full text-xs font-medium bg-primary/10 text-primary">
+                <span className="inline-block mt-2 px-3 py-1 rounded-full text-xs font-medium bg-emerald-100 text-emerald-700 dark:bg-emerald-900/50 dark:text-emerald-300">
                   {vacancy.job_providers.industry}
                 </span>
               )}
@@ -45,8 +45,8 @@ export const JobDetailsModal = ({ vacancy, open, onOpenChange }: JobDetailsModal
           {/* Key Details Grid */}
           <div className="grid grid-cols-2 gap-4">
             <div className="flex items-center gap-3 p-3 rounded-xl bg-muted/50">
-              <div className="p-2 rounded-lg bg-primary/10">
-                <IndianRupee className="w-4 h-4 text-primary" />
+              <div className="p-2 rounded-lg bg-green-100 dark:bg-green-900/50">
+                <IndianRupee className="w-4 h-4 text-green-700 dark:text-green-400" />
               </div>
               <div>
                 <p className="text-xs text-muted-foreground">Salary</p>
