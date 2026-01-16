@@ -92,7 +92,8 @@ export const JobCard = ({ vacancy }: JobCardProps) => {
       <JobDetailsModal 
         vacancy={vacancy} 
         open={isModalOpen} 
-        onOpenChange={setIsModalOpen} 
+        onOpenChange={setIsModalOpen}
+        colorScheme={colorScheme}
       />
     </>
   );
