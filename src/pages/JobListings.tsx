@@ -154,11 +154,11 @@ const JobListings = () => {
               {/* Sort Dropdown */}
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>
-                  <Button variant="outline" className="h-12 px-6 rounded-2xl border-border bg-card hover:bg-muted min-w-[140px]">
+                  <Button variant="outline" className="h-12 px-6 rounded-2xl border-border bg-card hover:bg-muted w-full sm:w-auto sm:min-w-[140px]">
                     Sort: {sortBy === "time" ? "Recent" : "Salary"}
                   </Button>
                 </DropdownMenuTrigger>
-                <DropdownMenuContent className="w-48 bg-card border-border">
+                <DropdownMenuContent className="w-48 bg-card border-border z-50">
                   <DropdownMenuRadioGroup value={sortBy} onValueChange={(value) => setSortBy(value as "time" | "salary")}>
                     <DropdownMenuRadioItem value="time" className="cursor-pointer">
                       Most Recent
