@@ -67,17 +67,30 @@ export const JobCard = ({ vacancy }: JobCardProps) => {
 
         <div className="mt-auto">
           <div className="flex justify-between items-end mb-4">
-            <div>
+            <div className="max-w-[60%]">
               <p className="font-bold text-xl text-foreground">
                 {vacancy.salary || 'Negotiable'}
                 {vacancy.salary && vacancy.salary_type && !vacancy.salary.toLowerCase().includes('negotiable') && (
                   <span className="text-sm font-normal text-muted-foreground">/{vacancy.salary_type}</span>
                 )}
               </p>
-              <p className="text-sm text-muted-foreground flex items-start gap-1 mt-1">
-                <MapPin className="w-4 h-4 flex-shrink-0 mt-0.5" />
-                <span className="break-words">{vacancy.job_providers?.location || 'Location not available'}</span>
-              </p>
+              {(() => {
+                const locations = vacancy.job_providers?.location?.split(',').map(loc => loc.trim()).filter(Boolean) || [];
+                const displayLocations = locations.slice(0, 2).join(', ');
+                const remainingCount = locations.length - 2;
+                
+                return (
+                  <p className="text-sm text-muted-foreground flex items-start gap-1 mt-1">
+                    <MapPin className="w-4 h-4 flex-shrink-0 mt-0.5" />
+                    <span className="line-clamp-1">
+                      {displayLocations || 'Location not available'}
+                      {remainingCount > 0 && (
+                        <span className="text-xs opacity-75 ml-1">+{remainingCount} more</span>
+                      )}
+                    </span>
+                  </p>
+                );
+              })()}
             </div>
             <Button
               className="bg-foreground hover:bg-foreground/90 text-background font-semibold rounded-xl px-6"
